@@ -9,11 +9,11 @@
       <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
     </image>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 11 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/kalilinux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 11 Jun 2017 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/kalilinux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Sfruttare la vulnerablitià Sambacry nei dispositivi QNAP/ARM</title>
       <link>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</link>
-      <pubDate>Fri, 11 Jun 2021 18:05:46 +0200</pubDate>
+      <pubDate>Sun, 11 Jun 2017 18:05:46 +0200</pubDate>
       
       <guid>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</guid>
       <description>Eccomi di ritorno dalle meritate ferie, e come promesso, sono pronto a mettere nero su bianco i miei test effettuati con la vulnerabilità SambaCry.
