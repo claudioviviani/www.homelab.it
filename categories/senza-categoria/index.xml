@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Senza categoria on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/senza-categoria/</link>
+    <description>Recent content in Senza categoria on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 12 Apr 2015 21:03:23 +0000</lastBuildDate><atom:link href="https://www.homelab.it/categories/senza-categoria/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</link>
+      <pubDate>Sun, 12 Apr 2015 21:03:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</guid>
+      <description>###################### # Exploit Title : WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability # Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/website-contact-form-with-file-upload.1.3.4.zip # Date : 2015-04-1# Dork Google: index of website-contact-form-with-file-upload index of /uploads/contact_files/ # Tested on : Linux BackBox 4.0 / curl 7.35.0 ##################### # Info : The &amp;#34;upload_file()&amp;#34; ajax function is affected from unrestircted file upload vulnerability. ##################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress All In One WP Security &amp; Firewall 3.9.0 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</link>
+      <pubDate>Tue, 07 Apr 2015 07:03:33 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress All In One WP Security &amp;amp; Firewall 3.9.0 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/# Software Link : https://mega.co.nz/#!DJAEBLBS!IBiukGo-pirelHmsRV80xZDHIvpqZKtTIqsD8YrMf7U# Date : 2015-04-05# Tested on : Linux / Mozilla Firefox####################### DescriptionWordPress All In One WP Security &amp;amp; Firewall 3.9.0 suffers from Blind SQL Injection vulnerabilityThere are some pages with wordpress esc_sql function.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Mac Gallery 1.5 and below Arbitrary File Download vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/21/joomla-mac-gallery-1-5-and-below-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sun, 21 Sep 2014 13:33:39 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/21/joomla-mac-gallery-1-5-and-below-arbitrary-file-download-vulnerability/</guid>
+      <description>####################### Exploit Title : Joomla Mac Gallery &amp;lt;= 1.5 Arbitrary File Download# Exploit Author : Claudio Viviani# Vendor Homepage : https://www.apptha.com# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/18# Dork Google: inurl:option=com_macgallery# Date : 2014-09-17# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Info:# Joomla Mac Gallery suffers from Arbitrary File Download vulnerability# PoC Exploit:# http://localhost/index.php?option=com_macgallery&amp;amp;view=download&amp;amp;albumid=[../../filename]# &amp;#34;album_id&amp;#34; variable is not sanitized.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>centos on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/centos/</link>
+    <description>Recent content in centos on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 11 Jun 2014 18:39:06 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/centos/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+    <item>
+      <title>Come installare Java su CentOS 6 (JDK)</title>
+      <link>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</link>
+      <pubDate>Thu, 22 May 2014 22:24:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</guid>
+      <description>Download ed installazione Java (ultima versione)   Aprire il browser e inserie l’indirizzo: http://www.oracle.com/technetwork/java/javase/overview/index.html
+  Cliccare sul bottone Download:
+  
+Cliccare sull’icona Download:   
+Selezionare il bottone ratio “Accept License Agreement“:  
+Scaricare il pacchetto rpm a seconda dell’architettura del proprio sistema:   jdk-8u5-linux-i586.rpm jdk-8u5-linux-x64.rpm   Copiare il file rpm tramite scp client (se la macchina CentOS 6 è remota).
+  Con i privilegi di root installare il pacchetto rpm (nel mio caso i586) :</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Player su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</link>
+      <pubDate>Wed, 21 May 2014 20:38:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</guid>
+      <description>La seguente procedura è stata testata sia su CentOS 6 che Ubuntu 14.04, ma è applicabile anche ad altre distribuzioni.
+Sul sistema linux dovrà essere installato l’ambiente grafico, in caso contrario potete far riferimento al mio articolo che spiega come installarlo sulle distribuzioni CentOS:
+http://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/
+ Download VMware Player   Per prima cosa scariscari la versione più aggiornata di VMware Player dal sito ufficiale: http://www.vmware.com/
+Nel menu Downloads è possibile cliccare la voce “Player“:</description>
+    </item>
+    
+    <item>
+      <title>Come installare l’ambiente grafico su Linux CentOS in tre comandi</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/</link>
+      <pubDate>Wed, 21 May 2014 15:11:39 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/</guid>
+      <description>Downlaod e installazione ambiente grafico su CentOS 6 Se il vostro scopo è quello di installare l’ambiente grafico in una distribuzione CentOS, precedentemente configurata in modalità testuale, vi basteranno 3 semplici comandi:
+[root@centos6 ~]# yum -y groupinstall &amp;#34;X Window System&amp;#34; [root@centos6 ~]# [root@centos6 ~]# yum -y groupinstall &amp;#34;Desktop&amp;#34; [root@centos6 ~]# [root@centos6 ~]# yum -y groupinstall &amp;#34;General Purpose Desktop&amp;#34; Yum comincerà a scaricare ed installare una grossa quantità di pacchetti ed il tempo stimato per la conclusione varierà a seconda delle performance della vosta macchina e connessione internet.</description>
+    </item>
+    
+    <item>
+      <title>Come installare i repositories EPEL e REMI su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 23:20:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</guid>
+      <description>Introduzione Fonte: https://fedoraproject.org/wiki/EPEL/it
+‘Extra Packages for Enterprise Linux’ (o EPEL) è un gruppo speciale di utenti (Fedora Special Interest Group) che si interessa di creare, mantenere e gestire pacchetti RPM addizionali di alta qualità per Enterprise Linux, includendo, ma non limitato, Red Hat Enterprise Linux (RHEL), CentOS e Scientific Linux (SL).
+I pacchetti EPEL sono solitamente basati sulla loro controparte in Fedora, non saranno mai in conflitto né un rimpiazzo con quelli base per le distribuzioni Enterprise Linux.</description>
+    </item>
+    
+    <item>
+      <title>Chkrootkit – Come installare e schedulare rootkit scanner su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</link>
+      <pubDate>Mon, 19 May 2014 22:57:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</guid>
+      <description>Chkrootkit è una raccolta di script e tools scritti in C che aiutanto gli amministratori di sistema a rilevare eventuali rootkit o LKM maligni installati sui sistemi Linux.
+Per installare chrootkit su CentOS 6, basta usufruire del repository EPEL tramite yum.
+ Installare il repository EPEL   [root@centos6 ~]# rpm -Uhv http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmRipristino di http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmavvertimento: /var/tmp/rpm-tmp.T0Yctu: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEYPreparazione in corso... ########################################### [100%]1:epel-release ########################################### [100%][root@centos6 ~]# Installare chkrootkit   [root@centos6 ~]# yum install chkrootkit Eseguire scansione chrootkit   [root@centos6 ~]# chkrootkitROOTDIR is `/&amp;#39;Checking `amd&amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>Come installare e configurare ntp server su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 20:44:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</guid>
+      <description>Installare ntp server su CentOS 6 NTP (Network Time Protocol) è un protocollo che viene utilizzato per sincronizzare l’orario dei computer all’interno di una rete pubblica o privata, su linux troviamo il server ntpd e il client ntpdate
+Su Linux CentOS 6 il demone ntp è installabile tramite yum:
+[root@cento6 ~]# yum install ntp ... ... ... Running Transaction Installing : ntpdate-4.2.6p5-1.el6.centos.i686 1/2 Installing : ntp-4.2.6p5-1.el6.centos.i686 2/2 Verifying : ntp-4.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>whitebox on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/whitebox/</link>
+    <description>Recent content in whitebox on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 28 Mar 2014 20:44:59 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/whitebox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Monitorare controller RAID MegaRAID LSI 92xx su ESXi 5.x (Datastore version)</title>
+      <link>https://www.homelab.it/index.php/2014/03/28/monitorare-stato-controller-raid-megaraid-lsi-92xx-datastore-esxi-5-x/</link>
+      <pubDate>Fri, 28 Mar 2014 20:44:59 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/28/monitorare-stato-controller-raid-megaraid-lsi-92xx-datastore-esxi-5-x/</guid>
+      <description>Nella creazione di un buon home lab esxi non può mancare un controller raid che gestisca i dischi del datastore.
+La mia scelta è riacduta sul controller IBM M5014 equvialente al LSI MegaRAID 9260-8i.
+Una volta configurato il raid e installato il datastore per il mio ESXi 5.5, la prima domanda è stata:
+E adesso come faccio a monitorare lo stato del controller e dei dischi?
+Collegare il controller raid in passthrough a una virtual machine non è possibile dato che esxi perderebbe la connesione al Datastore.</description>
+    </item>
+    
+    <item>
+      <title>HomeLab Whitebox – VMware vSphere ESXi 5.5</title>
+      <link>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</link>
+      <pubDate>Tue, 25 Mar 2014 18:57:35 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</guid>
+      <description>Per studiare il funzionamento dell’ambiente virtuale VMware, mi sono assemblato un virtualizzatore con Hardware di comune utilizzo (Whitebox).
+Se anche voi siete alla ricerca di hardware compatibile per creare il vostro ESXi server potrete prendere spunto dalla mia configurazione.
+Lista hardware whitebox esxi 5.5 IMMO Motherboard: Asrock 970 Extreme3 R2.0
+CPU: AMD FX 8350
+RAM: Corsair 32GB DDR3-1600MHz Vengeance Pro_(4x8GB)
+PSU: Seasonic S12II-520 Bronze
+Datastore Storage: 4 x 1TB Seagate ST1000DM003 Barracuda</description>
+    </item>
+    
+    <item>
+      <title>LSI Megaraid 9240-8i/M1015 &#43; ESXi 5.x = loading module megaraid_sas</title>
+      <link>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</link>
+      <pubDate>Thu, 09 Jan 2014 18:28:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</guid>
+      <description>loading module megaraid_sas bug Ciao a tutti,
+Se siete arrivati in questa pagina è perchè probabilmente anche voi siete incappati nella schermata che blocca il boot di esxi 5.x con il messaggio: loading module megaraid_sas
+
+Questo problema viene scaturito dall’utilizzo del controller raid LSI Megaraid 9240-8i su motherboards non supportate (come da specifiche) in particolare su workstation.
+Io ho eseguito dei test con la motherboard ASRock 970 extreme3 R2.0 con il bios versione 1.</description>
+    </item>
+    
+  </channel>
+</rss>

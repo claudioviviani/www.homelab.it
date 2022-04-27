@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>DVWA on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/dvwa/</link>
+    <description>Recent content in DVWA on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Mar 2016 22:35:55 +0000</lastBuildDate><atom:link href="https://www.homelab.it/categories/dvwa/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVWA File Upload – Soluzione Completa &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</link>
+      <pubDate>Wed, 02 Mar 2016 22:35:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</guid>
+      <description>Nuovo post sull’applicazione DVWA, oggi risolveremo la vulnerabilità: DVWA File Upload.
+I requisiti sono:
+ DVWA Command Injection completato, in caso contrario non proseguite! Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data Editor di immagini, ad esempio GIMP  Lo scopo di questa vulnerabilità è quello di riuscire a caricare sul server remoto una web shell attaccando una pagina dedita all’upload di immagini.
+DVWA File Upload – Low Level Il livello semplice, come ormai sappiamo, non ha alcun tipo di protezione quindi faremo l’upload di una web shell php.</description>
+    </item>
+    
+    <item>
+      <title>DVWA SQL injection &#43; SQL Injection Blind &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</link>
+      <pubDate>Thu, 14 Jan 2016 21:07:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</guid>
+      <description>Ciao a tutti, la write-up di oggi riguarderà la vulnerabilità DVWA SQL Injection.
+I requisiti sono:
+ Conoscenze minime MySQL Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data  L’app DVWA propone due tipi di vulnerabilità, SQL Injection, e SQL Injection Blind.
+Inizierò subito con la vulnerabilità SQL Injection Blind dato che è la più complicata e divertente da scovare.
+Il risultato di un attacco SQL Injection nei migliori dei casi restituirà il classico messaggio:</description>
+    </item>
+    
+    <item>
+      <title>DVWA Command Injection – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</link>
+      <pubDate>Thu, 07 Jan 2016 17:20:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</guid>
+      <description>DVWA Command Injection – Soluzione Completa Bentornati, o benarrivati, nel post di oggi troverete la risoluzione della vulnerabilità: DVWA Command Injection, i requisiti sono:
+ Qualsiasi browser disponibile Minima conoscenza di Linux, in particolare l’abilità nell’eseguire comandi multipli.  L’obbiettivo del test è quello di eseguire comandi arbitrari sul sistema operativo che ospita l’applicativo.
+Il target è una semplice paginetta composta da un form nella quale viene richiesto di inserire un indirizzo ip da pingare.</description>
+    </item>
+    
+    <item>
+      <title>DVWA XSS Reflected – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</link>
+      <pubDate>Sat, 02 Jan 2016 18:24:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</guid>
+      <description>Eccoci alla risoluzione della prima vulnerabilità che ho affrontato DVWA XSS Reflected, i requisiti per affrontare questo test sono:
+ Browser senza filtri XSS, consiglio Mozilla **Firefox
+**  L’obbiettivo di questo test è iniettare del codice javascript all’interno di una pagina web che stampa a video caratteri passati tramite un form.
+La richiesta avviene tramite metodo GET e la variabile target si chiama “name“.
+Analizzando il sorgente html si può notare come il valore da me inviato (homelab) venga stampato a video tra i tag</description>
+    </item>
+    
+    <item>
+      <title>DVWA – Damn Vulnerable Web Application</title>
+      <link>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</link>
+      <pubDate>Thu, 24 Dec 2015 15:06:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</guid>
+      <description>Avete voglia di testate le vostre conoscenze o skills di penetration testing per quanto riguardo il campo web applicativo senza problemi legali?
+Avete voglia di conoscere le possibili mitigation da attuare contro le maggiori vulnerabilità?
+Bene! Damn Vulnerable Web Application fa proprio al caso vostro!
+DVWA è una web application scritta in PHP e MySQL installabile in qualsiasi ambiente in cui sia presente un web server, php e mysql.
+L’applicazione è stata creata e concepita piena zeppa di vulnerabilità più o meno facili da scovare, il livello di difficoltà può essere configurato come:</description>
+    </item>
+    
+  </channel>
+</rss>

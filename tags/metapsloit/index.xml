@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>metapsloit on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/metapsloit/</link>
+    <description>Recent content in metapsloit on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/metapsloit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come migrare da una reverse shell a meterpeter</title>
+      <link>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</guid>
+      <description>Durante un pen test potreste avere nella necessità di utilizzare un exploit che non fa parte del framework metasploit, di conseguenza dovreste rinunciare anche ad una shell meterpeter.
+In questo articolo cercherò di spiegare come eseguire una classica reverse shell (netcat, bash, python ecc…) su metasploit per poi migrare su una sessione meterpeter.
+Perchè meterpeter? Utilizzare una shell meterpeter ha moltissimi vantaggi tra cui:
+ Sfruttare i moduli di “post exploitation” per provare a scalare i privilegi.</description>
+    </item>
+    
+  </channel>
+</rss>

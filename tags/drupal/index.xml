@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>drupal on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/drupal/</link>
+    <description>Recent content in drupal on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Oct 2014 23:05:24 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/drupal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Drupal 7 Sql Injection SA-CORE-2014-005 CVE-2014-3704</title>
+      <link>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</link>
+      <pubDate>Thu, 16 Oct 2014 23:05:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</guid>
+      <description>claudio@backbox3:~$ ./drupal.py -t http://127.0.0.1/drupal -u 4dm1n -p p4ssw0rd______ __ _______ _______ _____ | _ \ .----.--.--.-----.---.-| | | _ || _ | _ | |. | \| _| | | _ | _ | | |___| _|___| |.| | |. | |__| |_____| __|___._|__| / |___(__ `-|. | |: 1 / |__| | | |: 1 | |: | |::.. . / | | |::.. . | |::.| `------&amp;#39; `---&amp;#39; `-------&amp;#39; `---&amp;#39; _______ __ ___ __ __ __ | _ .</description>
+    </item>
+    
+  </channel>
+</rss>

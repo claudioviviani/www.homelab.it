@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lfi on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/lfi/</link>
+    <description>Recent content in lfi on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 24 Dec 2015 15:06:22 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/lfi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVWA – Damn Vulnerable Web Application</title>
+      <link>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</link>
+      <pubDate>Thu, 24 Dec 2015 15:06:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</guid>
+      <description>Avete voglia di testate le vostre conoscenze o skills di penetration testing per quanto riguardo il campo web applicativo senza problemi legali?
+Avete voglia di conoscere le possibili mitigation da attuare contro le maggiori vulnerabilità?
+Bene! Damn Vulnerable Web Application fa proprio al caso vostro!
+DVWA è una web application scritta in PHP e MySQL installabile in qualsiasi ambiente in cui sia presente un web server, php e mysql.
+L’applicazione è stata creata e concepita piena zeppa di vulnerabilità più o meno facili da scovare, il livello di difficoltà può essere configurato come:</description>
+    </item>
+    
+    <item>
+      <title>aLFI Scanner – An0th3r LFI sC4Nn3r v1.0</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</link>
+      <pubDate>Tue, 26 Aug 2014 19:40:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</guid>
+      <description>[claudio@localhost ~]$ ./aLFIscanner.py -u 10.0.0.67 -t lfi.php?ID=$$\ $$$$$$$$\ $$$$$$\$$ | $$ _____|\_$$ _|$$$$$$\ $$ | $$ | $$ |\____$$\ $$ | $$$$$\ $$ |$$$$$$$ |$$ | $$ __| $$ |$$ __$$ |$$ | $$ | $$ |\$$$$$$$ |$$$$$$$$\ $$ | $$$$$$\\_______|\________|\__| \______|$$$$$$\$$ __$$\$$ / \__| $$$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\\$$$$$$\ $$ _____|\____$$\ $$ __$$\ $$ __$$\ $$ __$$\ $$ __$$\\____$$\ $$ / $$$$$$$ |$$ | $$ |$$ | $$ |$$$$$$$$ |$$ | \__|$$\ $$ |$$ | $$ __$$ |$$ | $$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$$\$$$$$$$ |$$ | $$ |$$ | $$ |\$$$$$$$\ $$ |\______/ \_______|\_______|\__| \__|\__| \__| \_______|\__|An0th3r LFI sC4Nn3r v1.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slider Revolution &lt;= 4.1.4 Arbitrary File Download vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</link>
+      <pubDate>Mon, 28 Jul 2014 17:30:03 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</guid>
+      <description>####################### Exploit Title : WordPress Slider Revolution Responsive &amp;lt;= 4.1.4 Arbitrary File Download vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380# Software Link : Premium plugin# Dork Google: revslider.php &amp;#34;index of&amp;#34;# Date : 2014-07-24# Tested on : Windows 7 / Mozilla FirefoxLinux / Mozilla Firefox####################### DescriptionWordpress Slider Revolution Responsive &amp;lt;= 4.1.4 suffers from Arbitrary File Download vulnerability####################### PoChttp://victim/wp-admin/admin-ajax.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.2</title>
+      <link>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</link>
+      <pubDate>Thu, 26 Jun 2014 20:04:04 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</guid>
+      <description>Nella prima parte dell’articolo ho spiegato cosa è la vulnerabilità LFI soffermandomi anche su alcune tecniche di protezione a livello di programmazione, mentre in questo post affronterò l’aspetto sistemistico.
+Per circoscrivere l’area di lavoro di un applicativo web, e quindi di un eventuale Local File Inclusion, è possibile ricorrere almeno a tre soluzioni:
+ Utilizzo della funzione php open_basedir Configurazione di un ambiente chroot per Apache Applicazione delle regole di selinux per Apache   PHP openbasedir anti LFI   La funzione php open_basedir permette di limitare l’area d’azione di un applicativo ed è possibile configurarla a livello globale o tramite virtualhost specifici.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+  </channel>
+</rss>

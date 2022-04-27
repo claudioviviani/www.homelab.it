@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Linux on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/linux/</link>
+    <description>Recent content in Linux on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sfruttare la vulnerablitià Sambacry nei dispositivi QNAP/ARM</title>
+      <link>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</link>
+      <pubDate>Fri, 11 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</guid>
+      <description>Eccomi di ritorno dalle meritate ferie, e come promesso, sono pronto a mettere nero su bianco i miei test effettuati con la vulnerabilità SambaCry.
+Questo post potrà esservi utile per sfruttare la vulnerabilità SambaCry nei server samba installati nei dispositivi nas QNAP o ARM in generale, senza dover utilizzare il framework Metasploit.
+Non voglio dilungarmi nella descrizione della vulnerabilità, googlando SambaCry o CVE-2017-7494 troverete tonnellate di materiale.
+In poche parole questo bug permette di eseguire comandi sul server samba remoto, l’unico requisito è l’accesso in scrittura di una cartella condivisa!</description>
+    </item>
+    
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+    <item>
+      <title>From Dynamic to Static e WordPress non lo buchi più</title>
+      <link>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</link>
+      <pubDate>Sat, 07 Nov 2015 18:11:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</guid>
+      <description>Sorgente immagine: https://greggbanse.com/
+Introduzione Alzi la mano chi non ha storto il naso leggendo il titolo di questo articolo?
+Sicuramente moltissimi ed è stata la mia stessa reazione quando mi sono imbattuto in un post dal titolo The Unhackable WordPress Blog scritto da Matthew Bryant (mandatory).
+Incuriosito dal titolo, volutamente provocatorio, ho continuato la lettura fino alla fine e sono rimasto molto entusiasta, in pratica il buon Matthew Bryant espone la sua teoria che si basa sul trovare un alto livello di sicurezza convertendo da dinamico a statico il CMS WordPress (e non solo).</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Workstation Player e Pro su Kali Linux 2.0</title>
+      <link>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</link>
+      <pubDate>Mon, 07 Sep 2015 20:22:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</guid>
+      <description>Sorgente Immagine: https://www.vmware.com/files/images/vmrc/VMware_logo_blk_RGB_300dpi.jpg
+Kali Linux è una distribuzione concepita per essere utilizzata principalmente durante i penetration test e non come distro “da tutti i giorni”.
+Basti pensare che in fase di installazione il setup non richiede la creazione di alcun tipo di utente non privilegiato.
+Per testare la distribuzione ho cominciato ad utilizzarla giornalmente e di conseguenza ho cominciato a riscontare le prime necessità.
+Uno dei primi software che ho provato a installare è VMware Workstation.</description>
+    </item>
+    
+    <item>
+      <title>BackBox 4.2 is out! Ecco come aggiornare la release…</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</link>
+      <pubDate>Mon, 27 Apr 2015 20:06:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</guid>
+      <description>Oggi ho avuto l’immenso piacere di leggere che è uscita la release 4.2 della distribuzione BackBox 4.2 made in italy orientata al penetration testing!
+Oltre al sito ufficiale, l’annuncio è stato rilasciato sul sito (OverSecurity) di uno dei membri del BackBox Team: Andrea Draghetti
+Le novità più importanti sono le seguenti:
+Changelog  Preinstalled Linux Kernel 3.16 New Ubuntu 14.04.2 base Ruby 2.1 Installer with LVM and Full Disk Encryption options Handy Thunar custom actions RAM wipe at shutdown/reboot System improvements Upstream components Bug corrections Performance boost Improved Anonymous mode Predisposition to ARM architecture (armhf Debian packages) Predisposition to BackBox Cloud platform New and updated hacking tools: beef-project, crunch, fang, galleta, jd-gui, metasploit-framework, pasco, pyew, rifiuti2, setoolkit, theharvester, tor, torsocks, volatility, weevely, whatweb, wpscan, xmount, yara, zaproxy  Upgrade Andrea, oltre a riferire le ultime modifiche, ha rilasciato una mini-guida per aggiornare BackBox dalla versione 4.</description>
+    </item>
+    
+    <item>
+      <title>Come limitare gli utenti ssh ad un singolo comando</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</link>
+      <pubDate>Mon, 27 Apr 2015 14:29:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</guid>
+      <description>Introduzione Oggi mi sono trovato nella necessità di dover utilizzare un utente, tramite protocollo ssh, per eseguire un singolo e semplice comando da remoto verso un server linux.
+Per ragioni di sicurezza mi sono chiesto se esistesse la possibilità di limitare tale utenza all’esecuzione di un unico programma, senza ricorrere a jail (chroot) o shell “castrate” di terze parti.
+Googolando e leggendo il man di ssh ho scoperto una soluzione facile e carina:</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>IPFire Cgi Web Interface Authenticated Bash Environment Variable Code Injection exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</link>
+      <pubDate>Mon, 29 Sep 2014 21:58:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ python ipfire_cgi_shellshock.py___ _______ _______ __ _______ __| | _ | _ |__.----.-----. | _ .-----|__||. |. 1 |. 1___| | _| -__| |. 1___| _ | ||. |. ____|. __) |__|__| |_____| |. |___|___ |__||: |: | |: | |: 1 |_____||::.|::.| |::.| |::.. . |`---`---&amp;#39; `---&amp;#39; `-------&amp;#39;_______ __ __ __ _______ __ __| _ | |--.-----| | | _ | |--.</description>
+    </item>
+    
+    <item>
+      <title>Gnu Bash 4.3 and below Cgi Scan &#43; Remote Command Injection Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</link>
+      <pubDate>Fri, 26 Sep 2014 11:31:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ ./bash_env_rci_v2.py_______ _______ __| _ .-----.--.--. | _ .---.-.-----| |--.|. |___| | | | |. 1 | _ |__ --| ||. | |__|__|_____| |. _ |___._|_____|__|__||: 1 | |: 1 \|::.. . | |::.. . /`-------&amp;#39; `-------&amp;#39;___ ___ _______ _______ _______ ___| Y | | _ | | _ | _ | || | |_|___| | |. l |. 1___|.</description>
+    </item>
+    
+    <item>
+      <title>aLFI Scanner – An0th3r LFI sC4Nn3r v1.0</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</link>
+      <pubDate>Tue, 26 Aug 2014 19:40:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</guid>
+      <description>[claudio@localhost ~]$ ./aLFIscanner.py -u 10.0.0.67 -t lfi.php?ID=$$\ $$$$$$$$\ $$$$$$\$$ | $$ _____|\_$$ _|$$$$$$\ $$ | $$ | $$ |\____$$\ $$ | $$$$$\ $$ |$$$$$$$ |$$ | $$ __| $$ |$$ __$$ |$$ | $$ | $$ |\$$$$$$$ |$$$$$$$$\ $$ | $$$$$$\\_______|\________|\__| \______|$$$$$$\$$ __$$\$$ / \__| $$$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\\$$$$$$\ $$ _____|\____$$\ $$ __$$\ $$ __$$\ $$ __$$\ $$ __$$\\____$$\ $$ / $$$$$$$ |$$ | $$ |$$ | $$ |$$$$$$$$ |$$ | \__|$$\ $$ |$$ | $$ __$$ |$$ | $$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$$\$$$$$$$ |$$ | $$ |$$ | $$ |\$$$$$$$\ $$ |\______/ \_______|\_______|\__| \__|\__| \__| \_______|\__|An0th3r LFI sC4Nn3r v1.</description>
+    </item>
+    
+    <item>
+      <title>WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</link>
+      <pubDate>Sun, 10 Aug 2014 13:20:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</guid>
+      <description>####################### Exploit Title : WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://gb-plugins.com/# Software Link : http://downloads.wordpress.org/plugin/gb-gallery-slideshow.1.5.zip# Date : 2014-08-09# Tested on : Linux / sqlmap 1.0-dev-5b2ded0Linux / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/gb-gallery-slideshow/GBgallery.php####################### Vulnerable code :if(isset($_POST[&amp;#39;selected_group&amp;#39;])){global $gb_post_type, $gb_group_table, $wpdb;$my_group_id = $_POST[&amp;#39;selected_group&amp;#39;];$my_group = $wpdb-&amp;gt;get_results( &amp;#34;SELECT groups FROM $gb_group_table WHERE id = &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>ARP Cache Poisoning o più comunemente ARP Spoofing</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</link>
+      <pubDate>Mon, 28 Jul 2014 16:45:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</guid>
+      <description>Introduzione Come ben sappiamo i computers all’interno di una rete LAN comunicano tra di loro usufruendo delle schede di rete collegate agli switch o hub.
+Lo switch è un dispositivo in grado di instradare i pacchetti di dati in modo logico, ovvero distribuisce al singolo pc i soli dati che ha richiesto (a livello di protocolli), evitando di fatto un invio su tutte le macchine (broadcast) come invece fa un hub.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.2</title>
+      <link>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</link>
+      <pubDate>Thu, 26 Jun 2014 20:04:04 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</guid>
+      <description>Nella prima parte dell’articolo ho spiegato cosa è la vulnerabilità LFI soffermandomi anche su alcune tecniche di protezione a livello di programmazione, mentre in questo post affronterò l’aspetto sistemistico.
+Per circoscrivere l’area di lavoro di un applicativo web, e quindi di un eventuale Local File Inclusion, è possibile ricorrere almeno a tre soluzioni:
+ Utilizzo della funzione php open_basedir Configurazione di un ambiente chroot per Apache Applicazione delle regole di selinux per Apache   PHP openbasedir anti LFI   La funzione php open_basedir permette di limitare l’area d’azione di un applicativo ed è possibile configurarla a livello globale o tramite virtualhost specifici.</description>
+    </item>
+    
+    <item>
+      <title>Filtri command injection: escapeshellarg escapeshellcmd</title>
+      <link>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</link>
+      <pubDate>Sat, 14 Jun 2014 14:23:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</guid>
+      <description>Proteggere i propri applicativi php è importantissimo sia, per l’integrità dei dati che del sistema.
+Nello scorso articolo ho fatto una panoramica sulla vulnerabilità Local File Inclusion, mentre oggi lo scopo dei test sarà quello di applicare al codice php dei filtri command injection, ovvero normalizzare le richieste in input eliminando la possibilità di eseguire comandi non autorizzati.
+Esempi di command injection Qui di seguito riporto un esempio di script php (filter-injection.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+    <item>
+      <title>Come installare Java su CentOS 6 (JDK)</title>
+      <link>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</link>
+      <pubDate>Thu, 22 May 2014 22:24:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</guid>
+      <description>Download ed installazione Java (ultima versione)   Aprire il browser e inserie l’indirizzo: http://www.oracle.com/technetwork/java/javase/overview/index.html
+  Cliccare sul bottone Download:
+  
+Cliccare sull’icona Download:   
+Selezionare il bottone ratio “Accept License Agreement“:  
+Scaricare il pacchetto rpm a seconda dell’architettura del proprio sistema:   jdk-8u5-linux-i586.rpm jdk-8u5-linux-x64.rpm   Copiare il file rpm tramite scp client (se la macchina CentOS 6 è remota).
+  Con i privilegi di root installare il pacchetto rpm (nel mio caso i586) :</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Player su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</link>
+      <pubDate>Wed, 21 May 2014 20:38:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</guid>
+      <description>La seguente procedura è stata testata sia su CentOS 6 che Ubuntu 14.04, ma è applicabile anche ad altre distribuzioni.
+Sul sistema linux dovrà essere installato l’ambiente grafico, in caso contrario potete far riferimento al mio articolo che spiega come installarlo sulle distribuzioni CentOS:
+http://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/
+ Download VMware Player   Per prima cosa scariscari la versione più aggiornata di VMware Player dal sito ufficiale: http://www.vmware.com/
+Nel menu Downloads è possibile cliccare la voce “Player“:</description>
+    </item>
+    
+    <item>
+      <title>Come limitare l’utilizzo della CPU di un’applicazione su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-limitare-lutilizzo-della-cpu-di-unapplicazione-su-linux/</link>
+      <pubDate>Tue, 20 May 2014 21:27:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-limitare-lutilizzo-della-cpu-di-unapplicazione-su-linux/</guid>
+      <description>Per limitare l’utilizzo della cpu sui sistemi linux è possibile usufruire dell’utility CPULIMIT.
+ Installazione Cpulimit   Debian/Ubuntu
+claudio@ubuntu:~$ sudo apt-get install cpulimit
+CentOS 6
+Prima di tutto installare il repository EPEL seguendo le istruzioni di questo articolo (REMI non è necessario):
+http://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6
+Una volta acquisito il repository, installare cpulimit:
+[root@centos6 ~]# yum install cpulimit
+Test Cpulimit   Per spiegare il funzionamento di cpulimit nel migliore dei modi, utilizzerò uno script bash che creerà loop fino a portare la CPU al limite.</description>
+    </item>
+    
+    <item>
+      <title>Come installare i repositories EPEL e REMI su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 23:20:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</guid>
+      <description>Introduzione Fonte: https://fedoraproject.org/wiki/EPEL/it
+‘Extra Packages for Enterprise Linux’ (o EPEL) è un gruppo speciale di utenti (Fedora Special Interest Group) che si interessa di creare, mantenere e gestire pacchetti RPM addizionali di alta qualità per Enterprise Linux, includendo, ma non limitato, Red Hat Enterprise Linux (RHEL), CentOS e Scientific Linux (SL).
+I pacchetti EPEL sono solitamente basati sulla loro controparte in Fedora, non saranno mai in conflitto né un rimpiazzo con quelli base per le distribuzioni Enterprise Linux.</description>
+    </item>
+    
+    <item>
+      <title>Chkrootkit – Come installare e schedulare rootkit scanner su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</link>
+      <pubDate>Mon, 19 May 2014 22:57:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</guid>
+      <description>Chkrootkit è una raccolta di script e tools scritti in C che aiutanto gli amministratori di sistema a rilevare eventuali rootkit o LKM maligni installati sui sistemi Linux.
+Per installare chrootkit su CentOS 6, basta usufruire del repository EPEL tramite yum.
+ Installare il repository EPEL   [root@centos6 ~]# rpm -Uhv http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmRipristino di http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmavvertimento: /var/tmp/rpm-tmp.T0Yctu: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEYPreparazione in corso... ########################################### [100%]1:epel-release ########################################### [100%][root@centos6 ~]# Installare chkrootkit   [root@centos6 ~]# yum install chkrootkit Eseguire scansione chrootkit   [root@centos6 ~]# chkrootkitROOTDIR is `/&amp;#39;Checking `amd&amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>Come installare e configurare ntp server su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 20:44:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</guid>
+      <description>Installare ntp server su CentOS 6 NTP (Network Time Protocol) è un protocollo che viene utilizzato per sincronizzare l’orario dei computer all’interno di una rete pubblica o privata, su linux troviamo il server ntpd e il client ntpdate
+Su Linux CentOS 6 il demone ntp è installabile tramite yum:
+[root@cento6 ~]# yum install ntp ... ... ... Running Transaction Installing : ntpdate-4.2.6p5-1.el6.centos.i686 1/2 Installing : ntp-4.2.6p5-1.el6.centos.i686 2/2 Verifying : ntp-4.</description>
+    </item>
+    
+    <item>
+      <title>Come installare BackBox 3.x</title>
+      <link>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</link>
+      <pubDate>Tue, 13 May 2014 20:09:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</guid>
+      <description>
+Nel precedente articolo ho fatto una panoramica generale della distribuzione BackBox 3.x:
+https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/
+In questo nuovo post ho inserito due video dove spiego passo passo come installare la distribuzine su VMware Workstation, ma è applicabile anche su pc/notebook fisici.
+Installare BackBox Parte 1   Installare BackBox Parte 2   </description>
+    </item>
+    
+    <item>
+      <title>BackBox – Penetration Testing Made in Italy</title>
+      <link>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</link>
+      <pubDate>Fri, 09 May 2014 23:49:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</guid>
+      <description>Guida installazione: https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/
+Panoramica BackBox Backbox è una distribuzione Linux tutta italiana orientata al Penetration Testing e Vulnerability Assessment and Mitigation.
+La distribuzione nasce nel 2010 da un’idea di Raffaele Forte e ai giorni d’oggi vanta lo sviluppo di un’intera community.
+Il successo di Backbox è dovuto dovuto alla sua facilità d’uso e alle elevate performance, infatti si basa sulla distribuzione Ubuntu e come window manager utilizza XFCE.
+Da notare i bassissimi requisiti hardware:</description>
+    </item>
+    
+    <item>
+      <title>Proteggere il servizio SSH (e non solo) tramite la tecnica Single Packet Authorization (SPA) utilizzando il software fwknop</title>
+      <link>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</link>
+      <pubDate>Wed, 30 Apr 2014 14:32:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</guid>
+      <description>Inserire uno strato di controllo (oltre al firewall) davanti ad alcuni servizi strategici, può rilevarsi molto efficace sotto l’aspetto della sicurezza.
+Prendiamo per esempio il servizio SSH, essendo un demone utilizzato esclusivamente per amministrare e dare l’accesso al sistema, perchè renderlo accessibile da tutta la rete internet?
+Esistono varie tecniche per limitare l’accesso solo a connessioni autorizzate, tra quelle più interessanti c’è il Single Packet Authorization (SPA).</description>
+    </item>
+    
+    <item>
+      <title>Aggiornare Ubuntu dalla versione 13.10 (Saucy Salamander) alla 14.04 (Trusty Tahr) &#43; Video</title>
+      <link>https://www.homelab.it/index.php/2014/04/21/aggiornare-ubuntu-dalla-versione-13-10-saucy-salamander-alla-14-04-trusty-tahr/</link>
+      <pubDate>Mon, 21 Apr 2014 17:23:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/21/aggiornare-ubuntu-dalla-versione-13-10-saucy-salamander-alla-14-04-trusty-tahr/</guid>
+      <description>Il 17 Aprile 2014 è stata rilasciata la versione finale di Ubuntu 14.04 LTS (Trusty Tahr)
+Per eseguire l’upgrade dalla versione 13.10 bastano pochi e semplici passi:
+1) Preparazione del sistema La prima azione da fare è quella di aggiornare completamente l’attuale sistema Ubuntu 13.10, quindi aprire un terminale e digitare:
+$ sudo apt-get update &amp;amp;&amp;amp; sudo apt-get dist-upgrade
+2) Inizializzazione dell’aggiornamento 2A) Concluso l’upgrade della distribuzione versione 13.10, sempre dal terminale eseguire:</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed zero day (CVE-2014-0160) OpenSSL: Consigli utili su come correre ai riapri</title>
+      <link>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</link>
+      <pubDate>Wed, 09 Apr 2014 22:04:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</guid>
+      <description>Come ben sapete tra ieri ed oggi è scoppiata la bomba “Heartbleed” e a sganciarla è stato un’ingegnere che lavora presso Google: Neel Mehta.
+Heartbleed è il nome che è stato dato a una pericolosissimo bug scovato sul sistema di criptazione OpenSSL che permette di entare in possesso della chiave privata con cui sono stati firmati i certificati SSL/TLS.
+Considerato che openssl viene utilizzato dai demoni web, mail, VPN, ecc..si può capire l’enorme serietà del bug, milioni di dati personali (password, documenti, conversazioni, email) sono a rischio di divulgazione non autorizzata.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Linux Malware Detect (LMD) su CentOS 6.x, schedulare scanasioni ed inviare report tramite e-mail</title>
+      <link>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Tue, 08 Apr 2014 15:13:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Obbiettivo Installare su CentOS 6 Linux Malware Detector (LMD), shedulare scansioni ed inviare report tramite e-mail.
+Scenario Linux distro: CentOS 6.5 (x86_64)
+LMD version: 1.4.2
+Selinux: SI
+Installazione Linux Malware Detector Scaricare l’ultima versione disponibile di LMD dal sito ufficiale:
+[root@lmd_test tmp]# cd /tmp[root@lmd_test tmp]#[root@lmd_test tmp]# wget wget http://www.rfxn.com/downloads/maldetect-current.tar.gz............2014-04-07 19:53:30 (491 KB/s) - &amp;#34;maldetect-current.tar.gz&amp;#34; salvato [811467/811467] Scompattare l’archivio ed installare il software linux malware detector:</description>
+    </item>
+    
+    <item>
+      <title>CentOS: Come creare i certificati SSL/TLS autofirmati</title>
+      <link>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</link>
+      <pubDate>Sun, 06 Apr 2014 19:50:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</guid>
+      <description>Creare certificati SSL/TLS su CentOS 6 è molto semplice grazie ad alcuni script messi a disposizione dalla distribuzione.
+Questi certificati potranno essere integrati alla configurazione di postfix, sendmail, apache, dovecot ecc…
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Dominio: www.example.it  Prerequisiti
+ openssl  Creazione chiave e certificati  Con l’utenza di root, entrare nella directory contenente gli script e creare la chiave privata:  [root@certs_test ~]# cd /etc/pki/tls/certs [root@certs_test certs]# [root@certs_test certs]# make server.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Security: Come installare WPScan su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Fri, 04 Apr 2014 14:01:27 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Wordpress ad oggi è la piattaforma CMS più diffusa al mondo, di conseguenza anche la più analizzata sotto l’aspetto della sicurezza.
+Per testare ed escludere la propria copia di wordpress da eventuali vulnerabilità note, è possibile utilizzare il software scanner WPScan.
+Nel repository ufficiale CentOS non esiste il pacchetto precompilato di wpscan, quindi andrà scaricato e compilato manualmente.
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Versione WPScan: 2.</description>
+    </item>
+    
+    <item>
+      <title>Installare Ruby 1.9.x su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</link>
+      <pubDate>Thu, 03 Apr 2014 21:23:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</guid>
+      <description>Obbiettivo Installare su CentOS 6.x la versione 1.9.x del linguaggio di programmazione Ruby.
+Scenario  Server Linux: CentOS 6.5 (x86_64) Repo Ruby: ruby-1.8.7.352-13.el6.x86_64.rpm New Ruby: ruby-1.9.3p545-1.el6.x86_64.rpm  Collegarsi con utenza root alla shell/terminale ed eseguire i seguenti comandi:
+# Creazione ambiente per la compilazione del pacchetto rpmmkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}# Download ultima versione Ruby e file spec per la compilazionewget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz -P rpmbuild/SOURCESwget https://raw.github.com/imeyer/ruby-1.9.3-rpm/master/ruby19.spec -P rpmbuild/SPECS# Modificare file spec per la versione appena scaricata du ruby (1.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ssh on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/ssh/</link>
+    <description>Recent content in ssh on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 21 Apr 2016 19:34:53 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+    <item>
+      <title>Come limitare gli utenti ssh ad un singolo comando</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</link>
+      <pubDate>Mon, 27 Apr 2015 14:29:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</guid>
+      <description>Introduzione Oggi mi sono trovato nella necessità di dover utilizzare un utente, tramite protocollo ssh, per eseguire un singolo e semplice comando da remoto verso un server linux.
+Per ragioni di sicurezza mi sono chiesto se esistesse la possibilità di limitare tale utenza all’esecuzione di un unico programma, senza ricorrere a jail (chroot) o shell “castrate” di terze parti.
+Googolando e leggendo il man di ssh ho scoperto una soluzione facile e carina:</description>
+    </item>
+    
+  </channel>
+</rss>

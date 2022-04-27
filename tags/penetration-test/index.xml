@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>penetration test on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/penetration-test/</link>
+    <description>Recent content in penetration test on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/penetration-test/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sfruttare la vulnerablitià Sambacry nei dispositivi QNAP/ARM</title>
+      <link>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</link>
+      <pubDate>Fri, 11 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</guid>
+      <description>Eccomi di ritorno dalle meritate ferie, e come promesso, sono pronto a mettere nero su bianco i miei test effettuati con la vulnerabilità SambaCry.
+Questo post potrà esservi utile per sfruttare la vulnerabilità SambaCry nei server samba installati nei dispositivi nas QNAP o ARM in generale, senza dover utilizzare il framework Metasploit.
+Non voglio dilungarmi nella descrizione della vulnerabilità, googlando SambaCry o CVE-2017-7494 troverete tonnellate di materiale.
+In poche parole questo bug permette di eseguire comandi sul server samba remoto, l’unico requisito è l’accesso in scrittura di una cartella condivisa!</description>
+    </item>
+    
+    <item>
+      <title>NetHunter e Samsung Galaxy S5:Ecco la mia esperienza</title>
+      <link>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</link>
+      <pubDate>Mon, 16 May 2016 19:26:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</guid>
+      <description>Al giorno d’oggi per eseguire attacchi informatici le alternative alla classica workstation sono svariate: tablet, smartphone, raspberry fino ad arrivare ai droni.
+Naturalmente ci sono anche i lati “white” della medaglia, ad esempio chi lavora nell’ IT security può trarre vantaggio nel poter testare applicativi o infrastrutture comodamente dal proprio device portatile.L’azienda Offensive Security, nota per la famosa Kali Linux e per le prestigiosi certificazioni, ha ideato una distribuzione di penetration testing appositamente per i dispositivi mobile: Kali Linux NetHunter.</description>
+    </item>
+    
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+    <item>
+      <title>DVWA File Upload – Soluzione Completa &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</link>
+      <pubDate>Wed, 02 Mar 2016 22:35:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</guid>
+      <description>Nuovo post sull’applicazione DVWA, oggi risolveremo la vulnerabilità: DVWA File Upload.
+I requisiti sono:
+ DVWA Command Injection completato, in caso contrario non proseguite! Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data Editor di immagini, ad esempio GIMP  Lo scopo di questa vulnerabilità è quello di riuscire a caricare sul server remoto una web shell attaccando una pagina dedita all’upload di immagini.
+DVWA File Upload – Low Level Il livello semplice, come ormai sappiamo, non ha alcun tipo di protezione quindi faremo l’upload di una web shell php.</description>
+    </item>
+    
+    <item>
+      <title>DVWA SQL injection &#43; SQL Injection Blind &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</link>
+      <pubDate>Thu, 14 Jan 2016 21:07:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</guid>
+      <description>Ciao a tutti, la write-up di oggi riguarderà la vulnerabilità DVWA SQL Injection.
+I requisiti sono:
+ Conoscenze minime MySQL Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data  L’app DVWA propone due tipi di vulnerabilità, SQL Injection, e SQL Injection Blind.
+Inizierò subito con la vulnerabilità SQL Injection Blind dato che è la più complicata e divertente da scovare.
+Il risultato di un attacco SQL Injection nei migliori dei casi restituirà il classico messaggio:</description>
+    </item>
+    
+    <item>
+      <title>DVWA Command Injection – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</link>
+      <pubDate>Thu, 07 Jan 2016 17:20:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</guid>
+      <description>DVWA Command Injection – Soluzione Completa Bentornati, o benarrivati, nel post di oggi troverete la risoluzione della vulnerabilità: DVWA Command Injection, i requisiti sono:
+ Qualsiasi browser disponibile Minima conoscenza di Linux, in particolare l’abilità nell’eseguire comandi multipli.  L’obbiettivo del test è quello di eseguire comandi arbitrari sul sistema operativo che ospita l’applicativo.
+Il target è una semplice paginetta composta da un form nella quale viene richiesto di inserire un indirizzo ip da pingare.</description>
+    </item>
+    
+    <item>
+      <title>DVWA XSS Reflected – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</link>
+      <pubDate>Sat, 02 Jan 2016 18:24:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</guid>
+      <description>Eccoci alla risoluzione della prima vulnerabilità che ho affrontato DVWA XSS Reflected, i requisiti per affrontare questo test sono:
+ Browser senza filtri XSS, consiglio Mozilla **Firefox
+**  L’obbiettivo di questo test è iniettare del codice javascript all’interno di una pagina web che stampa a video caratteri passati tramite un form.
+La richiesta avviene tramite metodo GET e la variabile target si chiama “name“.
+Analizzando il sorgente html si può notare come il valore da me inviato (homelab) venga stampato a video tra i tag</description>
+    </item>
+    
+    <item>
+      <title>teXSState online, pasta, pizza e mandolino</title>
+      <link>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</link>
+      <pubDate>Sun, 18 Oct 2015 17:14:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</guid>
+      <description>Sorgente Immagine: https://cdn.vectorstock.com
+Introduzione Ciao a tutti, oggi voglio proporvi un post particolare frutto di alcune ore libere ricavate nelle ultime settimane.
+Un po per necessità e un po per curiosità ho cominciato ad approfondire l’argomento Cross-site Scripting (XSS).
+Spulciando blog, documentazioni, e social mi sono imbattuto in vari security researcher, uno dei quali specializzato in vulnerabilità XSS: Ashar Javed.
+Le sue referenze parlano da sole, infatti è presente in tutte le Security Hall of Fame dei maggiori colossi informatici: Google, Microsoft, Facebook, Twitter ecc…</description>
+    </item>
+    
+    <item>
+      <title>IDLE SCAN: ZOMBIE ATTACK</title>
+      <link>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</link>
+      <pubDate>Thu, 20 Aug 2015 16:09:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</guid>
+      <description>Sorgente Immagine: http://www.androidworld.it
+Tranquilli non voglio parlare di nessun virus, epidemia, o serie tv (anche se The Walkin Dead ve la consiglio).
+L’argomento di oggi è l’IDLE SCAN, ovvero una tecnica sofisticata di port scanning TCP ideata da Salvatore Sanfilippo, il quale permette di rilevare servizi attivi su un determinato host camuffando il proprio indirizzo sorgente (spoofing).
+Come viene nascosto l’ip sorgente?
+Impersonando un terzo host della rete il cui stato è dormiente (idle, zombie), infatti la tecnica coinvolge tre interpreti:</description>
+    </item>
+    
+    <item>
+      <title>Come creare uno sniffer di rete in Python</title>
+      <link>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</link>
+      <pubDate>Sun, 16 Aug 2015 17:03:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</guid>
+      <description>Se anche voi siete appassionati di penetration testing, vi potrà tornare utile creare dei tools personalizzati da utilizzare durante le tue analisi.
+Python è un fantastico e potente linguaggio di programmazione che mette a disposizione tantissime librerie che possono fare al case nostro, con il vantaggio di essere di facile comprensione.
+Qui di seguito troverete il codice sorgente, commentato in maniera dettagliata, di uno sniffer di rete principalmente dedicato alla cattura del traffico POP/IMAP.</description>
+    </item>
+    
+    <item>
+      <title>BackBox 4.2 is out! Ecco come aggiornare la release…</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</link>
+      <pubDate>Mon, 27 Apr 2015 20:06:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</guid>
+      <description>Oggi ho avuto l’immenso piacere di leggere che è uscita la release 4.2 della distribuzione BackBox 4.2 made in italy orientata al penetration testing!
+Oltre al sito ufficiale, l’annuncio è stato rilasciato sul sito (OverSecurity) di uno dei membri del BackBox Team: Andrea Draghetti
+Le novità più importanti sono le seguenti:
+Changelog  Preinstalled Linux Kernel 3.16 New Ubuntu 14.04.2 base Ruby 2.1 Installer with LVM and Full Disk Encryption options Handy Thunar custom actions RAM wipe at shutdown/reboot System improvements Upstream components Bug corrections Performance boost Improved Anonymous mode Predisposition to ARM architecture (armhf Debian packages) Predisposition to BackBox Cloud platform New and updated hacking tools: beef-project, crunch, fang, galleta, jd-gui, metasploit-framework, pasco, pyew, rifiuti2, setoolkit, theharvester, tor, torsocks, volatility, weevely, whatweb, wpscan, xmount, yara, zaproxy  Upgrade Andrea, oltre a riferire le ultime modifiche, ha rilasciato una mini-guida per aggiornare BackBox dalla versione 4.</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>ARP Cache Poisoning o più comunemente ARP Spoofing</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</link>
+      <pubDate>Mon, 28 Jul 2014 16:45:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</guid>
+      <description>Introduzione Come ben sappiamo i computers all’interno di una rete LAN comunicano tra di loro usufruendo delle schede di rete collegate agli switch o hub.
+Lo switch è un dispositivo in grado di instradare i pacchetti di dati in modo logico, ovvero distribuisce al singolo pc i soli dati che ha richiesto (a livello di protocolli), evitando di fatto un invio su tutte le macchine (broadcast) come invece fa un hub.</description>
+    </item>
+    
+    <item>
+      <title>Come installare BackBox 3.x</title>
+      <link>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</link>
+      <pubDate>Tue, 13 May 2014 20:09:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</guid>
+      <description>
+Nel precedente articolo ho fatto una panoramica generale della distribuzione BackBox 3.x:
+https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/
+In questo nuovo post ho inserito due video dove spiego passo passo come installare la distribuzine su VMware Workstation, ma è applicabile anche su pc/notebook fisici.
+Installare BackBox Parte 1   Installare BackBox Parte 2   </description>
+    </item>
+    
+  </channel>
+</rss>

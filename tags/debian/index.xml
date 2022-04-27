@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>debian on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/debian/</link>
+    <description>Recent content in debian on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 21 May 2014 20:38:20 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/debian/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare VMware Player su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</link>
+      <pubDate>Wed, 21 May 2014 20:38:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</guid>
+      <description>La seguente procedura è stata testata sia su CentOS 6 che Ubuntu 14.04, ma è applicabile anche ad altre distribuzioni.
+Sul sistema linux dovrà essere installato l’ambiente grafico, in caso contrario potete far riferimento al mio articolo che spiega come installarlo sulle distribuzioni CentOS:
+http://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/
+ Download VMware Player   Per prima cosa scariscari la versione più aggiornata di VMware Player dal sito ufficiale: http://www.vmware.com/
+Nel menu Downloads è possibile cliccare la voce “Player“:</description>
+    </item>
+    
+  </channel>
+</rss>

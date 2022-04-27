@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>packages on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/packages/</link>
+    <description>Recent content in packages on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 May 2014 22:45:30 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/packages/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>fwknop-client and fwknop-server 2.6.2  packages for IPFire Linux 2.x i386 (Pakfire 2)</title>
+      <link>https://www.homelab.it/index.php/2014/05/15/fwknop-client-and-fwknop-server-2-6-2-packages-for-ipfire-linux-2-x-i386-pakfire-2/</link>
+      <pubDate>Wed, 14 May 2014 22:45:30 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/15/fwknop-client-and-fwknop-server-2-6-2-packages-for-ipfire-linux-2-x-i386-pakfire-2/</guid>
+      <description>fwknop 2.6.2 IPFire Linux addon (unofficial) tested on versions: 2.15 core update 75,76,77 with Pakfire 2.
+Download Fwknop 2.6.2 client: DOWNLOAD (MD5: 11714c99dce5171191eb6735c3a4729a )
+Fwknop 2.6.2 server: DOWNLAOD (MD5: 8e1072229f483824d51844c0b84d0b52 )
+Requirements fwknop  IPFire 2.x i386 Pakfire 2 Gpgme package  Installation fwknop Copy packets via scp client to “/opt/pakfire/tmp/” IPFire directory.
+[root@ipfire ~]# cd /opt/pakfire/tmp/[root@ipfire tmp]# lsfwknopclient-2.6.2-1.ipfire.gz[root@ipfire tmp]#[root@ipfire tmp]# tar xvfz fwknopclient-2.6.2-1.ipfire.gzfiles.tar.xzinstall.shROOTFILESuninstall.</description>
+    </item>
+    
+  </channel>
+</rss>

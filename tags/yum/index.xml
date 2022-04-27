@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>yum on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/yum/</link>
+    <description>Recent content in yum on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 May 2014 23:20:28 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/yum/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare i repositories EPEL e REMI su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 23:20:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</guid>
+      <description>Introduzione Fonte: https://fedoraproject.org/wiki/EPEL/it
+‘Extra Packages for Enterprise Linux’ (o EPEL) è un gruppo speciale di utenti (Fedora Special Interest Group) che si interessa di creare, mantenere e gestire pacchetti RPM addizionali di alta qualità per Enterprise Linux, includendo, ma non limitato, Red Hat Enterprise Linux (RHEL), CentOS e Scientific Linux (SL).
+I pacchetti EPEL sono solitamente basati sulla loro controparte in Fedora, non saranno mai in conflitto né un rimpiazzo con quelli base per le distribuzioni Enterprise Linux.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Security: Come installare WPScan su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Fri, 04 Apr 2014 14:01:27 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Wordpress ad oggi è la piattaforma CMS più diffusa al mondo, di conseguenza anche la più analizzata sotto l’aspetto della sicurezza.
+Per testare ed escludere la propria copia di wordpress da eventuali vulnerabilità note, è possibile utilizzare il software scanner WPScan.
+Nel repository ufficiale CentOS non esiste il pacchetto precompilato di wpscan, quindi andrà scaricato e compilato manualmente.
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Versione WPScan: 2.</description>
+    </item>
+    
+    <item>
+      <title>Installare Ruby 1.9.x su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</link>
+      <pubDate>Thu, 03 Apr 2014 21:23:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</guid>
+      <description>Obbiettivo Installare su CentOS 6.x la versione 1.9.x del linguaggio di programmazione Ruby.
+Scenario  Server Linux: CentOS 6.5 (x86_64) Repo Ruby: ruby-1.8.7.352-13.el6.x86_64.rpm New Ruby: ruby-1.9.3p545-1.el6.x86_64.rpm  Collegarsi con utenza root alla shell/terminale ed eseguire i seguenti comandi:
+# Creazione ambiente per la compilazione del pacchetto rpmmkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}# Download ultima versione Ruby e file spec per la compilazionewget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz -P rpmbuild/SOURCESwget https://raw.github.com/imeyer/ruby-1.9.3-rpm/master/ruby19.spec -P rpmbuild/SPECS# Modificare file spec per la versione appena scaricata du ruby (1.</description>
+    </item>
+    
+  </channel>
+</rss>

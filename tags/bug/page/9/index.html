@@ -1,0 +1,67 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>bug | HomeLab IT</title><meta name=keywords content><meta name=description content="Security Blog by Claudio Viviani"><meta name=author content="claudio"><link rel=canonical href=https://www.homelab.it/tags/bug/><link crossorigin=anonymous href=/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as=style><link rel=icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://www.homelab.it/tags/bug/index.xml><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="bug"><meta property="og:description" content="Security Blog by Claudio Viviani"><meta property="og:type" content="website"><meta property="og:url" content="https://www.homelab.it/tags/bug/"><meta property="og:image" content="https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="HomeLab IT"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="bug"><meta name=twitter:description content="Security Blog by Claudio Viviani"></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://www.homelab.it/ accesskey=h title="Homelab IT (Alt + H)"><img src=https://www.homelab.it/img/homelabit_logo.png alt=logo aria-label=logo height=35>Homelab IT</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://www.homelab.it/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://www.homelab.it/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://www.homelab.it/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://www.homelab.it/>Home</a>&nbsp;»&nbsp;<a href=https://www.homelab.it/tags/>Tags</a></div><h1>bug</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities</h2></header><section class=entry-content><p>######################
+# Exploit Title : WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities
+# Exploit Author : Claudio Viviani
+# Vendor Homepage : http://www.tidioelements.com/
+# Software Link : http://downloads.wordpress.org/plugin/tidio-gallery.zip
+# Date : 2014-07-14
+# Tested on : Windows 7 / Mozilla Firefox
+######################
+# Location : http://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php -> XSS
+http://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-post.php -> Upload Shell
+######################
+# Vulnerablity n°1:
+XSS Reflected Unauthenticated
+http://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php?galleryId="/>&lt;script>alert(1);&lt;/script>
+# Vulnerablity n°2:
+Unprivileged user like subscriber could upload shell script....</p></section><footer class=entry-footer><span title="2014-07-15 17:32:49 +0000 +0000">July 15, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities" href=https://www.homelab.it/index.php/2014/07/15/wordpress-tidio-gallery-1-1-vulnerabilities/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>WordPress Download Manager 2.6.8 Shell Upload Vulnerability</h2></header><section class=entry-content><p>######################
+# Exploit Title : WordPress Download Manager 2.6.8 Shell Upload Vulnerability
+# Exploit Author : Claudio Viviani
+# Vendor Homepage : www.wpdownloadmanager.com
+# Software Link : http://downloads.wordpress.org/plugin/download-manager.zip
+# Date : 2014-07-11
+# Tested on : Linux / Mozilla Firefox / WordPress Download Manager 2.6.8 Free Version
+# # # WORK ONLY ON SERVER WITH .HTACCESS FILES DISABLED
+######################
+# Location : http://IP_VICTIM/wp-content/plugins/download-manager/wpdm-add-new-file.php
+######################
+# Description :
+WordPress Download Manager 2....</p></section><footer class=entry-footer><span title="2014-07-11 23:31:02 +0000 +0000">July 11, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to WordPress Download Manager 2.6.8 Shell Upload Vulnerability" href=https://www.homelab.it/index.php/2014/07/12/wordpress-download-manager-2-6-8/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>WordPress BSK PDF Manager 1.3.2 SQL Injection</h2></header><section class=entry-content><p>######################
+# Exploit Title : WordPress BSK PDF Manager 1.3.2 Authenticated SQL Injection
+# Exploit Author : Claudio Viviani
+# Vendor Homepage : http://www.bannersky.com/bsk-pdf-manager/
+# Software Link : http://downloads.wordpress.org/plugin/bsk-pdf-manager.zip
+# Date : 2014-07-04
+# Tested on : Windows 7 / Mozilla Firefox
+# Linux / Mozilla Firefox
+# Linux / sqlmap 1.0-dev-5b2ded0
+######################
+# Location : http://localhost/wp-content/plugins/compfight/compfight-search.php
+######################
+# Vulnerable code :
+[claudio@localhost ~]$ grep -R GET bsk-pdf-manager/
+bsk-pdf-manager/inc/bsk-pdf-dashboard.php: if(isset($_GET['view']) && $_GET['view']){
+bsk-pdf-manager/inc/bsk-pdf-dashboard....</p></section><footer class=entry-footer><span title="2014-07-09 23:31:32 +0000 +0000">July 9, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to WordPress BSK PDF Manager 1.3.2 SQL Injection" href=https://www.homelab.it/index.php/2014/07/10/wordpress-bsk-pdf-manager-sqlinj/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>WordPress Compfight &lt;= 1.4 Authenticated Reflected XSS Vulnerability</h2></header><section class=entry-content><p>######################
+# Exploit Title : WordPress Compfight 1.4 Authenticated Cross Site Scripting
+# Exploit Author : Claudio Viviani - HomeLab IT
+# Vendor Homepage : http://wordpress.org/plugins/easy-banners/
+# Software Link : http://downloads.wordpress.org/plugin/compfight.1.4.zip
+# Date : 2014-07-03
+# Tested on : Windows 7 / Mozilla Firefox
+######################
+# Location : http://localhost/wp-content/plugins/compfight/compfight-search.php
+######################
+# Vulnerable code :
+if (!$search_value) {
+$input_text = 'Enter Keyword(s)';
+} else {
+$input_text = $search_value;
+}
+if ($show_title) {
+$output ....</p></section><footer class=entry-footer><span title="2014-07-03 20:04:28 +0000 +0000">July 3, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to WordPress Compfight " href=https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Nagios NRPE &lt;= 2.15 Remote Command Injection: Analisi, test e fix della vulnerabilità</h2></header><section class=entry-content><p>Informazioni generali Qualche giorno fa è stato scovato un bug sul noto monitor d’infrastrutture Nagios, più precisamente la vurnerabilità riguarda l’agent NRPE (Nagios Remote Plugin Executor).
+============================================= - Release date: 17.04.2014 - Discovered by: Dawid Golunski - Severity: High ============================================= CVE: 2014-2913
+Nrpe è un agent che viene installato su tutte le macchine monitorare da Nagios e a seconda delle varie personalizzazioni può restituire varie informazioni, come ad esempio lo stato del disco rigido, della memoria, la funzionalità o meno di determinati servizi ecc....</p></section><footer class=entry-footer><span title="2014-05-03 02:01:08 +0000 +0000">May 3, 2014</span>&nbsp;·&nbsp;4 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to Nagios NRPE " href=https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://www.homelab.it/tags/bug/page/8/>« Prev Page</a>
+<a class=next href=https://www.homelab.it/tags/bug/page/10/>Next Page »</a></nav></footer></main><footer class=footer><span>&copy; 2022 <a href=https://www.homelab.it/>HomeLab IT</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();var e=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView({behavior:"smooth"}),e==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${e}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

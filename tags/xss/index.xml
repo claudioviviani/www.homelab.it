@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>xss on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/xss/</link>
+    <description>Recent content in xss on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Jan 2016 18:24:57 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/xss/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVWA XSS Reflected – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</link>
+      <pubDate>Sat, 02 Jan 2016 18:24:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</guid>
+      <description>Eccoci alla risoluzione della prima vulnerabilità che ho affrontato DVWA XSS Reflected, i requisiti per affrontare questo test sono:
+ Browser senza filtri XSS, consiglio Mozilla **Firefox
+**  L’obbiettivo di questo test è iniettare del codice javascript all’interno di una pagina web che stampa a video caratteri passati tramite un form.
+La richiesta avviene tramite metodo GET e la variabile target si chiama “name“.
+Analizzando il sorgente html si può notare come il valore da me inviato (homelab) venga stampato a video tra i tag</description>
+    </item>
+    
+    <item>
+      <title>DVWA – Damn Vulnerable Web Application</title>
+      <link>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</link>
+      <pubDate>Thu, 24 Dec 2015 15:06:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</guid>
+      <description>Avete voglia di testate le vostre conoscenze o skills di penetration testing per quanto riguardo il campo web applicativo senza problemi legali?
+Avete voglia di conoscere le possibili mitigation da attuare contro le maggiori vulnerabilità?
+Bene! Damn Vulnerable Web Application fa proprio al caso vostro!
+DVWA è una web application scritta in PHP e MySQL installabile in qualsiasi ambiente in cui sia presente un web server, php e mysql.
+L’applicazione è stata creata e concepita piena zeppa di vulnerabilità più o meno facili da scovare, il livello di difficoltà può essere configurato come:</description>
+    </item>
+    
+    <item>
+      <title>From Dynamic to Static e WordPress non lo buchi più</title>
+      <link>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</link>
+      <pubDate>Sat, 07 Nov 2015 18:11:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</guid>
+      <description>Sorgente immagine: https://greggbanse.com/
+Introduzione Alzi la mano chi non ha storto il naso leggendo il titolo di questo articolo?
+Sicuramente moltissimi ed è stata la mia stessa reazione quando mi sono imbattuto in un post dal titolo The Unhackable WordPress Blog scritto da Matthew Bryant (mandatory).
+Incuriosito dal titolo, volutamente provocatorio, ho continuato la lettura fino alla fine e sono rimasto molto entusiasta, in pratica il buon Matthew Bryant espone la sua teoria che si basa sul trovare un alto livello di sicurezza convertendo da dinamico a statico il CMS WordPress (e non solo).</description>
+    </item>
+    
+    <item>
+      <title>teXSState online, pasta, pizza e mandolino</title>
+      <link>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</link>
+      <pubDate>Sun, 18 Oct 2015 17:14:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</guid>
+      <description>Sorgente Immagine: https://cdn.vectorstock.com
+Introduzione Ciao a tutti, oggi voglio proporvi un post particolare frutto di alcune ore libere ricavate nelle ultime settimane.
+Un po per necessità e un po per curiosità ho cominciato ad approfondire l’argomento Cross-site Scripting (XSS).
+Spulciando blog, documentazioni, e social mi sono imbattuto in vari security researcher, uno dei quali specializzato in vulnerabilità XSS: Ashar Javed.
+Le sue referenze parlano da sole, infatti è presente in tutte le Security Hall of Fame dei maggiori colossi informatici: Google, Microsoft, Facebook, Twitter ecc…</description>
+    </item>
+    
+    <item>
+      <title>WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS</title>
+      <link>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</link>
+      <pubDate>Wed, 27 May 2015 20:02:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</guid>
+      <description>####################### Exploit Title : WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS# Exploit Author : Claudio Viviani# Website Author: http://www.homelab.ithttp://archive-exploit.homelab.it/1 (Full HomelabIT Vulns Archive)# Vendor Homepage : https://wordpress.org/plugins/wp-fast-cache/# Software Link : https://downloads.wordpress.org/plugin/wp-fast-cache.1.4.zip# Dork Google: index of wp-fast-cache# Date : 2015-05-11# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### InfoWP Fast Cache is vulnerable to CSRF attacks, which can also be combined with stored/reflected XSS attacks (authenticated administrators only).</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.5 SQL Injection/XSS Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</link>
+      <pubDate>Thu, 24 Jul 2014 17:13:00 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.5 SQL Injection and XSS Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : http://downloads.wordpress.org/plugin/contus-video-gallery.2.5.zip# Dork Google: inurl:/contus-video-gallery/hdflvplayer/hdplayer.swf(Click on &amp;#34;Repeat the search with the omitted results included&amp;#34;)# Date : 2014-07-15# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Compfight &lt;= 1.4 Authenticated Reflected XSS Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</link>
+      <pubDate>Thu, 03 Jul 2014 20:04:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</guid>
+      <description>####################### Exploit Title : WordPress Compfight 1.4 Authenticated Cross Site Scripting# Exploit Author : Claudio Viviani - HomeLab IT# Vendor Homepage : http://wordpress.org/plugins/easy-banners/# Software Link : http://downloads.wordpress.org/plugin/compfight.1.4.zip# Date : 2014-07-03# Tested on : Windows 7 / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/compfight/compfight-search.php####################### Vulnerable code :if (!$search_value) {$input_text = &amp;#39;Enter Keyword(s)&amp;#39;;} else {$input_text = $search_value;}if ($show_title) {$output .</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Virtualization on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/virtualization/</link>
+    <description>Recent content in Virtualization on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 24 Apr 2015 16:04:43 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/virtualization/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Virtualization 2.0 for Dummies (Free eBook) Download</title>
+      <link>https://www.homelab.it/index.php/2015/04/24/virtualization-2-0-for-dummies-free-ebook/</link>
+      <pubDate>Fri, 24 Apr 2015 16:04:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/24/virtualization-2-0-for-dummies-free-ebook/</guid>
+      <description>VMware ha rilasciato un eBook gratuito intitolato “Virtualization 2.0 for Dummies” scritto da Hanish Rathod e Josh Townsend.
+DOWNLOAD</description>
+    </item>
+    
+    <item>
+      <title>Come aggiornare VMware vCenter 5</title>
+      <link>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</link>
+      <pubDate>Fri, 02 Jan 2015 10:30:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</guid>
+      <description>OS: Windows 2008 R2 x64
+vCenter Server: 5.0
+Intro In questo articolo mostrerò come aggiornare VMware vCenter , in particolare dalla versione 5.0 alla 5.5U2.
+Il sistema operativo da dove effettuerò le operazione è Windows 2008 R2 x64.
+Requisiti Per aggiornare vCenter è necessario procurarsi la versione più aggiornata, per fare ciò basta loggarsi con il proprio account sul sito My VMware e
+cercare sotto la sezione Downloads -&amp;gt; All Products la parola chiave “VMware vCenter Server“.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Windows OEM su VMware ESXi</title>
+      <link>https://www.homelab.it/index.php/2014/10/04/come-installare-windows-oem-vmware-esxi/</link>
+      <pubDate>Sat, 04 Oct 2014 00:21:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/04/come-installare-windows-oem-vmware-esxi/</guid>
+      <description>Avete un server HP, Dell o IBM con VMware ESXi e volete installare una macchina virtuale windows utilizzando il relativo CD OEM?
+Avete già effettuato un tentativo ma vi siete imbattuti in questo tipo d’errore?
+Bene, anzi male, ma vi trovate nella pagina giusta per risolvere il problema.
+Questi supporti con sistemi windows OEM sono predisposti di controlli in modo da poter essere eseguiti solo su hardware specifico.
+Per aggirare queste protezioni basta inserire una particolare opzione all’interno della configurazione della macchina virtuale.</description>
+    </item>
+    
+    <item>
+      <title>Come aggiungere un disco locale su XenServer 6.2 senza XenCenter</title>
+      <link>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</link>
+      <pubDate>Fri, 18 Apr 2014 18:34:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</guid>
+      <description>Per installare XenServer sul virtualizzatore ESXi (Nested Virtualization) clicca: http://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/
+ Avete creato una VM su XenServer e volete aggiungere un secondo disco locale post installazione?
+Bene, bastano pochissimi passaggi:
+1) Creazione del secondo virtual disk Tramite vSphere C#/Web Client aggiungere un nuovo virtual disk delle dimensioni desiderate:
+2) Preparazione e creazione storage Collegarsi tramite ssh alla console di XenServer e controllare la presenza del nuovo disco (/dev/sdb nella mia configurazione):</description>
+    </item>
+    
+    <item>
+      <title>Installare XenServer su vSphere ESXi 5.5 (Full Virtualization – Nested Virtualization)</title>
+      <link>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</link>
+      <pubDate>Thu, 17 Apr 2014 10:02:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</guid>
+      <description>Introduzione all’installazione di XenServer su ESXi 5.5 Guida passo dopo passo alla virtualizzazione dell’hypervisor XenServer 6.2 all’interno di un ambiente vSphere ESXi 5.5
+I prerequisiti li trovate a questo indirizzo:
+http://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/
+Riassunto operazioni da effettuare:
+  Creare una VM con GuestOS RHEL 6
+  Selezionare Ethernet E1000 e controller SCSI “LSI Logic Parallel”
+  Abilitare EPT/RVI MMU
+  Cambiare GuestOS in ESXi 5.x
+  Montare ISO XenServer 6.</description>
+    </item>
+    
+    <item>
+      <title>HomeLab Whitebox – VMware vSphere ESXi 5.5</title>
+      <link>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</link>
+      <pubDate>Tue, 25 Mar 2014 18:57:35 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</guid>
+      <description>Per studiare il funzionamento dell’ambiente virtuale VMware, mi sono assemblato un virtualizzatore con Hardware di comune utilizzo (Whitebox).
+Se anche voi siete alla ricerca di hardware compatibile per creare il vostro ESXi server potrete prendere spunto dalla mia configurazione.
+Lista hardware whitebox esxi 5.5 IMMO Motherboard: Asrock 970 Extreme3 R2.0
+CPU: AMD FX 8350
+RAM: Corsair 32GB DDR3-1600MHz Vengeance Pro_(4x8GB)
+PSU: Seasonic S12II-520 Bronze
+Datastore Storage: 4 x 1TB Seagate ST1000DM003 Barracuda</description>
+    </item>
+    
+    <item>
+      <title>VMware ESXi 5.5/5.5u1 su Apple Mac Mini 6.2</title>
+      <link>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</link>
+      <pubDate>Fri, 21 Mar 2014 14:49:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</guid>
+      <description>Qualche giorno fa ho avuto la necessità di installare Esxi 5.5 sul Mac Mini 6.2 .
+Facendo varie ricerche mi sono imbattuato in qusto interessantissimo blog dove ho trovato tutto il necessario: Virtually Ghetto
+Le custom iso sono disponibili ai seguenti link:
+ ESXi-5.5-Mac-Mini-6.2.iso ESXi-5.5u1-Mac-Mini-6.2.iso  L’installazione che ho scelto è stata quella tramite pendrive usb ed ho utilizzato il tool: UNetbootin
+UNetbootin è semplicissmo da utilizzare, basta eseguire il programma (nessuna installazione), selezionare la pendrive (FORMATTATA FAT32) e l’immagine ISO scaricata.</description>
+    </item>
+    
+    <item>
+      <title>Generare certificati per VMware vCloud Director 5.5 su CentOS</title>
+      <link>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</link>
+      <pubDate>Mon, 27 Jan 2014 19:04:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</guid>
+      <description>Se anche voi avete deciso di installare e configurare VMware vCloud Director 5.5 sulla vostra distribuzione CentOS, arriverete al punto di dover creare i certificati ssl per la Web GUI e la console proxy.
+Piccola premessa: Se state installando la vApp di VMware vCloud Director, i certificati verranno generati automaticamente.
+il comando è semplice:
+/opt/vmware/vcloud-director/jre/bin/keytool -genkey -keystore /opt/vmware/vcloud-director/data/transfer/certificates.ks -storetype JCEKS -storepass passwd -keyalg RSA -validity 9999 -alias http La sintassi è di facile comprensione, da notare principalmente 3 parti:</description>
+    </item>
+    
+    <item>
+      <title>LSI Megaraid 9240-8i/M1015 &#43; ESXi 5.x = loading module megaraid_sas</title>
+      <link>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</link>
+      <pubDate>Thu, 09 Jan 2014 18:28:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</guid>
+      <description>loading module megaraid_sas bug Ciao a tutti,
+Se siete arrivati in questa pagina è perchè probabilmente anche voi siete incappati nella schermata che blocca il boot di esxi 5.x con il messaggio: loading module megaraid_sas
+
+Questo problema viene scaturito dall’utilizzo del controller raid LSI Megaraid 9240-8i su motherboards non supportate (come da specifiche) in particolare su workstation.
+Io ho eseguito dei test con la motherboard ASRock 970 extreme3 R2.0 con il bios versione 1.</description>
+    </item>
+    
+  </channel>
+</rss>

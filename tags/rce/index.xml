@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rce on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/rce/</link>
+    <description>Recent content in rce on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 07 Jan 2016 17:20:02 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/rce/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVWA Command Injection – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</link>
+      <pubDate>Thu, 07 Jan 2016 17:20:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</guid>
+      <description>DVWA Command Injection – Soluzione Completa Bentornati, o benarrivati, nel post di oggi troverete la risoluzione della vulnerabilità: DVWA Command Injection, i requisiti sono:
+ Qualsiasi browser disponibile Minima conoscenza di Linux, in particolare l’abilità nell’eseguire comandi multipli.  L’obbiettivo del test è quello di eseguire comandi arbitrari sul sistema operativo che ospita l’applicativo.
+Il target è una semplice paginetta composta da un form nella quale viene richiesto di inserire un indirizzo ip da pingare.</description>
+    </item>
+    
+    <item>
+      <title>From Dynamic to Static e WordPress non lo buchi più</title>
+      <link>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</link>
+      <pubDate>Sat, 07 Nov 2015 18:11:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</guid>
+      <description>Sorgente immagine: https://greggbanse.com/
+Introduzione Alzi la mano chi non ha storto il naso leggendo il titolo di questo articolo?
+Sicuramente moltissimi ed è stata la mia stessa reazione quando mi sono imbattuto in un post dal titolo The Unhackable WordPress Blog scritto da Matthew Bryant (mandatory).
+Incuriosito dal titolo, volutamente provocatorio, ho continuato la lettura fino alla fine e sono rimasto molto entusiasta, in pratica il buon Matthew Bryant espone la sua teoria che si basa sul trovare un alto livello di sicurezza convertendo da dinamico a statico il CMS WordPress (e non solo).</description>
+    </item>
+    
+    <item>
+      <title>WP Marketplace 2.4.0  Remote Code Execution (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</link>
+      <pubDate>Tue, 24 Mar 2015 21:09:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ __ __ __ | Y .---.-.----| |--.-----| |_.-----| .---.-.----.-----.|. | _ | _| &amp;lt;| -__| _| _ | | _ | __| -__||. \_/ |___._|__| |__|__|_____|____| __|__|___._|____|_____||: | | |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Download Manager Remote Code Execution Vulnerability (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</link>
+      <pubDate>Sat, 13 Dec 2014 21:17:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</guid>
+      <description>___ ___ __| Y .-----.----.--| .-----.----.-----.-----.-----.|. | | _ | _| _ | _ | _| -__|__ --|__ --||. / \ |_____|__| |_____| __|__| |_____|_____|_____||: | ______ |__| __ __|::.|:. | | _ \ .-----.--.--.--.-----| .-----.---.-.--| |`--- ---&amp;#39; |. | \| _ | | | | | | _ | _ | _ ||. | |_____|________|__|__|__|_____|___._|_____||: 1 / ___ ___|::.. .</description>
+    </item>
+    
+  </channel>
+</rss>

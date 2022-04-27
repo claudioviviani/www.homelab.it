@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>metasploit on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/metasploit/</link>
+    <description>Recent content in metasploit on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/categories/metasploit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come migrare da una reverse shell a meterpeter</title>
+      <link>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</guid>
+      <description>Durante un pen test potreste avere nella necessità di utilizzare un exploit che non fa parte del framework metasploit, di conseguenza dovreste rinunciare anche ad una shell meterpeter.
+In questo articolo cercherò di spiegare come eseguire una classica reverse shell (netcat, bash, python ecc…) su metasploit per poi migrare su una sessione meterpeter.
+Perchè meterpeter? Utilizzare una shell meterpeter ha moltissimi vantaggi tra cui:
+ Sfruttare i moduli di “post exploitation” per provare a scalare i privilegi.</description>
+    </item>
+    
+    <item>
+      <title>NetHunter e Samsung Galaxy S5:Ecco la mia esperienza</title>
+      <link>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</link>
+      <pubDate>Mon, 16 May 2016 19:26:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</guid>
+      <description>Al giorno d’oggi per eseguire attacchi informatici le alternative alla classica workstation sono svariate: tablet, smartphone, raspberry fino ad arrivare ai droni.
+Naturalmente ci sono anche i lati “white” della medaglia, ad esempio chi lavora nell’ IT security può trarre vantaggio nel poter testare applicativi o infrastrutture comodamente dal proprio device portatile.L’azienda Offensive Security, nota per la famosa Kali Linux e per le prestigiosi certificazioni, ha ideato una distribuzione di penetration testing appositamente per i dispositivi mobile: Kali Linux NetHunter.</description>
+    </item>
+    
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+  </channel>
+</rss>

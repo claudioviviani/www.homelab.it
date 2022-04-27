@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>hypervisor on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/hypervisor/</link>
+    <description>Recent content in hypervisor on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 02 Jan 2015 10:30:24 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/hypervisor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come aggiornare VMware vCenter 5</title>
+      <link>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</link>
+      <pubDate>Fri, 02 Jan 2015 10:30:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</guid>
+      <description>OS: Windows 2008 R2 x64
+vCenter Server: 5.0
+Intro In questo articolo mostrerò come aggiornare VMware vCenter , in particolare dalla versione 5.0 alla 5.5U2.
+Il sistema operativo da dove effettuerò le operazione è Windows 2008 R2 x64.
+Requisiti Per aggiornare vCenter è necessario procurarsi la versione più aggiornata, per fare ciò basta loggarsi con il proprio account sul sito My VMware e
+cercare sotto la sezione Downloads -&amp;gt; All Products la parola chiave “VMware vCenter Server“.</description>
+    </item>
+    
+    <item>
+      <title>Nested Virtualization – Preparare l’ambiente vSphere ESXi 5.5 ad ospitare altri Hypervisor</title>
+      <link>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</link>
+      <pubDate>Wed, 16 Apr 2014 14:59:01 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</guid>
+      <description>Nested virtualization è la tecnica che permette di installare un hypervisor guest all’interno di altri (hosts).
+Per chi come me ha un virtual lab vSphere dovrà tenere conto di alcune direttive e requisiti hardware.
+Requisiti hardware Nested Virtualization Per poter installare un hypervisor x86/x64 in modalità hvm (Hardware-assisted virtualization – full virtualization) è obbligatorio possedere un processore sul proprio host ESXi con queste caratteristiche:
+ Intel VT-x or AMD-V (Nested supportato per VM 32bit) Intel EPT or AMD RVI (Nested supportato anche per VM 64bit)  Per capire se la nostra CPU supporta queste caratteristiche basta fare una ricerca sui siti propetari INTEL o AMD .</description>
+    </item>
+    
+  </channel>
+</rss>

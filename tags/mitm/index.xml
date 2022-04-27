@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MITM on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/mitm/</link>
+    <description>Recent content in MITM on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 28 Jul 2014 16:45:21 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/mitm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ARP Cache Poisoning o più comunemente ARP Spoofing</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</link>
+      <pubDate>Mon, 28 Jul 2014 16:45:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</guid>
+      <description>Introduzione Come ben sappiamo i computers all’interno di una rete LAN comunicano tra di loro usufruendo delle schede di rete collegate agli switch o hub.
+Lo switch è un dispositivo in grado di instradare i pacchetti di dati in modo logico, ovvero distribuisce al singolo pc i soli dati che ha richiesto (a livello di protocolli), evitando di fatto un invio su tutte le macchine (broadcast) come invece fa un hub.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>mod_security on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/mod_security/</link>
+    <description>Recent content in mod_security on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 02 Apr 2014 09:55:34 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/mod_security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Apache 2 chroot &#43; modsecurity CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</link>
+      <pubDate>Wed, 02 Apr 2014 09:55:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</guid>
+      <description>Obbiettivo Configurare il server web Apache 2.x isolato in ambiente chroot tramite il web firewall applicativo MODSECURITY .
+Scenario  Server Linux: CentOS 6.5 Server Apache: httpd-2.2.15-29 modsecurity: mod_security-2.7.3-2 Php Version: php-5.3.3-27 Directory root Chroot: (/web) Selinux: NO   Installazione dei pacchetti necessari per modsecurity ========================================================  Da utente root scaricare l’ultima versione del repository EPEL , dopo di che installare i programmi necessari tramite YUM:
+ wget http://dl.</description>
+    </item>
+    
+  </channel>
+</rss>

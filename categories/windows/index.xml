@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>windows on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/windows/</link>
+    <description>Recent content in windows on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Apr 2015 22:19:21 +0000</lastBuildDate><atom:link href="https://www.homelab.it/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoinVault ransomware: come (provare a) recuperare i files criptati</title>
+      <link>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</link>
+      <pubDate>Fri, 17 Apr 2015 22:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</guid>
+      <description>Introduzione I ransomware sono i nuovi malware (Malicious Software) che non solo infettano il sistema del malcapitato, ma criptano tutti i dati sensibili presenti sul proprio drive locale, dischi/pendrive collegate e, nello sciagurato caso, anche directory/unità di rete montate.
+Una volta criptati i dati non sono più leggibili, a meno che non si paghi un riscatto (ransom in inglese) seguendo delle precise istruzioni rilasciate dagli sviluppatori del virus.
+CoinVault ransomware CoinVault è un dei moltissimi ransomware che stanno infettando moltissimi utenti chiedendo un riscatto in bitcoin, la famosissima moneta elettronica.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+    <item>
+      <title>Come scaricare ed installare gli aggiornamenti critici di Windows XP fino al 2019</title>
+      <link>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</link>
+      <pubDate>Thu, 29 May 2014 06:27:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</guid>
+      <description>Introduzione Windows Embedded POSReady 2009 è il sistema operativo che si trova in molti dispositivi P.O.S e si basa su Windows XP.
+Microsoft ha deciso di prolungare la manutenzione di questo sistema operativo per i prossimi cinque anni, dato che i pos sono utilizzati in esercenti commerciali con presenza di dati sensibili.
+Creando un semplice file .reg ad hoc è possibile far credere a Windows Update di avere un sistema Windows Embedded POSReady 2009.</description>
+    </item>
+    
+  </channel>
+</rss>

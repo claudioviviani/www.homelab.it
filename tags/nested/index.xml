@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nested on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/nested/</link>
+    <description>Recent content in nested on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 18 Apr 2014 18:34:07 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/nested/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come aggiungere un disco locale su XenServer 6.2 senza XenCenter</title>
+      <link>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</link>
+      <pubDate>Fri, 18 Apr 2014 18:34:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</guid>
+      <description>Per installare XenServer sul virtualizzatore ESXi (Nested Virtualization) clicca: http://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/
+ Avete creato una VM su XenServer e volete aggiungere un secondo disco locale post installazione?
+Bene, bastano pochissimi passaggi:
+1) Creazione del secondo virtual disk Tramite vSphere C#/Web Client aggiungere un nuovo virtual disk delle dimensioni desiderate:
+2) Preparazione e creazione storage Collegarsi tramite ssh alla console di XenServer e controllare la presenza del nuovo disco (/dev/sdb nella mia configurazione):</description>
+    </item>
+    
+    <item>
+      <title>Installare XenServer su vSphere ESXi 5.5 (Full Virtualization – Nested Virtualization)</title>
+      <link>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</link>
+      <pubDate>Thu, 17 Apr 2014 10:02:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</guid>
+      <description>Introduzione all’installazione di XenServer su ESXi 5.5 Guida passo dopo passo alla virtualizzazione dell’hypervisor XenServer 6.2 all’interno di un ambiente vSphere ESXi 5.5
+I prerequisiti li trovate a questo indirizzo:
+http://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/
+Riassunto operazioni da effettuare:
+  Creare una VM con GuestOS RHEL 6
+  Selezionare Ethernet E1000 e controller SCSI “LSI Logic Parallel”
+  Abilitare EPT/RVI MMU
+  Cambiare GuestOS in ESXi 5.x
+  Montare ISO XenServer 6.</description>
+    </item>
+    
+    <item>
+      <title>Nested Virtualization – Preparare l’ambiente vSphere ESXi 5.5 ad ospitare altri Hypervisor</title>
+      <link>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</link>
+      <pubDate>Wed, 16 Apr 2014 14:59:01 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</guid>
+      <description>Nested virtualization è la tecnica che permette di installare un hypervisor guest all’interno di altri (hosts).
+Per chi come me ha un virtual lab vSphere dovrà tenere conto di alcune direttive e requisiti hardware.
+Requisiti hardware Nested Virtualization Per poter installare un hypervisor x86/x64 in modalità hvm (Hardware-assisted virtualization – full virtualization) è obbligatorio possedere un processore sul proprio host ESXi con queste caratteristiche:
+ Intel VT-x or AMD-V (Nested supportato per VM 32bit) Intel EPT or AMD RVI (Nested supportato anche per VM 64bit)  Per capire se la nostra CPU supporta queste caratteristiche basta fare una ricerca sui siti propetari INTEL o AMD .</description>
+    </item>
+    
+  </channel>
+</rss>

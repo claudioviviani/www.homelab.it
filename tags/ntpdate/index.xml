@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ntpdate on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/ntpdate/</link>
+    <description>Recent content in ntpdate on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 May 2014 20:44:34 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/ntpdate/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare e configurare ntp server su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 20:44:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</guid>
+      <description>Installare ntp server su CentOS 6 NTP (Network Time Protocol) è un protocollo che viene utilizzato per sincronizzare l’orario dei computer all’interno di una rete pubblica o privata, su linux troviamo il server ntpd e il client ntpdate
+Su Linux CentOS 6 il demone ntp è installabile tramite yum:
+[root@cento6 ~]# yum install ntp ... ... ... Running Transaction Installing : ntpdate-4.2.6p5-1.el6.centos.i686 1/2 Installing : ntp-4.2.6p5-1.el6.centos.i686 2/2 Verifying : ntp-4.</description>
+    </item>
+    
+  </channel>
+</rss>

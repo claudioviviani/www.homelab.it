@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/python/</link>
+    <description>Recent content in python on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 16 Aug 2015 17:03:43 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come creare uno sniffer di rete in Python</title>
+      <link>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</link>
+      <pubDate>Sun, 16 Aug 2015 17:03:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</guid>
+      <description>Se anche voi siete appassionati di penetration testing, vi potrà tornare utile creare dei tools personalizzati da utilizzare durante le tue analisi.
+Python è un fantastico e potente linguaggio di programmazione che mette a disposizione tantissime librerie che possono fare al case nostro, con il vantaggio di essere di facile comprensione.
+Qui di seguito troverete il codice sorgente, commentato in maniera dettagliata, di uno sniffer di rete principalmente dedicato alla cattura del traffico POP/IMAP.</description>
+    </item>
+    
+    <item>
+      <title>WP Marketplace 2.4.0  Remote Code Execution (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</link>
+      <pubDate>Tue, 24 Mar 2015 21:09:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ __ __ __ | Y .---.-.----| |--.-----| |_.-----| .---.-.----.-----.|. | _ | _| &amp;lt;| -__| _| _ | | _ | __| -__||. \_/ |___._|__| |__|__|_____|____| __|__|___._|____|_____||: | | |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Download Manager Remote Code Execution Vulnerability (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</link>
+      <pubDate>Sat, 13 Dec 2014 21:17:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</guid>
+      <description>___ ___ __| Y .-----.----.--| .-----.----.-----.-----.-----.|. | | _ | _| _ | _ | _| -__|__ --|__ --||. / \ |_____|__| |_____| __|__| |_____|_____|_____||: | ______ |__| __ __|::.|:. | | _ \ .-----.--.--.--.-----| .-----.---.-.--| |`--- ---&amp;#39; |. | \| _ | | | | | | _ | _ | _ ||. | |_____|________|__|__|__|_____|___._|_____||: 1 / ___ ___|::.. .</description>
+    </item>
+    
+    <item>
+      <title>WordPress WP Symposium Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</link>
+      <pubDate>Thu, 11 Dec 2014 22:24:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ _______ _______ __ | Y | _ |______| _ .--.--.--------.-----.-----.-----|__.--.--.--------. |. | |. 1 |______| 1___| | | | _ | _ |__ --| | | | | |. / \ |. ____| |____ |___ |__|__|__| __|_____|_____|__|_____|__|__|__| |: |: | |: 1 |_____| |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables 1.5.3 and below Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:12 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</guid>
+      <description>claudio@backbox3:~/claudio$ python wpdatatables_shell_up.py -t http://10.0.0.67/wordpress -f shell.php ___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ ______ __ _______ __ __ | Y .-----| _ \ .---.-| |_.---.-| .---.-| |--| .-----.-----. |. | | _ |. | \| _ | _| _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Brute Force Multithreading</title>
+      <link>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</link>
+      <pubDate>Mon, 03 Nov 2014 22:27:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</guid>
+      <description>THE PROJECT WAS MOVED TO GITHUB: https://github.com/claudioviviani/wordbrutepress</description>
+    </item>
+    
+    <item>
+      <title>WordPress e Python: Come autenticarsi al famoso CMS con python</title>
+      <link>https://www.homelab.it/index.php/2014/11/02/wordpress-e-python-come-autenticarsi/</link>
+      <pubDate>Sun, 02 Nov 2014 21:06:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/02/wordpress-e-python-come-autenticarsi/</guid>
+      <description>Intro Dopo aver pubblicato vari exploit e vulnerabilità, sono tornato a scrivere un articolo dove poter condividere piccole nozioni tecniche che ho acquisito recentemente.
+Negli ultimi mesi mi sono dedicato soprattutto ad analizzare codici php di vari plugins wordpress e alla programmazione in python.
+Dato che molte vulnerabilità dei plugins wordpress richiedevano un utente (privilegiato e non) con accesso all’area riservata ho pensato: perché non scrivere gli exploit in python per automatizzare il tutto?</description>
+    </item>
+    
+    <item>
+      <title>Joomla RD Download Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</link>
+      <pubDate>Wed, 29 Oct 2014 14:55:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</guid>
+      <description>claudio@backbox3:~$ python j00m_com_rd_download_sql_injection.py -t http://127.0.0.1_______ __ | _ .-----.-----.--------| .---.-. |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.. . | `-------&amp;#39; _______ ______ ______ __ __ | _ | _ \ | _ \ .-----.--.--.--.-----| .-----.---.-.--| ||. l |. | \ |. | \| _ | | | | | | _ | _ | _ ||. _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Joomla Creative Contact Form Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</link>
+      <pubDate>Thu, 23 Oct 2014 22:19:50 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</guid>
+      <description>claudio@backbox3:~$ python wp_j00m_creative_contact_form_shell_upload.py -t http://127.0.0.1/wordpress -f shell.php -c wordpress___ ___ __ __,-,__ | Y .-----.----.--| .-----.----.-----.-----. | &amp;#39; &amp;#39;__| |. | | _ | _| _ | _ | _| -__|__ --| | __| |. / \ |_____|__| |_____| __|__| |_____|_____| |_______| |: | _______ |__| __ |_| |::.|:. | | _ .-----.-----.--------| .---.-. `--- ---&amp;#39; |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 7 Sql Injection SA-CORE-2014-005 CVE-2014-3704</title>
+      <link>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</link>
+      <pubDate>Thu, 16 Oct 2014 23:05:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</guid>
+      <description>claudio@backbox3:~$ ./drupal.py -t http://127.0.0.1/drupal -u 4dm1n -p p4ssw0rd______ __ _______ _______ _____ | _ \ .----.--.--.-----.---.-| | | _ || _ | _ | |. | \| _| | | _ | _ | | |___| _|___| |.| | |. | |__| |_____| __|___._|__| / |___(__ `-|. | |: 1 / |__| | | |: 1 | |: | |::.. . / | | |::.. . | |::.| `------&amp;#39; `---&amp;#39; `-------&amp;#39; `---&amp;#39; _______ __ ___ __ __ __ | _ .</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>NRPE 2.15 Remote Command Execution Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</link>
+      <pubDate>Thu, 28 Aug 2014 20:48:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</guid>
+      <description>NRPE 2.15 Remote Command Execution python Exploit – CVE-2014-2913
+Download Exploit: HERE
+Custom Command Mode: claudio@backbox3:~/Desktop$ ./nrpe_215_rce_exploit.py -H 10.0.0.70 --cmd=&amp;#34;id&amp;#34; -c check_users$$\ $$\ $$$$$$$\ $$$$$$$\ $$$$$$$$\ $$$$$$\ $$\ $$$$$$$\$$$\ $$ |$$ __$$\ $$ __$$\ $$ _____| $$ __$$\ $$$$ | $$ ____|$$$$\ $$ |$$ | $$ |$$ | $$ |$$ | \__/ $$ | \_$$ | $$ |$$ $$\$$ |$$$$$$$ |$$$$$$$ |$$$$$\ $$$$$$ | $$ | $$$$$$$\$$ \$$$$ |$$ __$$&amp;lt; $$ ____/ $$ __| $$ ____/ $$ | \_____$$\$$ |\$$$ |$$ | $$ |$$ | $$ | $$ | $$ | $$\ $$ |$$ | \$$ |$$ | $$ |$$ | $$$$$$$$\ $$$$$$$$\ $$\ $$$$$$\$$$$$$ |\__| \__|\__| \__|\__| \________| \________|\__|\______|\______/$$$$$$$\ $$$$$$\ $$$$$$$$\$$ __$$\ $$ __$$\ $$ _____|$$ | $$ |$$ / \__|$$ |$$$$$$$ |$$ | $$$$$\$$ __$$&amp;lt; $$ | $$ __|$$ | $$ |$$ | $$\ $$ |$$ | $$ |\$$$$$$ |$$$$$$$$\\__| \__| \______/ \________|NRPE &amp;lt;= 2.</description>
+    </item>
+    
+  </channel>
+</rss>

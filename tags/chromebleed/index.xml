@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Chromebleed on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/chromebleed/</link>
+    <description>Recent content in Chromebleed on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Apr 2014 14:27:28 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/chromebleed/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chromebleed – Plugin per google Chrome che rileva siti affetti dal bug Heartbleed</title>
+      <link>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</link>
+      <pubDate>Fri, 11 Apr 2014 14:27:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</guid>
+      <description>I siti web più importanti e famosi sono già corsi ai ripari contro il bug Heartbleed di OpenSSL, ma come fare per visulizzare lo stato dei siti minori?
+Per google chrome ci viene in aiuto un nuovo plugin: Chromebleed
+
+Una volta installato il plugin verrà eseguito in background da chrome e in caso di navigazione verso siti affetti dal bug heartbleed, apparirà un messaggio d’errore come questo:</description>
+    </item>
+    
+  </channel>
+</rss>

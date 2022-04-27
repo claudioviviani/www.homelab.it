@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>php on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/php/</link>
+    <description>Recent content in php on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 14 Jun 2014 14:23:08 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/php/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Filtri command injection: escapeshellarg escapeshellcmd</title>
+      <link>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</link>
+      <pubDate>Sat, 14 Jun 2014 14:23:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/14/escapeshellarg-escapeshellcmd-command-injection/</guid>
+      <description>Proteggere i propri applicativi php è importantissimo sia, per l’integrità dei dati che del sistema.
+Nello scorso articolo ho fatto una panoramica sulla vulnerabilità Local File Inclusion, mentre oggi lo scopo dei test sarà quello di applicare al codice php dei filtri command injection, ovvero normalizzare le richieste in input eliminando la possibilità di eseguire comandi non autorizzati.
+Esempi di command injection Qui di seguito riporto un esempio di script php (filter-injection.</description>
+    </item>
+    
+  </channel>
+</rss>

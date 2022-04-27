@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>rpm on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/rpm/</link>
+    <description>Recent content in rpm on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 03 Apr 2014 21:23:06 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/rpm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Installare Ruby 1.9.x su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</link>
+      <pubDate>Thu, 03 Apr 2014 21:23:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</guid>
+      <description>Obbiettivo Installare su CentOS 6.x la versione 1.9.x del linguaggio di programmazione Ruby.
+Scenario  Server Linux: CentOS 6.5 (x86_64) Repo Ruby: ruby-1.8.7.352-13.el6.x86_64.rpm New Ruby: ruby-1.9.3p545-1.el6.x86_64.rpm  Collegarsi con utenza root alla shell/terminale ed eseguire i seguenti comandi:
+# Creazione ambiente per la compilazione del pacchetto rpmmkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}# Download ultima versione Ruby e file spec per la compilazionewget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz -P rpmbuild/SOURCESwget https://raw.github.com/imeyer/ruby-1.9.3-rpm/master/ruby19.spec -P rpmbuild/SPECS# Modificare file spec per la versione appena scaricata du ruby (1.</description>
+    </item>
+    
+  </channel>
+</rss>

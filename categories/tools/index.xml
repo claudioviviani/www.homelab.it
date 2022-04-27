@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tools on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/tools/</link>
+    <description>Recent content in Tools on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 15 Apr 2015 23:28:05 +0000</lastBuildDate><atom:link href="https://www.homelab.it/categories/tools/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple WordPress Xml-rpc Brute Force written in bash with cURL</title>
+      <link>https://www.homelab.it/index.php/2015/04/16/simple-wordpress-xml-rpc-brute-force-in-bash-with-curl/</link>
+      <pubDate>Wed, 15 Apr 2015 23:28:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/16/simple-wordpress-xml-rpc-brute-force-in-bash-with-curl/</guid>
+      <description>Simple WordPress Xml-rpc Brute Force written in bash with curl #!/bin/sh###################### # # Scripted By : Claudio Viviani # http://www.homelab.it # http://adf.ly/1F1MNw (Full HomelabIT Archive Exploit) # http://ffhd.homelab.it (Free Fuzzy Hashes Database) # # info@homelab.it # homelabit@protonmail.ch # # https://www.facebook.com/homelabit # https://twitter.com/homelabit # https://plus.google.com/+HomelabIt1/ # https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww # #####################url=$1user=$2wordlist=$3if [ -z &amp;#34;$wordlist&amp;#34; ]; thenecho &amp;#34;Usage: $0 http://TARGT username wordlist.txt&amp;#34;exit 1elif [ !</description>
+    </item>
+    
+    <item>
+      <title>WordPress Brute Force Multithreading</title>
+      <link>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</link>
+      <pubDate>Mon, 03 Nov 2014 22:27:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/03/wordpress-brute-force-multithreading/</guid>
+      <description>THE PROJECT WAS MOVED TO GITHUB: https://github.com/claudioviviani/wordbrutepress</description>
+    </item>
+    
+  </channel>
+</rss>

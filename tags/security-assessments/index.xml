@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>security assessments on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/security-assessments/</link>
+    <description>Recent content in security assessments on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Apr 2015 20:06:46 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/security-assessments/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BackBox 4.2 is out! Ecco come aggiornare la release…</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</link>
+      <pubDate>Mon, 27 Apr 2015 20:06:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</guid>
+      <description>Oggi ho avuto l’immenso piacere di leggere che è uscita la release 4.2 della distribuzione BackBox 4.2 made in italy orientata al penetration testing!
+Oltre al sito ufficiale, l’annuncio è stato rilasciato sul sito (OverSecurity) di uno dei membri del BackBox Team: Andrea Draghetti
+Le novità più importanti sono le seguenti:
+Changelog  Preinstalled Linux Kernel 3.16 New Ubuntu 14.04.2 base Ruby 2.1 Installer with LVM and Full Disk Encryption options Handy Thunar custom actions RAM wipe at shutdown/reboot System improvements Upstream components Bug corrections Performance boost Improved Anonymous mode Predisposition to ARM architecture (armhf Debian packages) Predisposition to BackBox Cloud platform New and updated hacking tools: beef-project, crunch, fang, galleta, jd-gui, metasploit-framework, pasco, pyew, rifiuti2, setoolkit, theharvester, tor, torsocks, volatility, weevely, whatweb, wpscan, xmount, yara, zaproxy  Upgrade Andrea, oltre a riferire le ultime modifiche, ha rilasciato una mini-guida per aggiornare BackBox dalla versione 4.</description>
+    </item>
+    
+    <item>
+      <title>Come limitare gli utenti ssh ad un singolo comando</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</link>
+      <pubDate>Mon, 27 Apr 2015 14:29:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</guid>
+      <description>Introduzione Oggi mi sono trovato nella necessità di dover utilizzare un utente, tramite protocollo ssh, per eseguire un singolo e semplice comando da remoto verso un server linux.
+Per ragioni di sicurezza mi sono chiesto se esistesse la possibilità di limitare tale utenza all’esecuzione di un unico programma, senza ricorrere a jail (chroot) o shell “castrate” di terze parti.
+Googolando e leggendo il man di ssh ho scoperto una soluzione facile e carina:</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>Come installare BackBox 3.x</title>
+      <link>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</link>
+      <pubDate>Tue, 13 May 2014 20:09:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</guid>
+      <description>
+Nel precedente articolo ho fatto una panoramica generale della distribuzione BackBox 3.x:
+https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/
+In questo nuovo post ho inserito due video dove spiego passo passo come installare la distribuzine su VMware Workstation, ma è applicabile anche su pc/notebook fisici.
+Installare BackBox Parte 1   Installare BackBox Parte 2   </description>
+    </item>
+    
+  </channel>
+</rss>

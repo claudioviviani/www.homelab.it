@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>shell upload on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/shell-upload/</link>
+    <description>Recent content in shell upload on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 11 Dec 2014 22:24:20 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/shell-upload/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>WordPress WP Symposium Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</link>
+      <pubDate>Thu, 11 Dec 2014 22:24:20 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/12/11/wordpress-wp-symposium-shell-upload/</guid>
+      <description>___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ _______ _______ __ | Y | _ |______| _ .--.--.--------.-----.-----.-----|__.--.--.--------. |. | |. 1 |______| 1___| | | | _ | _ |__ --| | | | | |. / \ |. ____| |____ |___ |__|__|__| __|_____|_____|__|_____|__|__|__| |: |: | |: 1 |_____| |__| |::.</description>
+    </item>
+    
+    <item>
+      <title>WordPress wpDataTables 1.5.3 and below Unauthenticated Shell Upload Vulnerability</title>
+      <link>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</link>
+      <pubDate>Sun, 23 Nov 2014 03:05:12 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/11/23/wordpress-wpdatatables-shell-upload-vulnerability/</guid>
+      <description>claudio@backbox3:~/claudio$ python wpdatatables_shell_up.py -t http://10.0.0.67/wordpress -f shell.php ___ ___ __ | Y .-----.----.--| .-----.----.-----.-----.-----. |. | | _ | _| _ | _ | _| -__|__ --|__ --| |. / \ |_____|__| |_____| __|__| |_____|_____|_____| |: | |__| |::.|:. | `--- ---&amp;#39; ___ ___ ______ __ _______ __ __ | Y .-----| _ \ .---.-| |_.---.-| .---.-| |--| .-----.-----. |. | | _ |. | \| _ | _| _ |.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Slideshow Gallery 1.4.6 Shell Upload Exploit &#43; Demo</title>
+      <link>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</link>
+      <pubDate>Tue, 16 Sep 2014 08:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/16/wordpress-slideshow-gallery-1-4-6-shell-upload-exploit/</guid>
+      <description>[claudio@localhost ~]$ python wp_gallery_slideshow_146_suv.py -t http://localhost/wordpress -u editor -p editor -f sh33l.php$$$$$$\ $$\ $$\ $$\ $$\$$ __$$\ $$ |\__| $$ | $$ |$$ / \__|$$ |$$\ $$$$$$$ | $$$$$$\ $$$$$$$\ $$$$$$$\ $$$$$$\ $$\ $$\ $$\\$$$$$$\ $$ |$$ |$$ __$$ |$$ __$$\ $$ _____|$$ __$$\ $$ __$$\ $$ | $$ | $$ |\____$$\ $$ |$$ |$$ / $$ |$$$$$$$$ |\$$$$$$\ $$ | $$ |$$ / $$ |$$ | $$ | $$ |$$\ $$ |$$ |$$ |$$ | $$ |$$ ____| \____$$\ $$ | $$ |$$ | $$ |$$ | $$ | $$ |\$$$$$$ |$$ |$$ |\$$$$$$$ |\$$$$$$$\ $$$$$$$ |$$ | $$ |\$$$$$$ |\$$$$$\$$$$ |\______/ \__|\__| \_______| \_______|\_______/ \__| \__| \______/ \_____\____/$$$$$$\ $$\ $$\ $$\ $$\ $$\ $$$$$$\$$ __$$\ $$ |$$ | $$$$ |$$ | $$ | $$ __$$\$$ / \__| $$$$$$\ $$ |$$ | $$$$$$\ $$$$$$\ $$\ $$\ \_$$ |$$ | $$ | $$ / \__|$$ |$$$$\ \____$$\ $$ |$$ |$$ __$$\ $$ __$$\ $$ | $$ | $$ |$$$$$$$$ | $$$$$$$\$$ |\_$$ | $$$$$$$ |$$ |$$ |$$$$$$$$ |$$ | \__|$$ | $$ | $$ |\_____$$ | $$ __$$\$$ | $$ |$$ __$$ |$$ |$$ |$$ ____|$$ | $$ | $$ | $$ | $$ | $$ / $$ |\$$$$$$ |\$$$$$$$ |$$ |$$ |\$$$$$$$\ $$ | \$$$$$$$ | $$$$$$\ $$\ $$ |$$\ $$$$$$ |\______/ \_______|\__|\__| \_______|\__| \____$$ | \______|\__|\__|\__|\______/$$\ $$ |\$$$$$$ |\______/W0rdpr3ss Sl1d3sh04w G4ll3ry 1.</description>
+    </item>
+    
+  </channel>
+</rss>

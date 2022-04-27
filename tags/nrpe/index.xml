@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>nrpe on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/nrpe/</link>
+    <description>Recent content in nrpe on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 28 Aug 2014 20:48:38 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/nrpe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>NRPE 2.15 Remote Command Execution Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</link>
+      <pubDate>Thu, 28 Aug 2014 20:48:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/08/28/nrpe-2-15-remote-command-execution-exploit/</guid>
+      <description>NRPE 2.15 Remote Command Execution python Exploit – CVE-2014-2913
+Download Exploit: HERE
+Custom Command Mode: claudio@backbox3:~/Desktop$ ./nrpe_215_rce_exploit.py -H 10.0.0.70 --cmd=&amp;#34;id&amp;#34; -c check_users$$\ $$\ $$$$$$$\ $$$$$$$\ $$$$$$$$\ $$$$$$\ $$\ $$$$$$$\$$$\ $$ |$$ __$$\ $$ __$$\ $$ _____| $$ __$$\ $$$$ | $$ ____|$$$$\ $$ |$$ | $$ |$$ | $$ |$$ | \__/ $$ | \_$$ | $$ |$$ $$\$$ |$$$$$$$ |$$$$$$$ |$$$$$\ $$$$$$ | $$ | $$$$$$$\$$ \$$$$ |$$ __$$&amp;lt; $$ ____/ $$ __| $$ ____/ $$ | \_____$$\$$ |\$$$ |$$ | $$ |$$ | $$ | $$ | $$ | $$\ $$ |$$ | \$$ |$$ | $$ |$$ | $$$$$$$$\ $$$$$$$$\ $$\ $$$$$$\$$$$$$ |\__| \__|\__| \__|\__| \________| \________|\__|\______|\______/$$$$$$$\ $$$$$$\ $$$$$$$$\$$ __$$\ $$ __$$\ $$ _____|$$ | $$ |$$ / \__|$$ |$$$$$$$ |$$ | $$$$$\$$ __$$&amp;lt; $$ | $$ __|$$ | $$ |$$ | $$\ $$ |$$ | $$ |\$$$$$$ |$$$$$$$$\\__| \__| \______/ \________|NRPE &amp;lt;= 2.</description>
+    </item>
+    
+    <item>
+      <title>Nagios NRPE &lt;= 2.15 Remote Command Injection: Analisi, test e fix della vulnerabilità</title>
+      <link>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</link>
+      <pubDate>Sat, 03 May 2014 02:01:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</guid>
+      <description>Informazioni generali Qualche giorno fa è stato scovato un bug sul noto monitor d’infrastrutture Nagios, più precisamente la vurnerabilità riguarda l’agent NRPE (Nagios Remote Plugin Executor).
+============================================= - Release date: 17.04.2014 - Discovered by: Dawid Golunski - Severity: High ============================================= CVE: 2014-2913
+Nrpe è un agent che viene installato su tutte le macchine monitorare da Nagios e a seconda delle varie personalizzazioni può restituire varie informazioni, come ad esempio lo stato del disco rigido, della memoria, la funzionalità o meno di determinati servizi ecc.</description>
+    </item>
+    
+  </channel>
+</rss>

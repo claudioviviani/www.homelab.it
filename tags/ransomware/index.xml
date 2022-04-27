@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ransomware on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/ransomware/</link>
+    <description>Recent content in ransomware on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 17 Apr 2015 22:19:21 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/ransomware/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CoinVault ransomware: come (provare a) recuperare i files criptati</title>
+      <link>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</link>
+      <pubDate>Fri, 17 Apr 2015 22:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/18/coinvault-ransomware-come-recuperare-i-files-criptati/</guid>
+      <description>Introduzione I ransomware sono i nuovi malware (Malicious Software) che non solo infettano il sistema del malcapitato, ma criptano tutti i dati sensibili presenti sul proprio drive locale, dischi/pendrive collegate e, nello sciagurato caso, anche directory/unità di rete montate.
+Una volta criptati i dati non sono più leggibili, a meno che non si paghi un riscatto (ransom in inglese) seguendo delle precise istruzioni rilasciate dagli sviluppatori del virus.
+CoinVault ransomware CoinVault è un dei moltissimi ransomware che stanno infettando moltissimi utenti chiedendo un riscatto in bitcoin, la famosissima moneta elettronica.</description>
+    </item>
+    
+  </channel>
+</rss>

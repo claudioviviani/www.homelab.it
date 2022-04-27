@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>openssl on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/openssl/</link>
+    <description>Recent content in openssl on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 27 Apr 2015 14:29:41 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/openssl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come limitare gli utenti ssh ad un singolo comando</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</link>
+      <pubDate>Mon, 27 Apr 2015 14:29:41 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/come-limitare-gli-utenti-ssh-ad-un-singolo-comando/</guid>
+      <description>Introduzione Oggi mi sono trovato nella necessità di dover utilizzare un utente, tramite protocollo ssh, per eseguire un singolo e semplice comando da remoto verso un server linux.
+Per ragioni di sicurezza mi sono chiesto se esistesse la possibilità di limitare tale utenza all’esecuzione di un unico programma, senza ricorrere a jail (chroot) o shell “castrate” di terze parti.
+Googolando e leggendo il man di ssh ho scoperto una soluzione facile e carina:</description>
+    </item>
+    
+    <item>
+      <title>SSH Public key su ESXi 5.x</title>
+      <link>https://www.homelab.it/index.php/2014/07/19/ssh-public-key-su-esxi-5-x/</link>
+      <pubDate>Sat, 19 Jul 2014 12:05:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/07/19/ssh-public-key-su-esxi-5-x/</guid>
+      <description>Per abilitare l’autenticazione ssh tramite chiave pubblica sul virtualizzatore VMware ESXi 5.x basta creare un nuovo file all’interno dell’hypervisor.
+Prendiamo come esempio la seguente chiave pubblica dell’utente root :
+_ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDfJAIbuQj+T0xD1uA3B1yOqsPCfORhRNLzkrA5OqW1HC2ZTdvgTj/UgP1KJ6UBC3Ux0DRIoEHwoPonG4XdwrSvQVaMYLG4G+kAHwZN5A3IL7D4aNGJPtMPmxfeVdsJHGCO2xIcpPmk/FpcJJW2IF3BlYqJr8sqbo6/odp0kNK83ROuek0Lbaqhs/NE1rxfKbYouko9Rg/DBnKIIIITxWYZuYYqa+uXPzprpb8n6YX5+EkiuTo9to0dyA/M5kYcRrbrv1aYjU2HsmQJiDz+x4KHvHIrAjcf0t9Fu5yLuV0KuiTnzdYL+FojkVNyW/hXNaT4fWI2iKYEaCc7vedqAPiZ root@backbox3_ SSH Public key su ESXi 5.x —&amp;gt; Test Connessione senza chiave Proviamo a stabilire una connessione ssh da una distribuzione linux verso il virtualizzatore ESXi 5.x (10.0.0.3)
+root@backbox3:~# ssh 10.0.0.3 The authenticity of host &amp;#39;10.0.0.3 (10.0.0.3)&amp;#39; can&amp;#39;t be established.</description>
+    </item>
+    
+    <item>
+      <title>Chromebleed – Plugin per google Chrome che rileva siti affetti dal bug Heartbleed</title>
+      <link>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</link>
+      <pubDate>Fri, 11 Apr 2014 14:27:28 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/11/chromebleed-plugin-per-google-chrome-che-rileva-siti-affetti-dal-bug-heartbleed/</guid>
+      <description>I siti web più importanti e famosi sono già corsi ai ripari contro il bug Heartbleed di OpenSSL, ma come fare per visulizzare lo stato dei siti minori?
+Per google chrome ci viene in aiuto un nuovo plugin: Chromebleed
+
+Una volta installato il plugin verrà eseguito in background da chrome e in caso di navigazione verso siti affetti dal bug heartbleed, apparirà un messaggio d’errore come questo:</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed zero day (CVE-2014-0160) OpenSSL: Consigli utili su come correre ai riapri</title>
+      <link>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</link>
+      <pubDate>Wed, 09 Apr 2014 22:04:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</guid>
+      <description>Come ben sapete tra ieri ed oggi è scoppiata la bomba “Heartbleed” e a sganciarla è stato un’ingegnere che lavora presso Google: Neel Mehta.
+Heartbleed è il nome che è stato dato a una pericolosissimo bug scovato sul sistema di criptazione OpenSSL che permette di entare in possesso della chiave privata con cui sono stati firmati i certificati SSL/TLS.
+Considerato che openssl viene utilizzato dai demoni web, mail, VPN, ecc..si può capire l’enorme serietà del bug, milioni di dati personali (password, documenti, conversazioni, email) sono a rischio di divulgazione non autorizzata.</description>
+    </item>
+    
+  </channel>
+</rss>

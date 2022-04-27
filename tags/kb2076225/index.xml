@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>KB2076225 on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/kb2076225/</link>
+    <description>Recent content in KB2076225 on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 13 Apr 2014 17:36:47 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/kb2076225/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Heartbleed VMware – Situazione di tutti i prodotti affetti dal bug</title>
+      <link>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</link>
+      <pubDate>Sun, 13 Apr 2014 17:36:47 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/13/heartbleed-situazione-dei-prodotti-vmware/</guid>
+      <description>Heartbleed VMware – Lista prodotti affetti dal bug: Quasi tutti i prodotti VMware rilasciati negli ultimi 2 anni utilizzano la libreria OpenSSL dalla versione 1.0.1 in poi.
+Gli ingegneri della software house sono a lavoro per trovare soluzioni opportune prodotto per prodotto, il link a cui fare riferimento è questo:
+Knowledge Base: 2076225 Updated: Apr 20, 2014
+I prodotti confermati affetti dal bug sono i seguenti:
+ ESXi 5.5 (for specific remediation details, see VMware Security Advisory VMSA-2014-0004) NSX for Multi-Hypervisor Manager 4.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>cgi on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/cgi/</link>
+    <description>Recent content in cgi on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 26 Sep 2014 11:31:37 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/cgi/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Gnu Bash 4.3 and below Cgi Scan &#43; Remote Command Injection Exploit</title>
+      <link>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</link>
+      <pubDate>Fri, 26 Sep 2014 11:31:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/09/26/gnu-bash-4-3-and-below-remote-command-injection-exploit/</guid>
+      <description>[claudio@localhost ~]$ ./bash_env_rci_v2.py_______ _______ __| _ .-----.--.--. | _ .---.-.-----| |--.|. |___| | | | |. 1 | _ |__ --| ||. | |__|__|_____| |. _ |___._|_____|__|__||: 1 | |: 1 \|::.. . | |::.. . /`-------&amp;#39; `-------&amp;#39;___ ___ _______ _______ _______ ___| Y | | _ | | _ | _ | || | |_|___| | |. l |. 1___|.</description>
+    </item>
+    
+  </channel>
+</rss>

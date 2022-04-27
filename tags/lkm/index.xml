@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>lkm on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/lkm/</link>
+    <description>Recent content in lkm on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 19 May 2014 22:57:45 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/lkm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Chkrootkit – Come installare e schedulare rootkit scanner su Linux</title>
+      <link>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</link>
+      <pubDate>Mon, 19 May 2014 22:57:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/20/chkrootkit-come-installare-e-schedulare-rootkit-scanner-su-linux/</guid>
+      <description>Chkrootkit è una raccolta di script e tools scritti in C che aiutanto gli amministratori di sistema a rilevare eventuali rootkit o LKM maligni installati sui sistemi Linux.
+Per installare chrootkit su CentOS 6, basta usufruire del repository EPEL tramite yum.
+ Installare il repository EPEL   [root@centos6 ~]# rpm -Uhv http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmRipristino di http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpmavvertimento: /var/tmp/rpm-tmp.T0Yctu: Header V3 RSA/SHA256 Signature, key ID 0608b895: NOKEYPreparazione in corso... ########################################### [100%]1:epel-release ########################################### [100%][root@centos6 ~]# Installare chkrootkit   [root@centos6 ~]# yum install chkrootkit Eseguire scansione chrootkit   [root@centos6 ~]# chkrootkitROOTDIR is `/&amp;#39;Checking `amd&amp;#39;.</description>
+    </item>
+    
+  </channel>
+</rss>

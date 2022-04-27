@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Mac Mini on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/mac-mini/</link>
+    <description>Recent content in Mac Mini on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 21 Mar 2014 14:49:51 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/mac-mini/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>VMware ESXi 5.5/5.5u1 su Apple Mac Mini 6.2</title>
+      <link>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</link>
+      <pubDate>Fri, 21 Mar 2014 14:49:51 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/03/21/esxi-5-55-5u1-su-apple-mac-mini-6-2/</guid>
+      <description>Qualche giorno fa ho avuto la necessità di installare Esxi 5.5 sul Mac Mini 6.2 .
+Facendo varie ricerche mi sono imbattuato in qusto interessantissimo blog dove ho trovato tutto il necessario: Virtually Ghetto
+Le custom iso sono disponibili ai seguenti link:
+ ESXi-5.5-Mac-Mini-6.2.iso ESXi-5.5u1-Mac-Mini-6.2.iso  L’installazione che ho scelto è stata quella tramite pendrive usb ed ho utilizzato il tool: UNetbootin
+UNetbootin è semplicissmo da utilizzare, basta eseguire il programma (nessuna installazione), selezionare la pendrive (FORMATTATA FAT32) e l’immagine ISO scaricata.</description>
+    </item>
+    
+  </channel>
+</rss>

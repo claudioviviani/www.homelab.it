@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>certs on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/certs/</link>
+    <description>Recent content in certs on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 06 Apr 2014 19:50:15 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/certs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CentOS: Come creare i certificati SSL/TLS autofirmati</title>
+      <link>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</link>
+      <pubDate>Sun, 06 Apr 2014 19:50:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</guid>
+      <description>Creare certificati SSL/TLS su CentOS 6 è molto semplice grazie ad alcuni script messi a disposizione dalla distribuzione.
+Questi certificati potranno essere integrati alla configurazione di postfix, sendmail, apache, dovecot ecc…
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Dominio: www.example.it  Prerequisiti
+ openssl  Creazione chiave e certificati  Con l’utenza di root, entrare nella directory contenente gli script e creare la chiave privata:  [root@certs_test ~]# cd /etc/pki/tls/certs [root@certs_test certs]# [root@certs_test certs]# make server.</description>
+    </item>
+    
+  </channel>
+</rss>

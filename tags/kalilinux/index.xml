@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>kalilinux on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/kalilinux/</link>
+    <description>Recent content in kalilinux on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Fri, 11 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/tags/kalilinux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Sfruttare la vulnerablitià Sambacry nei dispositivi QNAP/ARM</title>
+      <link>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</link>
+      <pubDate>Fri, 11 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2017/06/11/sfruttare-la-vulnerablitia-sambacry-nei-dispositivi-qnap-e-arm/</guid>
+      <description>Eccomi di ritorno dalle meritate ferie, e come promesso, sono pronto a mettere nero su bianco i miei test effettuati con la vulnerabilità SambaCry.
+Questo post potrà esservi utile per sfruttare la vulnerabilità SambaCry nei server samba installati nei dispositivi nas QNAP o ARM in generale, senza dover utilizzare il framework Metasploit.
+Non voglio dilungarmi nella descrizione della vulnerabilità, googlando SambaCry o CVE-2017-7494 troverete tonnellate di materiale.
+In poche parole questo bug permette di eseguire comandi sul server samba remoto, l’unico requisito è l’accesso in scrittura di una cartella condivisa!</description>
+    </item>
+    
+    <item>
+      <title>SSH e Meterpeter pivoting</title>
+      <link>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</link>
+      <pubDate>Thu, 21 Apr 2016 19:34:53 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2016/04/21/metasploit-ssh-meterpeter-pivoting/</guid>
+      <description>Nell’articolo di oggi tratterò un argomento fondamentale nel penetration testing, ovvero la tecnica “Pivoting“.
+Pivoting in italiano può essere tradotto come “fare perno”, infatti questa tecnica si basa sullo sfruttamento di un sistema compromesso per attaccarne altri all’interno della stessa infrastruttura (e non solo).
+Faccio un piccolo esempio in cui ci sono tre attori:
+ Client (attaccante) Server A – Accetta qualsiasi connessione Server B – Accetta esclusivamente connessione dal server A  Instradare le connessioni tramite il server compromesso A, verso il server B, permette all’attaccante non solo di raggiungere il target desiderato ma anche di utilizzare comodamente i tools/frameworks installati nel proprio client o workstation.</description>
+    </item>
+    
+    <item>
+      <title>Come installare VMware Workstation Player e Pro su Kali Linux 2.0</title>
+      <link>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</link>
+      <pubDate>Mon, 07 Sep 2015 20:22:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/09/07/come-installare-vmware-workstation-player-e-pro-su-kali-linux-2-0/</guid>
+      <description>Sorgente Immagine: https://www.vmware.com/files/images/vmrc/VMware_logo_blk_RGB_300dpi.jpg
+Kali Linux è una distribuzione concepita per essere utilizzata principalmente durante i penetration test e non come distro “da tutti i giorni”.
+Basti pensare che in fase di installazione il setup non richiede la creazione di alcun tipo di utente non privilegiato.
+Per testare la distribuzione ho cominciato ad utilizzarla giornalmente e di conseguenza ho cominciato a riscontare le prime necessità.
+Uno dei primi software che ho provato a installare è VMware Workstation.</description>
+    </item>
+    
+    <item>
+      <title>IDLE SCAN: ZOMBIE ATTACK</title>
+      <link>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</link>
+      <pubDate>Thu, 20 Aug 2015 16:09:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</guid>
+      <description>Sorgente Immagine: http://www.androidworld.it
+Tranquilli non voglio parlare di nessun virus, epidemia, o serie tv (anche se The Walkin Dead ve la consiglio).
+L’argomento di oggi è l’IDLE SCAN, ovvero una tecnica sofisticata di port scanning TCP ideata da Salvatore Sanfilippo, il quale permette di rilevare servizi attivi su un determinato host camuffando il proprio indirizzo sorgente (spoofing).
+Come viene nascosto l’ip sorgente?
+Impersonando un terzo host della rete il cui stato è dormiente (idle, zombie), infatti la tecnica coinvolge tre interpreti:</description>
+    </item>
+    
+  </channel>
+</rss>

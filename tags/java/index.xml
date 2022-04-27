@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>java on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/java/</link>
+    <description>Recent content in java on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 May 2014 22:24:29 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare Java su CentOS 6 (JDK)</title>
+      <link>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</link>
+      <pubDate>Thu, 22 May 2014 22:24:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</guid>
+      <description>Download ed installazione Java (ultima versione)   Aprire il browser e inserie l’indirizzo: http://www.oracle.com/technetwork/java/javase/overview/index.html
+  Cliccare sul bottone Download:
+  
+Cliccare sull’icona Download:   
+Selezionare il bottone ratio “Accept License Agreement“:  
+Scaricare il pacchetto rpm a seconda dell’architettura del proprio sistema:   jdk-8u5-linux-i586.rpm jdk-8u5-linux-x64.rpm   Copiare il file rpm tramite scp client (se la macchina CentOS 6 è remota).
+  Con i privilegi di root installare il pacchetto rpm (nel mio caso i586) :</description>
+    </item>
+    
+  </channel>
+</rss>

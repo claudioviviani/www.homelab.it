@@ -1,0 +1,73 @@
+<!doctype html><html lang=en dir=auto><head><meta charset=utf-8><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=viewport content="width=device-width,initial-scale=1,shrink-to-fit=no"><meta name=robots content="index, follow"><title>Vuln. discovered | HomeLab IT</title><meta name=keywords content><meta name=description content="Security Blog by Claudio Viviani"><meta name=author content="claudio"><link rel=canonical href=https://www.homelab.it/categories/vuln.-discovered/><link crossorigin=anonymous href=/assets/css/stylesheet.min.48a18943c2fc15c38a372b8dde1f5e5dc0bc64fa6cb90f5a817d2f8c76b7f3ae.css integrity="sha256-SKGJQ8L8FcOKNyuN3h9eXcC8ZPpsuQ9agX0vjHa3864=" rel="preload stylesheet" as=style><link rel=icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=16x16 href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=icon type=image/png sizes=32x32 href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=apple-touch-icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><link rel=mask-icon href=https://www.homelab.it/%3Clink%20/%20abs%20url%3E><meta name=theme-color content="#2e2e33"><meta name=msapplication-TileColor content="#2e2e33"><link rel=alternate type=application/rss+xml href=https://www.homelab.it/categories/vuln.-discovered/index.xml><noscript><style>#theme-toggle,.top-link{display:none}</style><style>@media(prefers-color-scheme:dark){:root{--theme:rgb(29, 30, 32);--entry:rgb(46, 46, 51);--primary:rgb(218, 218, 219);--secondary:rgb(155, 156, 157);--tertiary:rgb(65, 66, 68);--content:rgb(196, 196, 197);--hljs-bg:rgb(46, 46, 51);--code-bg:rgb(55, 56, 62);--border:rgb(51, 51, 51)}.list{background:var(--theme)}.list:not(.dark)::-webkit-scrollbar-track{background:0 0}.list:not(.dark)::-webkit-scrollbar-thumb{border-color:var(--theme)}}</style></noscript><meta property="og:title" content="Vuln. discovered"><meta property="og:description" content="Security Blog by Claudio Viviani"><meta property="og:type" content="website"><meta property="og:url" content="https://www.homelab.it/categories/vuln.-discovered/"><meta property="og:image" content="https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta property="og:site_name" content="HomeLab IT"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E"><meta name=twitter:title content="Vuln. discovered"><meta name=twitter:description content="Security Blog by Claudio Viviani"></head><body class=list id=top><script>localStorage.getItem("pref-theme")==="dark"?document.body.classList.add("dark"):localStorage.getItem("pref-theme")==="light"?document.body.classList.remove("dark"):window.matchMedia("(prefers-color-scheme: dark)").matches&&document.body.classList.add("dark")</script><header class=header><nav class=nav><div class=logo><a href=https://www.homelab.it/ accesskey=h title="Homelab IT (Alt + H)"><img src=https://www.homelab.it/img/homelabit_logo.png alt=logo aria-label=logo height=35>Homelab IT</a>
+<span class=logo-switches><button id=theme-toggle accesskey=t title="(Alt + T)"><svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"/></svg><svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg></button></span></div><ul id=menu><li><a href=https://www.homelab.it/categories/ title=Categories><span>Categories</span></a></li><li><a href=https://www.homelab.it/tags/ title=Tags><span>Tags</span></a></li><li><a href=https://www.homelab.it/search/ title="Search (Alt + /)" accesskey=/><span>Search</span></a></li></ul></nav></header><main class=main><header class=page-header><div class=breadcrumbs><a href=https://www.homelab.it/>Home</a>&nbsp;»&nbsp;<a href=https://www.homelab.it/categories/>Categories</a></div><h1>Vuln. discovered</h1></header><article class="post-entry tag-entry"><header class=entry-header><h2>Joomla HD FLV Player SQL Injection Vulnerability</h2></header><section class=entry-content><p>Info # Exploit Title : Joomla HD FLV Player 2.1.0.1 and below SQL Injection
+#
+# Exploit Author : Claudio Viviani
+#
+# Vendor Homepage : http://www.hdflvplayer.net/
+#
+# Software Link : http://www.hdflvplayer.net/download_count.php?pid=5
+#
+# Dork google 1: inurl:/component/hdflvplayer/
+# Dork google 2: inurl:com_hdflvplayer #
+# Date : 2014-11-11
+#
+# Tested on : BackBox 3.x/4.x
+#
+# Info: The variable "id" is not sanitized (again)
+# Over 80.000 downloads (statistic reported on official site)
+#
+#
+# Video Demo: http://youtu....</p></section><footer class=entry-footer><span title="2014-11-13 00:20:47 +0000 +0000">November 13, 2014</span>&nbsp;·&nbsp;2 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to Joomla HD FLV Player SQL Injection Vulnerability" href=https://www.homelab.it/index.php/2014/11/13/joomla-hd-flv-player-sql-injection-vulnerability/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Joomla RD Download Sql Injection</h2></header><section class=entry-content><p>claudio@backbox3:~$ python j00m_com_rd_download_sql_injection.py -t http://127.0.0.1
+_______ __ | _ .-----.-----.--------| .---.-. |___| | _ | _ | | | _ | |. | |_____|_____|__|__|__|__|___._| |: 1 | |::.. . | `-------' _______ ______ ______ __ __ | _ | _ \ | _ \ .-----.--.--.--.-----| .-----.---.-.--| |
+|. l |. | \ |. | \| _ | | | | | | _ | _ | _ |
+|. _ |....</p></section><footer class=entry-footer><span title="2014-10-29 14:55:07 +0000 +0000">October 29, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to Joomla RD Download Sql Injection" href=https://www.homelab.it/index.php/2014/10/29/joomla-rd-download-sql-injection/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>WordPress CP Multi View Event Calendar 1.01 Sql Injection</h2></header><section class=entry-content><p>######################
+# Exploit Title : WordPress CP Multi View Event Calendar 1.01 SQL Injection Vulnerability
+# Exploit Author : Claudio Viviani # Software Link : https://downloads.wordpress.org/plugin/cp-multi-view-calendar.zip
+# Date : 2014-10-23
+# Tested on : Windows 7 / Mozilla Firefox
+Windows 7 / sqlmap (0.8-1)
+Linux / Mozilla Firefox
+Linux / sqlmap 1.0-dev-5b2ded0
+######################
+# Description
+CP Multi View Event Calendar 1.01 suffers from SQL injection vulnerability
+calid variable is not sanitized....</p></section><footer class=entry-footer><span title="2014-10-22 23:37:14 +0000 +0000">October 22, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to WordPress CP Multi View Event Calendar 1.01 Sql Injection" href=https://www.homelab.it/index.php/2014/10/23/wordpress-cp-multi-view-event-calendar-1-01-sql-injection/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Joomla Face Gallery 1.0 Multiple Vulnerabilities</h2></header><section class=entry-content><p>######################
+# Exploit Title : Joomla Face Gallery 1.0 Multiple Vulnerabilities
+# Exploit Author : Claudio Viviani
+# Vendor Homepage : https://www.apptha.com
+# Software Link : https://www.apptha.com/downloadable/download/sample/sample_id/150
+# Dork Google: inurl:option=com_facegallery
+# Date : 2014-09-17
+# Tested on : Windows 7 / Mozilla Firefox
+# Linux / Mozilla Firefox
+# Info:
+# Joomla Face Gallery 1.0 suffers from SQL injection and Arbitrary file download vulnerabilities
+# PoC Exploit:
+#
+# http://localhost/index....</p></section><footer class=entry-footer><span title="2014-09-21 22:57:48 +0000 +0000">September 21, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to Joomla Face Gallery 1.0 Multiple Vulnerabilities" href=https://www.homelab.it/index.php/2014/09/22/joomla-face-gallery-1-0-multiple-vulnerabilities/></a></article><article class="post-entry tag-entry"><header class=entry-header><h2>Joomla Spider Form Maker 3.4 and below SQL Injection</h2></header><section class=entry-content><p>######################
+# Exploit Title : Joomla Spider Form Maker &lt;= 3.4 SQL Injection
+# Exploit Author : Claudio Viviani
+# Vendor Homepage : http://web-dorado.com/
+# Software Link : http://web-dorado.com/products/joomla-form.html
+# Dork Google: inurl:com_formmaker
+# Date : 2014-09-07
+# Tested on : Windows 7 / Mozilla Firefox
+# Linux / Mozilla Firefox
+######################
+# PoC Exploit:
+http://localhost/index.php?option=com_formmaker&view=formmaker&id=[SQLi]
+"id" variable is not sanitized.
+######################
+# Vulnerability Disclosure Timeline:
+2014-09-07: Discovered vulnerability
+2014-09-09: Vendor Notification
+2014-09-10: Vendor Response/Feedback
+2014-09-10: Vendor Fix/Patch
+2014-09-10: Public Disclosure
+#####################
+Discovered By : Claudio Viviani
+http://www....</p></section><footer class=entry-footer><span title="2014-09-12 22:24:40 +0000 +0000">September 12, 2014</span>&nbsp;·&nbsp;1 min&nbsp;·&nbsp;claudio</footer><a class=entry-link aria-label="post link to Joomla Spider Form Maker 3.4 and below SQL Injection" href=https://www.homelab.it/index.php/2014/09/13/joomla-spider-form-maker-4-3-sql-injection/></a></article><footer class=page-footer><nav class=pagination><a class=prev href=https://www.homelab.it/categories/vuln.-discovered/page/3/>« Prev Page</a>
+<a class=next href=https://www.homelab.it/categories/vuln.-discovered/page/5/>Next Page »</a></nav></footer></main><footer class=footer><span>&copy; 2022 <a href=https://www.homelab.it/>HomeLab IT</a></span>
+<span>Powered by
+<a href=https://gohugo.io/ rel="noopener noreferrer" target=_blank>Hugo</a> &
+        <a href=https://git.io/hugopapermod rel=noopener target=_blank>PaperMod</a></span></footer><a href=#top aria-label="go to top" title="Go to Top (Alt + G)" class=top-link id=top-link accesskey=g><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentcolor"><path d="M12 6H0l6-6z"/></svg></a><script>let menu=document.getElementById("menu");menu&&(menu.scrollLeft=localStorage.getItem("menu-scroll-position"),menu.onscroll=function(){localStorage.setItem("menu-scroll-position",menu.scrollLeft)}),document.querySelectorAll('a[href^="#"]').forEach(e=>{e.addEventListener("click",function(t){t.preventDefault();var e=this.getAttribute("href").substr(1);window.matchMedia("(prefers-reduced-motion: reduce)").matches?document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView():document.querySelector(`[id='${decodeURIComponent(e)}']`).scrollIntoView({behavior:"smooth"}),e==="top"?history.replaceState(null,null," "):history.pushState(null,null,`#${e}`)})})</script><script>var mybutton=document.getElementById("top-link");window.onscroll=function(){document.body.scrollTop>800||document.documentElement.scrollTop>800?(mybutton.style.visibility="visible",mybutton.style.opacity="1"):(mybutton.style.visibility="hidden",mybutton.style.opacity="0")}</script><script>document.getElementById("theme-toggle").addEventListener("click",()=>{document.body.className.includes("dark")?(document.body.classList.remove("dark"),localStorage.setItem("pref-theme","light")):(document.body.classList.add("dark"),localStorage.setItem("pref-theme","dark"))})</script></body></html>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>windows on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/windows/</link>
+    <description>Recent content in windows on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 16 Apr 2015 22:01:31 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/windows/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>MS15-034 HTTP.sys (IIS) DoS And Possible Remote Code Execution – AGGIORNAMENTO CRITICO</title>
+      <link>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</link>
+      <pubDate>Thu, 16 Apr 2015 22:01:31 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/17/ms15-034-http-sys-iis-dos-and-possible-remote-code-execution-aggiornamento-critico/</guid>
+      <description>Introduzione E’ stata rilevato un nuovo attacco tramite exploit verso il demone IIS (Internet Information Server) dei sistemi operativi Windows.
+In realtà la libreria vulnerabile si chiama HTTP.sys che viene utilizzata maggiormente dal demone ISS, ma non solo, teoricamente tutti i programmi che ne usufruiscono sono a rischio!
+A cosa serve la libreria HTTP.sys?
+Per farla breve e semplice la sua funzione è quella di elaborare richieste HTTP.
+Tipologia di vulerabilità e Exploit Microsoft ha classificato questa vulnerabilità come Remote Code Execution, ma per adesso pubblicamente sono stati rilasciati exploit ti tipologia DoS:</description>
+    </item>
+    
+    <item>
+      <title>LFI – Come individuare e proteggersi dalla vulnerabilità Local File Inclusion Part.1</title>
+      <link>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</link>
+      <pubDate>Wed, 11 Jun 2014 18:39:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/06/11/lfi-individuarli-e-proteggersi/</guid>
+      <description>LFI – Introduzione Analizzando pagine web dinamiche di vari siti o ad esempio dei CMS (WordPress, Drupal, Joomla) è possibile notare come gli sviluppatori ottimizzino il codice distribuendolo su più pagine.
+In questo modo i programmatori evitano di creare file (ad esempio php) troppo grandi e di conseguenza meno chiari/flessibili.
+Per incorporare il contenuto di una pagina php dentro l’altra, vengono utilizzate le funzioni:
+include(&amp;lsquo;pagina2.php&amp;rsquo;);
+include_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+require(&amp;lsquo;pagina2.php&amp;rsquo;);
+require_once(&amp;lsquo;pagina2.php&amp;rsquo;);
+Cosa può accadere se il nome della pagine inclusa viene richiamata col metodo GET o POST senza l’inserimento di adeguati filtri?</description>
+    </item>
+    
+    <item>
+      <title>Come scaricare ed installare gli aggiornamenti critici di Windows XP fino al 2019</title>
+      <link>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</link>
+      <pubDate>Thu, 29 May 2014 06:27:32 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/29/come-scaricare-ed-installare-gli-aggiornamenti-critici-di-windows-xp-fino-al-2019/</guid>
+      <description>Introduzione Windows Embedded POSReady 2009 è il sistema operativo che si trova in molti dispositivi P.O.S e si basa su Windows XP.
+Microsoft ha deciso di prolungare la manutenzione di questo sistema operativo per i prossimi cinque anni, dato che i pos sono utilizzati in esercenti commerciali con presenza di dati sensibili.
+Creando un semplice file .reg ad hoc è possibile far credere a Windows Update di avere un sistema Windows Embedded POSReady 2009.</description>
+    </item>
+    
+  </channel>
+</rss>

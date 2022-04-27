@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Categories on HomeLab IT</title>
+    <link>https://www.homelab.it/categories/</link>
+    <description>Recent content in Categories on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Mon, 21 Jun 2021 18:05:46 +0200</lastBuildDate><atom:link href="https://www.homelab.it/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Linux</title>
+      <link>https://www.homelab.it/categories/linux/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>metasploit</title>
+      <link>https://www.homelab.it/categories/metasploit/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/categories/metasploit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Penetration Testing</title>
+      <link>https://www.homelab.it/categories/penetration-testing/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/categories/penetration-testing/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://www.homelab.it/categories/security/</link>
+      <pubDate>Mon, 21 Jun 2021 18:05:46 +0200</pubDate>
+      
+      <guid>https://www.homelab.it/categories/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://www.homelab.it/categories/android/</link>
+      <pubDate>Mon, 16 May 2016 19:26:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DVWA</title>
+      <link>https://www.homelab.it/categories/dvwa/</link>
+      <pubDate>Wed, 02 Mar 2016 22:35:55 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/dvwa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Wordpress</title>
+      <link>https://www.homelab.it/categories/wordpress/</link>
+      <pubDate>Sat, 07 Nov 2015 18:11:37 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/wordpress/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Virtualization</title>
+      <link>https://www.homelab.it/categories/virtualization/</link>
+      <pubDate>Mon, 07 Sep 2015 20:22:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/virtualization/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://www.homelab.it/categories/python/</link>
+      <pubDate>Sun, 16 Aug 2015 17:03:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>archive_exploit</title>
+      <link>https://www.homelab.it/categories/archive_exploit/</link>
+      <pubDate>Wed, 27 May 2015 20:02:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/archive_exploit/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vuln. discovered</title>
+      <link>https://www.homelab.it/categories/vuln.-discovered/</link>
+      <pubDate>Wed, 27 May 2015 20:02:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/vuln.-discovered/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eBook</title>
+      <link>https://www.homelab.it/categories/ebook/</link>
+      <pubDate>Fri, 24 Apr 2015 16:04:43 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/ebook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>windows</title>
+      <link>https://www.homelab.it/categories/windows/</link>
+      <pubDate>Fri, 17 Apr 2015 22:19:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://www.homelab.it/categories/tools/</link>
+      <pubDate>Wed, 15 Apr 2015 23:28:05 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Senza categoria</title>
+      <link>https://www.homelab.it/categories/senza-categoria/</link>
+      <pubDate>Sun, 12 Apr 2015 21:03:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/senza-categoria/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Exploits</title>
+      <link>https://www.homelab.it/categories/exploits/</link>
+      <pubDate>Tue, 24 Mar 2015 21:09:38 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/exploits/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Joomla</title>
+      <link>https://www.homelab.it/categories/joomla/</link>
+      <pubDate>Sat, 15 Nov 2014 00:53:14 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/joomla/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ESXi</title>
+      <link>https://www.homelab.it/categories/esxi/</link>
+      <pubDate>Sat, 04 Oct 2014 00:21:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/esxi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Xen</title>
+      <link>https://www.homelab.it/categories/xen/</link>
+      <pubDate>Sat, 09 Aug 2014 16:31:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/xen/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nested Virtualization</title>
+      <link>https://www.homelab.it/categories/nested-virtualization/</link>
+      <pubDate>Fri, 18 Apr 2014 18:34:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/categories/nested-virtualization/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

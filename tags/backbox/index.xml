@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>backbox on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/backbox/</link>
+    <description>Recent content in backbox on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 20 Aug 2015 16:09:48 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/backbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>IDLE SCAN: ZOMBIE ATTACK</title>
+      <link>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</link>
+      <pubDate>Thu, 20 Aug 2015 16:09:48 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/08/20/idle-scan-zombie-attack/</guid>
+      <description>Sorgente Immagine: http://www.androidworld.it
+Tranquilli non voglio parlare di nessun virus, epidemia, o serie tv (anche se The Walkin Dead ve la consiglio).
+L’argomento di oggi è l’IDLE SCAN, ovvero una tecnica sofisticata di port scanning TCP ideata da Salvatore Sanfilippo, il quale permette di rilevare servizi attivi su un determinato host camuffando il proprio indirizzo sorgente (spoofing).
+Come viene nascosto l’ip sorgente?
+Impersonando un terzo host della rete il cui stato è dormiente (idle, zombie), infatti la tecnica coinvolge tre interpreti:</description>
+    </item>
+    
+    <item>
+      <title>BackBox 4.2 is out! Ecco come aggiornare la release…</title>
+      <link>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</link>
+      <pubDate>Mon, 27 Apr 2015 20:06:46 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2015/04/27/backbox-4-2-is-out-ecco-come-aggiornare-la-release/</guid>
+      <description>Oggi ho avuto l’immenso piacere di leggere che è uscita la release 4.2 della distribuzione BackBox 4.2 made in italy orientata al penetration testing!
+Oltre al sito ufficiale, l’annuncio è stato rilasciato sul sito (OverSecurity) di uno dei membri del BackBox Team: Andrea Draghetti
+Le novità più importanti sono le seguenti:
+Changelog  Preinstalled Linux Kernel 3.16 New Ubuntu 14.04.2 base Ruby 2.1 Installer with LVM and Full Disk Encryption options Handy Thunar custom actions RAM wipe at shutdown/reboot System improvements Upstream components Bug corrections Performance boost Improved Anonymous mode Predisposition to ARM architecture (armhf Debian packages) Predisposition to BackBox Cloud platform New and updated hacking tools: beef-project, crunch, fang, galleta, jd-gui, metasploit-framework, pasco, pyew, rifiuti2, setoolkit, theharvester, tor, torsocks, volatility, weevely, whatweb, wpscan, xmount, yara, zaproxy  Upgrade Andrea, oltre a riferire le ultime modifiche, ha rilasciato una mini-guida per aggiornare BackBox dalla versione 4.</description>
+    </item>
+    
+    <item>
+      <title>How to install Faraday Community Edition on BackBox Linux 3</title>
+      <link>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</link>
+      <pubDate>Sat, 11 Oct 2014 17:53:52 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/10/11/how-to-install-faraday-on-backbox-linux-3/</guid>
+      <description>Tested on:
+Faraday Community Edition
+BackBox Linux 3.x x86_64
+ Download Faraday   claudio@backbox3:~$ wget https://github.com/infobyte/faraday/archive/master.zip Install requirements   claudio@backbox3:~$ sudo pip install psycopg2Downloading/unpacking psycopg2Running setup.py egg_info for package psycopg2Installing collected packages: psycopg2Running setup.py install for psycopg2Successfully installed psycopg2Cleaning up...claudio@backbox3:~$ Modify installation script   claudio@backbox3:~$ unzip master.zipclaudio@backbox3:~$ cd faraday-master/claudio@backbox3:~/faraday-master$ lsapis AUTHORS config data deps exporters faraday.py gui install.</description>
+    </item>
+    
+    <item>
+      <title>Come installare BackBox 3.x</title>
+      <link>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</link>
+      <pubDate>Tue, 13 May 2014 20:09:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/</guid>
+      <description>
+Nel precedente articolo ho fatto una panoramica generale della distribuzione BackBox 3.x:
+https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/
+In questo nuovo post ho inserito due video dove spiego passo passo come installare la distribuzine su VMware Workstation, ma è applicabile anche su pc/notebook fisici.
+Installare BackBox Parte 1   Installare BackBox Parte 2   </description>
+    </item>
+    
+    <item>
+      <title>BackBox – Penetration Testing Made in Italy</title>
+      <link>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</link>
+      <pubDate>Fri, 09 May 2014 23:49:45 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/10/backbox-penetration-testing-made-in-italy/</guid>
+      <description>Guida installazione: https://www.homelab.it/index.php/2014/05/13/come-installare-backbox-3-x/
+Panoramica BackBox Backbox è una distribuzione Linux tutta italiana orientata al Penetration Testing e Vulnerability Assessment and Mitigation.
+La distribuzione nasce nel 2010 da un’idea di Raffaele Forte e ai giorni d’oggi vanta lo sviluppo di un’intera community.
+Il successo di Backbox è dovuto dovuto alla sua facilità d’uso e alle elevate performance, infatti si basa sulla distribuzione Ubuntu e come window manager utilizza XFCE.
+Da notare i bassissimi requisiti hardware:</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>CentOS 6 on HomeLab IT</title>
+    <link>https://www.homelab.it/tags/centos-6/</link>
+    <description>Recent content in CentOS 6 on HomeLab IT</description>
+    <image>
+      <url>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>https://www.homelab.it/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 22 May 2014 22:24:29 +0000</lastBuildDate><atom:link href="https://www.homelab.it/tags/centos-6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Come installare Java su CentOS 6 (JDK)</title>
+      <link>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</link>
+      <pubDate>Thu, 22 May 2014 22:24:29 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/23/come-installare-java-su-centos-6-jdk/</guid>
+      <description>Download ed installazione Java (ultima versione)   Aprire il browser e inserie l’indirizzo: http://www.oracle.com/technetwork/java/javase/overview/index.html
+  Cliccare sul bottone Download:
+  
+Cliccare sull’icona Download:   
+Selezionare il bottone ratio “Accept License Agreement“:  
+Scaricare il pacchetto rpm a seconda dell’architettura del proprio sistema:   jdk-8u5-linux-i586.rpm jdk-8u5-linux-x64.rpm   Copiare il file rpm tramite scp client (se la macchina CentOS 6 è remota).
+  Con i privilegi di root installare il pacchetto rpm (nel mio caso i586) :</description>
+    </item>
+    
+    <item>
+      <title>Nagios NRPE &lt;= 2.15 Remote Command Injection: Analisi, test e fix della vulnerabilità</title>
+      <link>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</link>
+      <pubDate>Sat, 03 May 2014 02:01:08 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/05/03/nagios-nrpe-remote-command-injection-test-fix/</guid>
+      <description>Informazioni generali Qualche giorno fa è stato scovato un bug sul noto monitor d’infrastrutture Nagios, più precisamente la vurnerabilità riguarda l’agent NRPE (Nagios Remote Plugin Executor).
+============================================= - Release date: 17.04.2014 - Discovered by: Dawid Golunski - Severity: High ============================================= CVE: 2014-2913
+Nrpe è un agent che viene installato su tutte le macchine monitorare da Nagios e a seconda delle varie personalizzazioni può restituire varie informazioni, come ad esempio lo stato del disco rigido, della memoria, la funzionalità o meno di determinati servizi ecc.</description>
+    </item>
+    
+    <item>
+      <title>Proteggere il servizio SSH (e non solo) tramite la tecnica Single Packet Authorization (SPA) utilizzando il software fwknop</title>
+      <link>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</link>
+      <pubDate>Wed, 30 Apr 2014 14:32:09 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/30/proteggere-il-servizio-ssh-e-non-solo-tramite-la-tecnica-single-packet-authorization-spa-utilizzando-il-software-fwknop/</guid>
+      <description>Inserire uno strato di controllo (oltre al firewall) davanti ad alcuni servizi strategici, può rilevarsi molto efficace sotto l’aspetto della sicurezza.
+Prendiamo per esempio il servizio SSH, essendo un demone utilizzato esclusivamente per amministrare e dare l’accesso al sistema, perchè renderlo accessibile da tutta la rete internet?
+Esistono varie tecniche per limitare l’accesso solo a connessioni autorizzate, tra quelle più interessanti c’è il Single Packet Authorization (SPA).</description>
+    </item>
+    
+    <item>
+      <title>Heartbleed zero day (CVE-2014-0160) OpenSSL: Consigli utili su come correre ai riapri</title>
+      <link>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</link>
+      <pubDate>Wed, 09 Apr 2014 22:04:23 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/10/heartbleed-zero-day-cve-2014-0160-openssl-consigli-utili-su-come-correre-ai-riapri/</guid>
+      <description>Come ben sapete tra ieri ed oggi è scoppiata la bomba “Heartbleed” e a sganciarla è stato un’ingegnere che lavora presso Google: Neel Mehta.
+Heartbleed è il nome che è stato dato a una pericolosissimo bug scovato sul sistema di criptazione OpenSSL che permette di entare in possesso della chiave privata con cui sono stati firmati i certificati SSL/TLS.
+Considerato che openssl viene utilizzato dai demoni web, mail, VPN, ecc..si può capire l’enorme serietà del bug, milioni di dati personali (password, documenti, conversazioni, email) sono a rischio di divulgazione non autorizzata.</description>
+    </item>
+    
+    <item>
+      <title>Come installare Linux Malware Detect (LMD) su CentOS 6.x, schedulare scanasioni ed inviare report tramite e-mail</title>
+      <link>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Tue, 08 Apr 2014 15:13:21 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/08/come-installare-linux-malware-detect-lmd-su-centos-6-x-schedulare-scanasioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Obbiettivo Installare su CentOS 6 Linux Malware Detector (LMD), shedulare scansioni ed inviare report tramite e-mail.
+Scenario Linux distro: CentOS 6.5 (x86_64)
+LMD version: 1.4.2
+Selinux: SI
+Installazione Linux Malware Detector Scaricare l’ultima versione disponibile di LMD dal sito ufficiale:
+[root@lmd_test tmp]# cd /tmp[root@lmd_test tmp]#[root@lmd_test tmp]# wget wget http://www.rfxn.com/downloads/maldetect-current.tar.gz............2014-04-07 19:53:30 (491 KB/s) - &amp;#34;maldetect-current.tar.gz&amp;#34; salvato [811467/811467] Scompattare l’archivio ed installare il software linux malware detector:</description>
+    </item>
+    
+    <item>
+      <title>CentOS: Come creare i certificati SSL/TLS autofirmati</title>
+      <link>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</link>
+      <pubDate>Sun, 06 Apr 2014 19:50:15 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/06/centos-come-creare-i-certificati-ssl/</guid>
+      <description>Creare certificati SSL/TLS su CentOS 6 è molto semplice grazie ad alcuni script messi a disposizione dalla distribuzione.
+Questi certificati potranno essere integrati alla configurazione di postfix, sendmail, apache, dovecot ecc…
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Dominio: www.example.it  Prerequisiti
+ openssl  Creazione chiave e certificati  Con l’utenza di root, entrare nella directory contenente gli script e creare la chiave privata:  [root@certs_test ~]# cd /etc/pki/tls/certs [root@certs_test certs]# [root@certs_test certs]# make server.</description>
+    </item>
+    
+    <item>
+      <title>WordPress Security: Come installare WPScan su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</link>
+      <pubDate>Fri, 04 Apr 2014 14:01:27 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/04/wordpress-security-come-installare-wpscan-su-centos-6-schedulare-scansioni-ed-inviare-report-tramite-e-mail/</guid>
+      <description>Wordpress ad oggi è la piattaforma CMS più diffusa al mondo, di conseguenza anche la più analizzata sotto l’aspetto della sicurezza.
+Per testare ed escludere la propria copia di wordpress da eventuali vulnerabilità note, è possibile utilizzare il software scanner WPScan.
+Nel repository ufficiale CentOS non esiste il pacchetto precompilato di wpscan, quindi andrà scaricato e compilato manualmente.
+Scenario e requisiti Ambiente di test
+ Versione Linux: CentOS 6.5 (x86_64) Versione WPScan: 2.</description>
+    </item>
+    
+    <item>
+      <title>Installare Ruby 1.9.x su CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</link>
+      <pubDate>Thu, 03 Apr 2014 21:23:06 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/03/installare-ruby-1-9-x-su-centos-6/</guid>
+      <description>Obbiettivo Installare su CentOS 6.x la versione 1.9.x del linguaggio di programmazione Ruby.
+Scenario  Server Linux: CentOS 6.5 (x86_64) Repo Ruby: ruby-1.8.7.352-13.el6.x86_64.rpm New Ruby: ruby-1.9.3p545-1.el6.x86_64.rpm  Collegarsi con utenza root alla shell/terminale ed eseguire i seguenti comandi:
+# Creazione ambiente per la compilazione del pacchetto rpmmkdir -p rpmbuild/{BUILD,BUILDROOT,RPMS,SOURCES,SPECS,SRPMS}# Download ultima versione Ruby e file spec per la compilazionewget http://ftp.ruby-lang.org/pub/ruby/1.9/ruby-1.9.3-p545.tar.gz -P rpmbuild/SOURCESwget https://raw.github.com/imeyer/ruby-1.9.3-rpm/master/ruby19.spec -P rpmbuild/SPECS# Modificare file spec per la versione appena scaricata du ruby (1.</description>
+    </item>
+    
+    <item>
+      <title>Apache 2 chroot &#43; modsecurity CentOS 6</title>
+      <link>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</link>
+      <pubDate>Wed, 02 Apr 2014 09:55:34 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/04/02/apache-2-chroot-modsecurity-centos-6/</guid>
+      <description>Obbiettivo Configurare il server web Apache 2.x isolato in ambiente chroot tramite il web firewall applicativo MODSECURITY .
+Scenario  Server Linux: CentOS 6.5 Server Apache: httpd-2.2.15-29 modsecurity: mod_security-2.7.3-2 Php Version: php-5.3.3-27 Directory root Chroot: (/web) Selinux: NO   Installazione dei pacchetti necessari per modsecurity ========================================================  Da utente root scaricare l’ultima versione del repository EPEL , dopo di che installare i programmi necessari tramite YUM:
+ wget http://dl.</description>
+    </item>
+    
+    <item>
+      <title>Generare certificati per VMware vCloud Director 5.5 su CentOS</title>
+      <link>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</link>
+      <pubDate>Mon, 27 Jan 2014 19:04:07 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2014/01/27/generare-certificati-vmware-vcloud-director-5-5-su-centos/</guid>
+      <description>Se anche voi avete deciso di installare e configurare VMware vCloud Director 5.5 sulla vostra distribuzione CentOS, arriverete al punto di dover creare i certificati ssl per la Web GUI e la console proxy.
+Piccola premessa: Se state installando la vApp di VMware vCloud Director, i certificati verranno generati automaticamente.
+il comando è semplice:
+/opt/vmware/vcloud-director/jre/bin/keytool -genkey -keystore /opt/vmware/vcloud-director/data/transfer/certificates.ks -storetype JCEKS -storepass passwd -keyalg RSA -validity 9999 -alias http La sintassi è di facile comprensione, da notare principalmente 3 parti:</description>
+    </item>
+    
+    <item>
+      <title>Apache Security: Nascondere la versione di Apache e PHP</title>
+      <link>https://www.homelab.it/index.php/2013/12/31/apache-security-nascondere-la-versione-di-apache-e-php/</link>
+      <pubDate>Mon, 30 Dec 2013 23:00:00 +0000</pubDate>
+      
+      <guid>https://www.homelab.it/index.php/2013/12/31/apache-security-nascondere-la-versione-di-apache-e-php/</guid>
+      <description>Identificare la versione di un demone o di un applicativo è il primo passo che un cracker esegue prima di sferrare l’attacco.
+Tengo a precisare che i vari test che andrò a mostrare sono stati effettuati su una CentOS 6 x86_64, ma con le dovute modifiche sono applicabili a qualsiasi distro Linux.
+Vediamo quali informazioni di apache possiamo rilevare su una CentOS 6 con le impostazioni di default.
+Come prima cosa andiamo su uno dei tantissimi siti che offrono un servizio online di Web Server Information.</description>
+    </item>
+    
+  </channel>
+</rss>
